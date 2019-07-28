@@ -1,0 +1,240 @@
+StartDate,EndDate,Status,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,DistributionChannel,UserLanguage,choice_30,choicetime_30_First Click,choicetime_30_Last Click,choicetime_30_Page Submit,choicetime_30_Click Count,cs_1,cs_3,cs_4,cs_5,cs_6,cs_7,cs_8,cs_13,cs_time_First Click,cs_time_Last Click,cs_time_Page Submit,cs_time_Click Count,val_q_1,val_q_2,val_q_3,val_q_4,val_q_5,val_q_6,val_q_7,val_q_8,val_q_9,val_time_First Click,val_time_Last Click,val_time_Page Submit,val_time_Click Count,Q159_First Click,Q159_Last Click,Q159_Page Submit,Q159_Click Count,val_other_q_1,val_other_q_2,val_other_q_3,val_other_q_4,val_other_q_5,val_other_q_6,val_other_q_7,val_other_q_8,val_other_q_9
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Distribution Channel,User Language,"Imagine that, as a gift, you're going to cook dinner for a friend who is currently on crutches and can't cook for themselves. You have $20 to buy the ingredients, and forty-five minutes (after shopping) to prepare the meal. You know that your friend is allergic to anything with seeds, prefers foods that don't require too much chewing, and dislikes foods that are moist. What would you cook them?
+(After thirty seconds, you'll be able to advance the page.)",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 1","Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 2","Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 3","Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 4","Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 5","Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 6","Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 7","Please list all the foods you considered while making your decision. It's completely okay to list foods that you thought about, but then immediately realized they weren't good options.
+
+ 
+
+We're giving you 8 spaces to list foods you thought of, but you don't have to use all 8. Don't make up foods that you could have thought of, but didn't; just list all the ones that really came to mind during the decision.
+
+ 
+
+(Also, on this list, you should not include the food you actually chose -- just the ones you thought of and ultimately didn't choose.) - Food 8",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID150-ChoiceTextEntryValue]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-1]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-3]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-4]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-5]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-6]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-7]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-8]","Now please consider all of the foods you thought about while making your decision. We want to know: In general, how much do you like each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-13]",Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID150-ChoiceTextEntryValue]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-1]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-3]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-4]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-5]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-6]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-7]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-8]","Now please consider all of the foods you thought about while making your decision. We want to know: In this situation, how good would it be to cook your friend each of these foods (compared to all the types of possible meals)?
+
+ 
+
+(If any of the foods are blank, just ignore that row.) - [QID131-ChoiceTextEntryValue-13]"
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID150_TEXT""}","{""ImportId"":""QID151_FIRST_CLICK""}","{""ImportId"":""QID151_LAST_CLICK""}","{""ImportId"":""QID151_PAGE_SUBMIT""}","{""ImportId"":""QID151_CLICK_COUNT""}","{""ImportId"":""QID131_1""}","{""ImportId"":""QID131_3""}","{""ImportId"":""QID131_4""}","{""ImportId"":""QID131_5""}","{""ImportId"":""QID131_6""}","{""ImportId"":""QID131_7""}","{""ImportId"":""QID131_8""}","{""ImportId"":""QID131_13""}","{""ImportId"":""QID132_FIRST_CLICK""}","{""ImportId"":""QID132_LAST_CLICK""}","{""ImportId"":""QID132_PAGE_SUBMIT""}","{""ImportId"":""QID132_CLICK_COUNT""}","{""ImportId"":""QID124_33""}","{""ImportId"":""QID124_1""}","{""ImportId"":""QID124_2""}","{""ImportId"":""QID124_3""}","{""ImportId"":""QID124_4""}","{""ImportId"":""QID124_5""}","{""ImportId"":""QID124_6""}","{""ImportId"":""QID124_7""}","{""ImportId"":""QID124_22""}","{""ImportId"":""QID128_FIRST_CLICK""}","{""ImportId"":""QID128_LAST_CLICK""}","{""ImportId"":""QID128_PAGE_SUBMIT""}","{""ImportId"":""QID128_CLICK_COUNT""}","{""ImportId"":""QID159_FIRST_CLICK""}","{""ImportId"":""QID159_LAST_CLICK""}","{""ImportId"":""QID159_PAGE_SUBMIT""}","{""ImportId"":""QID159_CLICK_COUNT""}","{""ImportId"":""QID158_31""}","{""ImportId"":""QID158_1""}","{""ImportId"":""QID158_2""}","{""ImportId"":""QID158_3""}","{""ImportId"":""QID158_4""}","{""ImportId"":""QID158_5""}","{""ImportId"":""QID158_6""}","{""ImportId"":""QID158_7""}","{""ImportId"":""QID158_22""}"
+3/20/19 15:07,3/20/19 15:09,0,100,91,1,3/20/19 15:09,R_V1LSMrv28lPt7eV,,,,,anonymous,EN,I would cook chicken quesadillas,8.024,22.504,33.353,4,Quesadilla,Burgers,Pasta,Tacos,,,,,1.631,11.3,15.636,2,7,7,4,5,7,,,,,5.339,8.058,9.143,5,5.71,12.124,12.662,5,7,6,5,4,5,,,,
+3/20/19 15:07,3/20/19 15:09,0,100,95,1,3/20/19 15:09,R_3rMLbaGj415VtSO,,,,,anonymous,EN,fried chicken,17.783,30.951,31.279,2,soup,chowder,chicken,torta,,,,,7.841,16.968,20.262,4,6,5,5,6,4,4,4,4,4,6.566,11.83,12.482,11,3.608,11.911,12.983,16,4,5,5,5,4,4,4,4,4
+3/20/19 15:07,3/20/19 15:09,0,100,108,1,3/20/19 15:09,R_271lXqt8lo3sbPg,,,,,anonymous,EN,lasagna,32.775,32.775,38.131,1,spaghetti,steak,lasagna,chicken,chicken pot pie,pizza,salad,,0.852,0.852,21.118,1,6,4,6,6,5,6,6,4,,5.829,12.551,13.619,9,3.855,14.559,15.765,10,6,4,5,6,4,5,4,4,
+3/20/19 15:08,3/20/19 15:09,0,100,98,1,3/20/19 15:09,R_sZKaRQ9gl5vN0yt,,,,,anonymous,EN,I'd cook them soup.,1.614,20.327,32.013,4,Spaghetti,Pizza,,,,,,,1.02,15.863,18.12,3,,5,7,,,,,,,1.489,8.046,9.272,3,12.442,13.738,15.058,2,,3,4,,,,,,
+3/20/19 15:08,3/20/19 15:09,0,100,105,1,3/20/19 15:09,R_1eJHxy5fiWEQQ2x,,,,,anonymous,EN,spagetti,30.111,30.111,35.766,1,spaghetti,meatballs,meatloaf,,,,,,2.484,12.979,18.187,4,6,6,6,5,,,,,,8.647,21.917,22.63,16,2.743,4.515,6.16,6,4,4,4,4,,,,,
+3/20/19 15:08,3/20/19 15:09,0,100,104,1,3/20/19 15:09,R_3rTVlsy6kPHZYlQ,,,,,anonymous,EN,fried chicken or anything fried basically,0.708,26.097,30.886,6,fried chicken,mac and cheese,grilled cheese,spaghetti and meat balls,eggplant parmesan,catfish,lasagna,baked ziti,0.756,38.815,44.023,12,1,1,1,1,1,1,1,1,1,1.846,5.492,6.21,11,1.086,6.609,7.645,12,1,1,1,1,1,1,1,1,1
+3/20/19 15:08,3/20/19 15:09,0,100,102,1,3/20/19 15:09,R_1lubvzG4gptgsTA,,,,,anonymous,EN,pasta with roasted veggies in a light pesto sauce,6.43,6.453,38.793,2,pasta marinara,soup,,,,,,,0.95,22.541,22.77,3,5,4,4,,,,,,,4.152,5.624,8.13,3,7.042,9.522,10.557,3,7,3,1,,,,,,
+3/20/19 15:08,3/20/19 15:09,0,100,115,1,3/20/19 15:09,R_1N3r0QuT4oAFbxh,,,,,anonymous,EN,"I'd make them lentil soup. It's chunky but soft, and isn't terribly moist like a soup could be.",22.496,32.615,48.206,4,Soup,Grilled cheese,Chicken,Stew,,,,,1.332,1.332,19.767,1,5,4,1,3,4,,,,,5.731,10.955,11.613,5,6.448,11.568,12.563,5,5,3,1,3,4,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,117,1,3/20/19 15:10,R_3h9O4dsx5Sa4nFX,,,,,anonymous,EN,a quiche,1.368,1.368,47.654,1,eggs,bread,smoothie,pasta,,,,,2.369,25.946,26.654,2,5,6,6,5,6,,,,,4.033,8.379,9.482,5,7.882,11.196,12.09,5,5,6,6,5,6,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,83,1,3/20/19 15:10,R_3m1B226pzV9lP4w,,,,,anonymous,EN,Rice,1.538,26.081,35.891,3,Cotton Candy,,,,,,,,1.203,13.305,14.332,2,4,5,,,,,,,,4.005,4.564,5.349,2,0,0,6.316,0,6,7,3,1,5,5,1,2,6
+3/20/19 15:07,3/20/19 15:10,0,100,135,1,3/20/19 15:10,R_2dfG8GbwB6uesbJ,,,,,anonymous,EN,Burger,26.017,26.017,51.015,1,Sandwich,Soup,Fish,Ribs,Steak,,,,5.424,35.008,35.433,3,7,6,5,6,6,7,,,,5.366,11.676,12.688,66,5.772,10.923,14.488,6,6,5,1,3,3,3,,,
+3/20/19 15:08,3/20/19 15:10,0,100,121,1,3/20/19 15:10,R_3DcC2Qt4mBz4Kje,,,,,anonymous,EN,Chicken soup,10.868,10.868,30.975,1,breaded chicken tenders,meatloaf,,,,,,,3.031,38.995,41.153,6,6,6,5,,,,,,,5.345,11.162,12.012,5,14.438,18.536,20.399,5,7,5,5,,,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,128,1,3/20/19 15:10,R_3EAnQiWy7SlLed1,,,,,anonymous,EN,spaghetti and meatballs,24.21,24.21,38.951,1,pizza,burgers,casserole,chicken and rice,,,,,2.057,2.057,32.384,1,6,6,4,6,6,,,,,7.152,17.354,18.937,6,8.926,14.912,16.298,5,7,4,4,6,5,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,138,1,3/20/19 15:10,R_29hvm7zcNnSfIDf,,,,,anonymous,EN,steak and potatoes,15.093,15.093,34.293,1,potatoes,steak,ground beef,spaghetti,,,,,6.141,33.665,40.524,5,4,4,5,3,4,,,,,5.478,12.668,14.412,5,10.729,17.547,19.249,6,3,6,2,6,4,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,139,1,3/20/19 15:10,R_2VDUajTIavDTfUj,,,,,anonymous,EN,Spaghetti,1.715,3.738,43.934,3,Pasta,Salad,,,,,,,31.942,32.247,57.01,3,7,5,3,,,,,,,6.541,8.756,9.879,3,5.805,7.688,8.626,3,7,6,7,,,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,138,1,3/20/19 15:10,R_3O96BllwPErFi7l,,,,,anonymous,EN,I would make them a vegetable soup.,43.844,43.844,62.029,1,salad,roasted vegetables,pasta,,,,,,2.983,25.615,26.373,4,5,4,6,6,,,,,,4.803,9.603,14.228,5,6.804,10.4,11.716,4,4,2,2,2,,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,110,1,3/20/19 15:10,R_2Tn1Y0fb0j8QjDd,,,,,anonymous,EN,jello,33.253,33.253,37.327,1,jello,peanut butter,stew,steak,chicken,shake,,,1.187,21.305,23.918,6,3,3,4,5,7,6,3,,,4.378,10.613,11.847,7,2.675,9.13,10.528,8,3,3,4,5,6,6,3,,
+3/20/19 15:08,3/20/19 15:10,0,100,155,1,3/20/19 15:10,R_20OIqjLb1LJZ9bJ,,,,,anonymous,EN,I would prepare mashed potatoes with salisbury steak without a lot of sauce.,11.313,11.313,51.179,1,Soup,Stew,Burger,Spaghetti,,,,,1.104,22.383,39.79,4,4,1,4,7,7,,,,,7.467,11.036,12.747,5,12.396,21.928,26.835,6,7,1,1,3,2,,,,
+3/20/19 15:08,3/20/19 15:10,0,100,144,1,3/20/19 15:10,R_22mgyBDA3HGFbgw,,,,,anonymous,EN,spaghetti,36.478,40.303,42.444,2,pesto chicken bake,mexican stuffed shells,lasagna,,,,,,1.671,33.456,34.51,2,7,7,7,7,,,,,,4.735,11.321,12.565,6,6.609,14.774,15.587,7,7,5,5,6,,,,,
+3/20/19 15:07,3/20/19 15:10,0,100,167,1,3/20/19 15:10,R_1NeJ7XrHa1nmKv2,,,,,anonymous,EN,Mashed Potatoes,13.419,13.419,42.197,1,mac and cheese,pizza,soup,ice cream,lasagna,spaghetti,,,5.015,5.015,43.647,1,5,5,6,4,6,7,5,,,5.481,13.391,15.082,7,8.725,20.509,22.432,7,7,4,5,3,4,3,3,,
+3/20/19 15:08,3/20/19 15:10,0,100,131,1,3/20/19 15:10,R_3M9bGN6XhZFteJD,,,,,anonymous,EN,Macaroni and cheese,11.308,11.308,32.34,1,Meatloaf,Chili,Salad,Salmon,,,,,1.354,29.506,37.803,4,4,5,5,6,6,,,,,7.102,13.95,17.342,5,7.39,13.647,17.438,5,4,4,3,5,6,,,,
+3/20/19 15:08,3/20/19 15:11,0,100,167,1,3/20/19 15:11,R_3P5jBStl3BhCndI,,,,,anonymous,EN,Steak and baked potatoes.,13.565,13.565,70.756,1,Pasta,Sushi,Fried Chicken,Alfredo Chicken,,,,,0.917,0.917,30.416,1,7,7,6,6,6,,,,,4.899,8.964,11.374,5,5.682,16.326,20.593,7,7,2,5,5,2,,,,
+3/20/19 15:08,3/20/19 15:11,0,100,167,1,3/20/19 15:11,R_1eEv9OaxGS3065K,,,,,anonymous,EN,Spaghetti with Meatballs and Garlic Bread,15.6,40.774,41.244,5,Steak,Salad,Chicken,,,,,,3.101,47.939,49.929,17,7,6,5,6,,,,,,5.301,9.504,14.07,8,6.327,20.517,21.143,11,7,2,4,4,,,,,
+3/20/19 15:08,3/20/19 15:11,0,100,196,1,3/20/19 15:11,R_3NLhrHNV381Ocu3,,,,,anonymous,EN,Loaded mashed potatoes,69.615,69.615,74.585,1,Soup,Pizza,Stuffed Peppers,Baked Chicken,Tofu,,,,5.854,5.854,36.109,1,4,4,7,6,4,4,,,,11.494,23.04,24.37,7,11.488,31.548,34.372,7,6,1,4,1,5,4,,,
+3/20/19 15:09,3/20/19 15:11,0,100,125,1,3/20/19 15:11,R_1hKC5Vse2p6CcXZ,,,,,anonymous,EN,macaroni and cheese,11.398,11.398,64.24,1,broccoli soup,sandwiches,lasagna,,,,,,0.85,17.206,18.051,2,7,5,4,5,,,,,,3.961,8.512,9.697,5,5.995,12.075,12.796,9,6,4,4,4,,,,,
+3/20/19 15:08,3/20/19 15:11,0,100,204,1,3/20/19 15:11,R_2WTQ6dNMyiyaYbx,,,,,anonymous,EN,That's a good question...I think I would cook them spaghetti,59.544,59.544,91.889,1,shrimp,steak,pizza,salad,cottage cheese,crackers,,,1.473,1.473,31.69,1,5,7,7,7,7,7,2,,,8.902,15.435,22.32,7,13.543,29.169,31.239,7,7,4,2,2,4,5,5,,
+3/20/19 15:08,3/20/19 15:11,0,100,204,1,3/20/19 15:11,R_3LjMxmNdg53y1aW,,,,,anonymous,EN,chicken masala with potatoes,21.635,31.485,62.619,2,chicken,soft tacos,potatoes,,,,,,7.889,23.815,34.966,3,6,7,4,5,,,,,,8.273,13.68,17.182,5,10.261,23.901,27.816,4,4,6,4,7,,,,,
+3/20/19 15:08,3/20/19 15:11,0,100,181,1,3/20/19 15:11,R_3rYciC8WoqJN6yc,,,,,anonymous,EN,,0,0,34.433,0,chicken,mixed vegetables,lemon pepper pasta,,,,,,15.785,46.974,49.993,4,4,,5,7,,,,,,10.372,16.866,19.847,4,7.515,31.119,34.12,6,,2,7,1,,,,,
+3/20/19 15:08,3/20/19 15:11,0,100,191,1,3/20/19 15:11,R_31RzB1b6VjZ6D1n,,,,,anonymous,EN,Tortilla ,40.066,40.066,62.361,1,Soup,Steak ,Hummus and Pita.,Cakes.,Ham.,Seafood.,,,3.646,37,45.483,6,5,1,3,3,3,3,7,,,5.246,20.085,21.487,8,14.441,31.32,32.446,9,6,1,2,3,2,3,5,,
+3/20/19 15:09,3/20/19 15:11,0,100,157,1,3/20/19 15:11,R_2t5yuvqoQJ7XIFt,,,,,anonymous,EN,pizza rolls,1.081,51.521,62.518,21,Mac and cheese,Chicken noodle soup,Ramen noodles,Spaghetti,,,,,0.765,0.765,40.609,1,3,4,4,3,4,,,,,3.373,7.056,8.169,6,8.22,13.773,14.613,6,3,4,4,2,5,,,,
+3/20/19 15:10,3/20/19 15:12,0,100,135,1,3/20/19 15:12,R_QhTZ16d8bDtxaiR,,,,,anonymous,EN,deep fried onion rings,1.5,1.5,61.128,1,pizza,deep fried calamari,takoyaki,fried chicken,fried rice,chicken nuggets,fries,potato chips,0.986,6.719,26.173,2,5,5,4,4,5,5,6,4,4,3.22,6.419,7.111,10,2.371,6.318,7.214,10,4,4,5,5,6,6,5,5,5
+3/20/19 15:08,3/20/19 15:12,0,100,246,1,3/20/19 15:12,R_2qqk7TaJNMMutkH,,,,,anonymous,EN,PB&J sandwiches,84.778,84.778,97.291,1,Spaghetti,Sloppy Joe,Salad,Pork chops,Tacos,Fettucini Alfredo,Soup,,1.061,44.519,69.947,9,1,7,5,5,2,1,6,6,1,2.648,15.805,16.627,10,9.173,33.104,35.841,15,5,2,1,3,1,1,2,2,1
+3/20/19 15:08,3/20/19 15:12,0,100,244,1,3/20/19 15:12,R_43jt9hfTVukAWqd,,,,,anonymous,EN,Breakfast for dinner; pancakes with country ham and a hard fried egg,23.774,63.612,96.629,2,Soup,cheeseburger,Steak and mashed potatoes,Chicken salad sandwich,Smoothie,,,,3.037,69.737,70.777,2,7,4,6,7,5,4,,,,5.785,13.919,14.806,8,9.901,23.408,25.065,8,6,1,5,3,3,2,,,
+3/20/19 15:07,3/20/19 15:12,0,100,269,1,3/20/19 15:12,R_332z7LgQ0cXI6Pu,,,,,anonymous,EN,a casserole with chicken and rice,18.984,53.786,92.496,2,chicken,steak,salad,chili,burger and fries,,,,3.427,46.525,47.581,2,4,6,7,7,4,6,,,,16.088,26.118,27.566,7,15.161,31.022,32.112,8,6,7,7,6,7,6,,,
+3/20/19 15:08,3/20/19 15:12,0,100,275,1,3/20/19 15:12,R_2Ed9osqKHS7EWau,,,,,anonymous,EN,First food,2.563,127.112,131.913,5,rice,sappathi,pizzha,patham,,,,,4.07,49.609,54.871,3,5,6,7,6,5,,,,,4.308,6.944,7.952,5,4.153,10.975,29.156,5,7,6,5,6,7,,,,
+3/20/19 15:08,3/20/19 15:12,0,100,265,1,3/20/19 15:12,R_3hhwvINRPzrPDsc,,,,,anonymous,EN,I would make them a pizza and tell them to get over it,6.917,6.917,104.611,1,pasta,fried rice,boneless wings,tenderloin,hearty salad,,,,1.772,1.772,73.749,1,6,5,5,1,1,7,,,,3.381,8.821,9.497,6,19.207,24.033,25.055,7,5,4,4,4,4,4,,,
+3/20/19 15:07,3/20/19 15:12,0,100,286,1,3/20/19 15:12,R_vIeBKzUA9C3PEM9,,,,,anonymous,EN,Pasta and meatballs,26.042,26.042,36.626,1,Oatmeal,Cream of wheat,grits,soup,chicken,pancakes,steak,,8.544,56.06,56.93,10,7,2,6,2,7,7,6,7,,88.899,105.476,106.332,10,14.749,36.377,50.208,13,3,5,5,5,7,3,4,1,
+3/20/19 15:09,3/20/19 15:12,0,100,167,1,3/20/19 15:12,R_1PculYMfzKPrmce,,,,,anonymous,EN,"I would grill fish for them. It would be a firm fish like tuna, so not too moist, but not too firm either. I would use an Asian sauce to flavor it.",3.722,3.722,88.486,1,Chicken,Meatloaf,Potatoes,Salad,Fish,,,,8.806,8.806,25.998,1,5,,4,5,4,4,,,,10.43,14.75,15.67,6,4.554,10.002,11.131,6,6,5,5,5,5,6,,,
+3/20/19 15:10,3/20/19 15:12,0,100,121,1,3/20/19 15:12,R_3Ey8OOrlEH84dee,,,,,anonymous,EN,pizzas,19.798,43.601,52.888,3,,,,,,,,,4.382,15.694,16.116,4,7,,,,,,,,,1.14,1.14,2.039,1,9.562,9.562,10.615,1,7,,,,,,,,
+3/20/19 15:09,3/20/19 15:12,0,100,207,1,3/20/19 15:12,R_3EmMz70rQeA7RvW,,,,,anonymous,EN,a rice dish? A curry maybe,10.364,114.132,131.749,13,bread,pancakes,waffles,bread pudding,,,,,1.32,26.429,26.948,3,5,7,6,6,4,,,,,2.715,9.289,10.327,16,1.001,20.959,22.032,39,5,2,3,3,2,,,,
+3/20/19 15:08,3/20/19 15:13,0,100,289,1,3/20/19 15:13,R_vJP2KAA1k5mXdEl,,,,,anonymous,EN,"I have a recipe for a potato and hamburger hash which is very basic, easy to chew, since it is ground, and not moist, but having a slightly crisped texture.",36.292,36.292,107.231,1,ground beef,chicken,potato,mixed vegetable,,,,,9.471,69.099,71.656,2,7,6,5,4,2,,,,,8.576,37.148,39.064,7,10.368,24.705,26.462,6,7,5,4,3,2,,,,
+3/20/19 15:10,3/20/19 15:13,0,100,163,1,3/20/19 15:13,R_333yr86ZtUdZ7Vo,,,,,anonymous,EN,Soup and some kind of casserole I guess...this person is hard to cook for!,2.849,2.849,57.815,1,Chicken teriyaki,Soup ,Meatloaf,Lasagna ,Casserole,Enchiladas,,,1.475,29.262,38.911,7,6,7,6,6,3,6,6,,,6.007,16.61,18.213,7,9.528,27.388,29.401,7,6,3,6,3,3,6,3,,
+3/20/19 15:08,3/20/19 15:13,0,100,323,1,3/20/19 15:13,R_2dnWbWMyNMlKlms,,,,,anonymous,EN,stir fry rice with meat and vegetables,0.738,0.738,194.392,1,rice,bread,meat,vegetables,egg,,,,1.202,5.738,14.408,2,6,5,5,5,5,5,,,,1.321,8.338,9,13,4.225,7.209,8.329,6,5,4,4,4,4,4,,,
+3/20/19 15:08,3/20/19 15:13,0,100,312,1,3/20/19 15:13,R_2QPs3C7MoHkoLJG,,,,,anonymous,EN,Rotini pasta with homemade pesto (skipping the nuts) and shrimp,35.861,35.861,91.733,1,spaghetti squash and pesto,fried chicken,mini filets,baked trout,,,,,5.14,5.14,109.216,1,6,5,6,7,5,,,,,6.695,14.6,16.785,5,10.373,28.849,32.839,6,7,5,6,6,6,,,,
+3/20/19 15:10,3/20/19 15:13,0,100,199,1,3/20/19 15:13,R_2P07vAzgkudh9FN,,,,,anonymous,EN,Salmon,28.936,28.936,71.288,1,Spaghetti,Soup,Mashed Potatoes,French Fries,Fried chicken,pancakes,steak,meatloaf,6.054,6.054,31.491,1,4,5,4,6,6,6,3,5,,6.405,15.891,17.001,9,15.548,36.108,37.003,9,5,2,1,6,1,1,7,1,1
+3/20/19 15:08,3/20/19 15:14,0,100,304,1,3/20/19 15:14,R_1dMOOZFDOMeHVf8,,,,,anonymous,EN,Grilled salmon,48.03,48.03,88.637,1,Spaghetti,Pizza,Steak,,,,,,13.959,63.801,66.484,7,6,4,6,6,,,,,,20.322,29.948,33.063,4,27.305,51.392,53.408,7,7,4,3,2,,,,,
+3/20/19 15:08,3/20/19 15:14,0,100,355,1,3/20/19 15:14,R_3KpVNhUqftS50zP,,,,,anonymous,EN,"I would servebaked potatoes, meatloaf, and green beans and have chocolate cake for dessert",48.802,84.803,163.649,2,hot dogs,salisbury steak,cherry pie,lobster,haddock,creamed corn,carrots,broccoli,4.826,37.93,97.424,5,6,5,4,6,6,5,3,4,4,9.259,21.395,22.45,10,24.611,40.107,41.423,9,6,4,4,3,4,5,4,4,5
+3/20/19 15:12,3/20/19 15:14,0,100,125,1,3/20/19 15:14,R_3NNY1eDGHGyegRy,,,,,anonymous,EN,fish,34.519,34.519,40.639,1,fish,chicken,pork,steak,,,,,22.632,22.632,41.801,1,4,4,6,6,6,6,6,6,6,4.41,11.882,12.558,11,1.18,5.232,5.878,10,6,6,6,6,6,6,6,6,6
+3/20/19 15:12,3/20/19 15:14,0,100,133,1,3/20/19 15:14,R_1JDb7eQ5qgZ4Uv4,,,,,anonymous,EN,Broccoli Casserole,18.465,46.492,46.688,3,soup,chili,meat loaf,beans,,,,,0.663,0.929,39.632,2,4,3,4,4,4,,,,,6.287,10.896,13.731,6,5.962,9.497,9.961,6,4,4,4,4,4,,,,
+3/20/19 15:08,3/20/19 15:14,0,100,391,1,3/20/19 15:14,R_3HYNbXgaafQYPQK,,,,,anonymous,EN,Spaghetti ,102.674,102.692,163.491,2,Hamburgers ,Hotdogs,Meatloaf,Chicken,Turkey,Ham,Tacos,Perogies ,19.183,77.82,119.318,38,7,6,5,5,6,6,6,7,6,14.012,24.949,27.35,18,24.278,44.014,47.046,20,6,4,3,3,4,4,4,2,4
+3/20/19 15:12,3/20/19 15:14,0,100,162,1,3/20/19 15:14,R_1CCKK3nXgZHsJVd,,,,,anonymous,EN,french fries,24.832,24.832,45.024,1,smoothies,soups,french fries,crackers,,,,,9.116,23.561,28.535,2,7,4,4,,1,,,,,8.466,12.706,14.058,4,7.522,23.18,25.208,8,7,1,1,,4,,,,
+3/20/19 15:12,3/20/19 15:15,0,100,124,1,3/20/19 15:15,R_2P5RykFvcVeQ0LA,,,,,anonymous,EN,Macaroni and Cheese.,38.164,38.416,46.794,2,Macaroni and Cheese,,,,,,,,10.128,10.128,25.026,1,7,4,4,4,4,4,4,4,4,1.164,13.057,19.013,13,0.386,9.569,11.529,3,7,7,,,,,,,
+3/20/19 15:11,3/20/19 15:15,0,100,224,1,3/20/19 15:15,R_AcgC5HIag1d3jTH,,,,,anonymous,EN,Fish,14.237,14.875,52.902,3,Pancakes,Stir-Fry,Macaroni,Soup,,,,,5.308,119.969,122.87,7,6,4,5,6,3,,,,,4.757,11.789,12.766,7,7.079,14.673,15.79,7,5,5,4,4,2,,,,
+3/20/19 15:13,3/20/19 15:15,0,100,121,1,3/20/19 15:15,R_usNzBWEEuFTOkIF,,,,,anonymous,EN,probably spaghetti,1.004,65.797,66.174,3,dried fruit,soup (but it is moist),spaghetti,,,,,,1.263,15.503,18.968,4,7,4,7,7,,,,,,4.436,8.134,9.036,4,4.62,9.62,10.8,5,7,4,1,7,,,,,
+3/20/19 15:11,3/20/19 15:15,0,100,245,1,3/20/19 15:15,R_2V4orT9BZACdvEt,,,,,anonymous,EN,grille cheese,5.174,113.453,121.74,3,macaroni and cheese,sandwiches,shepards pie,,,,,,3.875,3.875,23.19,1,7,4,4,7,,,,,,58.491,63.066,63.73,4,6.251,7.995,9.58,4,4,4,4,6,,,,,
+3/20/19 15:08,3/20/19 15:15,0,100,463,1,3/20/19 15:15,R_1eJfJlyBx4VHd8n,,,,,anonymous,EN,Baked potato,133.572,133.572,191.545,1,shepards pie,asparagus ,mashed potatoes,hamburger,ham,steak,chicken,pizza,4.369,99.217,116.657,14,7,7,4,7,7,6,6,7,6,11.1,30.135,31.413,12,11.822,53.41,54.649,13,5,3,2,3,1,1,1,1,1
+3/20/19 15:08,3/20/19 15:15,0,100,438,1,3/20/19 15:15,R_2v2geEZ7IfGPNno,,,,,anonymous,EN,,0,0,104.973,0,hamburger,broccoli,salmon,rice,fried potatoes,,,,15.228,109.627,110.601,7,,4,6,6,4,5,,,,17.357,32.955,34.396,6,11.95,107.46,109.204,21,1,4,6,6,5,4,,,
+3/20/19 15:13,3/20/19 15:15,0,100,128,1,3/20/19 15:15,R_3gMllaQNxdAjHGa,,,,,anonymous,EN,hamburgers,1.004,26.832,39.99,5,mashed potatoes,pancakes,chili and crackers,mac & cheese,soup,onion rings,,,4.901,5.528,35.731,3,4,5,4,3,4,2,4,4,4,1.524,10.648,11.619,11,8.287,20.301,20.921,11,6,2,3,2,4,1,1,4,4
+3/20/19 15:14,3/20/19 15:16,0,100,120,1,3/20/19 15:16,R_3qW39VoRgro0eUG,,,,,anonymous,EN,I will make him a sandwich ,17.888,17.888,35.82,1,ramen ,ham sandwich ,soup ,,,,,,10.797,19.373,36.753,6,4,6,4,6,,,,,,5.938,12.842,15.302,4,3.235,8.219,9.295,4,4,4,4,4,,,,,
+3/20/19 15:10,3/20/19 15:16,0,100,378,1,3/20/19 15:16,R_3DjN2TaBZk22diB,,,,,anonymous,EN,I would make him my homemade meatloaf because it's very easy to chew and it isn't too moist.,126.694,126.694,177.988,1,spaghetti,yeast rolls,tomato soup,steak,,,,,17.562,45.395,59.798,4,5,7,7,5,6,,,,,35.928,50.536,57.7,7,23.076,39.908,43.383,7,5,7,6,4,6,,,,
+3/20/19 15:11,3/20/19 15:16,0,100,288,1,3/20/19 15:16,R_23ZRWTFE6XhNibg,,,,,anonymous,EN,I will cook them spaghetti with meat sauce,57.692,57.692,79.57,1,guacamole with chips,beef soup,macaroni and cheese,,,,,,9.696,36.54,47.874,3,7,7,7,1,,,,,,11.952,19.178,22.042,4,25.318,37.058,40.87,4,6,4,1,6,,,,,
+3/20/19 15:10,3/20/19 15:16,0,100,367,1,3/20/19 15:16,R_wOj5IITsqcnO6e5,,,,,anonymous,EN,BBQ chicken breast,26.092,92.269,95.245,5,Pasta,stir fry,omelette,lasagna,,,,,19.351,51.591,58.744,4,7,7,7,6,6,,,,,18.348,42.66,44.467,15,45.24,55.632,59.944,5,7,4,2,2,2,,,,
+3/20/19 15:09,3/20/19 15:16,0,100,421,1,3/20/19 15:16,R_39IErz5NfteYP85,,,,,anonymous,EN,Burger and fries,11.594,87.056,97.894,7,Salads,Steak,Pizza,Spaghetti,Lasagna,Sandwiches,Chicken,Fish,22.273,119.17,123.918,3,5,6,6,5,4,4,4,4,5,14.99,54.486,62.118,17,25.628,78.712,79.254,22,6,4,4,6,2,3,5,6,5
+3/20/19 15:13,3/20/19 15:16,0,100,203,1,3/20/19 15:16,R_3luJofmXXu9OMO4,,,,,anonymous,EN,Curry,65.184,95.368,95.748,28,Lasaugna,hotdogs,Tikka Masala,Vindaloo,Kebab,pizza,,,1.076,29.455,29.857,7,7,7,4,7,7,7,7,4,,4.054,10.256,11.63,10,0.982,19.077,19.865,15,7,7,1,6,6,3,5,,
+3/20/19 15:08,3/20/19 15:16,0,100,457,1,3/20/19 15:16,R_cGwGn2uT5SbMTKN,,,,,anonymous,EN,Dry brisket,27.224,27.224,58.822,1,bread,pasta,stuffing,,,,,,196.534,256.93,261.92,2,1,4,6,4,,,,,,16.592,26.202,34.07,5,16.492,26.705,28.996,4,6,1,4,2,,,,,
+3/20/19 15:11,3/20/19 15:17,0,100,336,1,3/20/19 15:17,R_1rGstRpUASSLXCo,,,,,anonymous,EN,cheeseburgers,6.262,85.745,95.114,16,Lasagna,vegetable soup,meatball pasta,,,,,,1.545,59.713,62.439,17,7,4,5,5,,,,,,2.716,21.16,25.869,8,2.047,100.648,102.725,15,7,3,3,4,,,,,
+3/20/19 15:14,3/20/19 15:17,0,100,177,1,3/20/19 15:17,R_26kGBO4rGavG2G6,,,,,anonymous,EN,I would cook him loaded mash potatoes ,1.129,54.818,55.606,4,Pasta,Chicken Breast,Steak,Sandwich,,,,,1.348,43.483,45.698,6,7,4,2,7,5,,,,,4.665,11.374,13.294,5,11.546,24.505,28,5,7,5,6,3,2,,,,
+3/20/19 15:14,3/20/19 15:17,0,100,192,1,3/20/19 15:17,R_3EoJdthcPue9Baa,,,,,anonymous,EN,Chicken and rice,35.926,60.164,129.682,2,chicken,steak,potatoes,broccoli,rice,,,,1.637,1.637,21.559,1,5,6,7,5,6,5,,,,2.981,7.221,8.097,6,6.315,9.748,10.665,7,6,6,6,6,6,6,,,
+3/20/19 15:15,3/20/19 15:18,0,100,134,1,3/20/19 15:18,R_2UVevRERs1tmprj,,,,,anonymous,EN,macaroni and cheese,43.423,43.423,55.979,1,spaghetti,grilled cheese,soup,,,,,,2.289,2.289,18.3,1,7,3,7,4,,,,,,6.387,10.572,11.7,4,14.264,20.443,23.411,4,5,3,4,2,,,,,
+3/20/19 15:12,3/20/19 15:19,0,100,395,1,3/20/19 15:19,R_3syyuRE2feY4xB4,,,,,anonymous,EN,a healthy vegetable shoup and meal with vegetables.,41.402,41.402,72.147,1,salad,burger,chicken soup,chicken lolly pop,fish fry,mashroom fry,cabbab,katlat,1.584,1.584,181.083,1,7,6,7,6,7,4,6,7,7,7.057,15.609,26.582,11,6.655,15.559,16.715,12,6,5,7,6,4,6,7,6,5
+3/20/19 15:16,3/20/19 15:20,0,100,231,1,3/20/19 15:20,R_1LhQcXQcSnLqJUy,,,,,anonymous,EN,I would cook red beans and rice with stir fry.,7.216,7.216,137.027,1,Spaghetti,Pizza,Turkey,Potatoes,Beans,Bread,Salad,,1.313,1.313,31.038,1,7,5,4,4,5,5,4,2,,6.676,20.452,21.491,8,7.425,13.576,15.293,9,7,6,6,6,4,4,1,1,
+3/20/19 15:18,3/20/19 15:21,0,100,180,1,3/20/19 15:21,R_2EmKohfsm8krTwm,,,,,anonymous,EN,"I'd prepare them a chicken and walnut salad, try to avoid any dressings that are particularly moist.",27.841,27.841,50.024,1,Various Meats that can be prepared dry,Vegetables,Nuts,Potatoes,Rice,,,,1.025,21.695,59.352,2,2,6,2,6,6,6,,,,7.934,14.469,15.345,10,5.054,8.104,9.303,8,3,5,5,4,4,4,,,
+3/20/19 15:11,3/20/19 15:22,0,100,681,1,3/20/19 15:22,R_Tnj7z8zR35ZtRJv,,,,,anonymous,EN,roast potatoes and rice ,85.018,111.624,123.654,2,spaghetti,macaroni,mashed potatoes,mushrooms,,,,,5.504,207.157,217.881,17,7,5,5,6,6,,,,,4.448,69.308,70.702,10,15.522,38.893,41.947,8,7,6,6,7,6,,,,
+3/20/19 15:16,3/20/19 15:23,0,100,363,1,3/20/19 15:23,R_25Mb7GVB88avgLq,,,,,anonymous,EN,"Eggs, bacon, sausage, and beans with toast.",48.699,88.842,97.428,4,pasta,meatballs,eggs,bacon,sausage,beans,toast,pancakes,24.3,54.146,69.291,8,7,4,5,7,7,7,7,7,4,11.877,24.869,27.189,9,24.323,40.275,42.907,9,7,3,7,7,6,7,7,7,7
+3/20/19 15:21,3/20/19 15:23,0,100,137,1,3/20/19 15:23,R_umJTpyiJDQ1snW9,,,,,anonymous,EN,Tacos,10.807,32.759,33.196,3,quinoa,fish tacos,salmon,spaghetti ,,,,,1.677,1.677,16.701,1,7,6,7,3,1,,,,,27.846,31.663,32.657,5,6.883,15.579,15.937,7,7,6,5,1,1,,,,
+3/20/19 15:22,3/20/19 15:24,0,100,142,1,3/20/19 15:24,R_ROArn6lkrKEWnm1,,,,,anonymous,EN,steak,37.888,37.888,45.108,1,lasagna,,,,,,,,5.575,8.077,16.021,2,7,7,,,,,,,,2.158,3.955,5.333,3,1.292,2.7,4.674,3,7,7,,,,,,,
+3/20/19 15:22,3/20/19 15:25,0,100,181,1,3/20/19 15:25,R_1r0N6fbZec15xyU,,,,,anonymous,EN,Burritos,0,0,46.861,0,pizza,chicken alfredo,steak and potatoes,raviolli,,,,,0,0,29.246,0,5,4,6,7,3,,,,,22.94,30.085,32.189,5,37.57,38.465,41.511,2,7,3,4,2,4,,,,
+3/20/19 15:22,3/20/19 15:26,0,100,248,1,3/20/19 15:26,R_3OrGfHtOj1qIZn2,,,,,anonymous,EN,I'd cook them some stuffed pasta shells with a light sauce,1.61,80.931,86.41,4,chicken,lasagna,soup,mushroom stir fry,,,,,0.595,35.652,42.193,3,4,1,7,5,6,,,,,0.994,11.606,16.886,7,1.092,32.588,34.596,23,7,1,6,1,3,,,,
+3/20/19 15:22,3/20/19 15:26,0,100,251,1,3/20/19 15:26,R_3P7teU5bPs7h3me,,,,,anonymous,EN,Pizza,21.792,52.876,68.611,2,Spaghetti,Soup,Macaroni,Hotdogs,,,,,1.611,14.399,55.403,4,7,5,5,5,5,,,,,4.559,17.04,19.434,10,9.226,15.875,19.486,7,4,5,2,3,4,,,,
+3/20/19 15:22,3/20/19 15:27,0,100,266,1,3/20/19 15:27,R_PT12Bqs70zGb4EV,,,,,anonymous,EN,Rice and Salmon,18.652,18.652,96.713,1,Mash Potatoes,Mac and Cheese,Tacos,Red beans and rice,Chicken tenders,Nothing,,,8.014,8.014,60.974,1,3,5,5,7,6,7,1,,,5.732,24.86,27.129,8,18.962,29.278,32.163,9,3,6,5,7,6,7,7,,
+3/20/19 15:25,3/20/19 15:27,0,100,173,1,3/20/19 15:27,R_RgeP998bedhEiAN,,,,,anonymous,EN,I would make them some chicken nuggets that are slightly overcooked,10.436,37.853,51.57,3,Soup,Crackers,A smoothie,Salad,,,,,1.21,38.003,46.922,2,4,6,4,6,6,,,,,3.993,9.766,10.518,6,10.031,17.943,18.66,7,4,2,4,1,1,,,,
+3/20/19 15:23,3/20/19 15:29,0,100,393,1,3/20/19 15:29,R_2wNfezuQndrV90Y,,,,,anonymous,EN,baked alfredo pasta,17.568,17.568,36.632,1,it took me like 5 minutes just to come up with the first one :|,,,,,,,,1.014,1.014,23.954,1,5,1,4,4,4,4,4,4,4,6.644,12.282,12.922,10,5.19,10.849,11.615,11,6,1,4,4,4,4,4,4,4
+3/20/19 15:27,3/20/19 15:32,0,100,295,1,3/20/19 15:32,R_3PbFIe4HhwF7Ky1,,,,,anonymous,EN,"I'd serve them a nice pizza with just olive oil instead of sauce, and some nice sauteed vegetables ands tuff.",45.494,82.855,154.168,19,bread,soup,sushi,meat dishes,,,,,24.553,34.164,83.962,3,6,5,6,5,6,1,1,1,1,0,0,6.928,0,0,0,5.414,0,5,7,6,6,6,6,1,1,1
+3/20/19 15:32,3/20/19 15:36,0,100,204,1,3/20/19 15:36,R_3PjbyqCLZDCVIDx,,,,,anonymous,EN,well done hamburger,27.881,27.881,56.66,1,pasta,chicken,steak,omlette,sandwhich,french fries,soup,cereal,0.875,0.875,65.569,1,4,6,6,7,7,7,7,4,4,9.18,19.043,20.68,9,13.246,31.725,32.849,13,7,7,6,5,5,5,4,2,7
+3/20/19 15:36,3/20/19 15:39,0,100,158,1,3/20/19 15:39,R_3QKHGozY25H8HgN,,,,,anonymous,EN,A salad with bacon bits and carrotts,21.633,21.633,61.779,1,Speghetti,Pizza,Hamburger,Lasugna,,,,,1.033,28.977,37.596,5,6,7,7,5,5,,,,,2.684,7.875,9.588,5,4.685,12.484,17.784,5,6,4,5,3,4,,,,
+3/20/19 15:39,3/20/19 15:42,0,100,159,1,3/20/19 15:42,R_1QsIwLHT3Vgjnyn,,,,,anonymous,EN,Pizza,0.974,1.945,31.577,3,spaghetti,goulash,pork chops,steak,chicken,Pizza,fish,noodles,0.963,1.668,43.366,2,7,4,5,6,7,6,7,4,4,0.923,17.16,18.106,12,3.419,23.284,24.625,20,7,4,4,5,4,6,7,6,2
+3/20/19 15:41,3/20/19 15:44,0,100,180,1,3/20/19 15:44,R_1hya4DKl2CY4C4p,,,,,anonymous,EN,i would make them grilled cheese with broccoli cheddar soup.,30.036,30.036,56.458,1,tacos,,,,,,,,1.731,1.731,18.815,1,5,7,,,,,,,,7.159,9.135,9.494,3,6.385,7.878,9.313,2,5,4,,,,,,,
+3/20/19 15:41,3/20/19 15:45,0,100,225,1,3/20/19 15:45,R_1q3ebVWm28QgJMD,,,,,anonymous,EN,Some sort of fish filet dish. A firm piece of fish that isnt moist and is flaky and doesn't take much chewing.,87.707,97.809,128.411,2,Burger,Shrimp,Grilled Cheese,Lasanga,,,,,2.397,30.099,37.939,4,5,7,6,6,6,,,,,6.364,10.71,10.963,6,4.941,13.211,14.034,5,7,5,4,6,2,,,,
+3/20/19 15:40,3/20/19 15:45,0,100,319,1,3/20/19 15:45,R_XpGp0iRJzujiLDj,,,,,anonymous,EN,Stir-Fry Rice,78.864,128.908,137.159,2,Soup,Spaghetti,Hamburger,,,,,,10.999,37.412,46.305,2,7,4,6,5,,,,,,17.841,29.453,34.578,5,15.68,28.399,31.573,5,6,2,4,4,,,,,
+3/20/19 15:47,3/20/19 15:49,0,100,106,1,3/20/19 15:49,R_2tffZr5MDnHnrne,,,,,anonymous,EN,two boxes of ice cream,19.909,29.955,31.532,2,ice cream,frozen foods,,,,,,,1.625,15.005,25.386,3,4,5,6,,,,,,,2.677,14.38,15.324,5,3.089,8.117,9.369,4,4,4,5,,,,,,
+3/20/19 15:48,3/20/19 15:53,0,100,347,1,3/20/19 15:53,R_QhsfmYHJ3Eu9WUh,,,,,anonymous,EN,toast and a cheese sandwich,1.416,1.416,33.605,1,toast ,bread,eggs,,,,,,0.921,31.897,34.057,4,4,4,4,4,,,,,,0.712,14.352,18.51,9,7.485,8.904,10.555,4,4,4,4,4,,,,,
+3/20/19 15:52,3/20/19 15:54,0,100,85,1,3/20/19 15:54,R_2RQgzPdEXVdNhgq,,,,,anonymous,EN,carrots,42.182,53.389,57.833,5,carrots,,,,,,,,1.057,1.481,4.453,2,7,7,,,,,,,,2.348,3.187,3.456,3,3.083,3.331,3.871,2,5,5,,,,,,,
+3/20/19 15:52,3/20/19 15:56,0,100,203,1,3/20/19 15:56,R_1FRgfXGWtjok1Jh,,,,,anonymous,EN,fried rice,18.437,21.655,74.759,5,ramen,chicken salad,sandwhich,casserole,soup,pasta,curry,pizza,1.502,54.852,60.36,13,5,7,4,4,4,4,6,7,7,2.109,17.356,18.598,16,0.898,27.895,29.071,10,5,3,3,4,3,2,4,2,4
+3/20/19 15:55,3/20/19 15:57,0,100,95,1,3/20/19 15:57,R_3McybrrZ82szrKy,,,,,anonymous,EN,Homemade spaghetti and homemade sauce,1.023,30.074,31.23,6,Steak,BBQ Chicken,,,,,,,1.61,4.874,16.804,3,5,6,5,4,4,4,4,4,4,6.425,12.703,13.563,9,7.353,9.815,10.704,3,6,5,5,,,,,,
+3/20/19 15:58,3/20/19 15:59,0,100,103,1,3/20/19 15:59,R_22E0OiSeBavcv3T,,,,,anonymous,EN,I think I would make some bacon and waffles.,8.792,8.792,45.861,1,steak,hamburger,,,,,,,2.61,2.61,10.465,1,7,7,7,,,,,,,7.48,8.473,9.828,3,5.762,9.587,11.212,3,6,1,6,,,,,,
+3/20/19 16:00,3/20/19 16:05,0,100,252,1,3/20/19 16:05,R_2urDMmiTDcyItjk,,,,,anonymous,EN,Mostly i prefer for veg type of food to cook and which one is easy to cook so finally i choose easy to cook type food.,2.241,41.496,86.319,3,Bakery and Bread,Oats,Pasta,Rice,Frozen Foods,Dairy,cheese,Eggs,1.137,67.874,73.154,10,5,6,3,4,5,6,5,6,5,1.958,7.286,7.637,10,17.386,25.089,25.518,11,6,7,5,6,4,5,6,5,7
+3/20/19 16:15,3/20/19 16:18,0,100,212,1,3/20/19 16:18,R_1DD9V5rqz2Qe5Qh,,,,,anonymous,EN,Tacos,0.998,51.434,58.86,6,Soup,Chili,Seafood,Salad,,,,,0.825,28.791,29.43,6,7,5,6,6,4,,,,,3.9,10.257,10.918,11,17.971,26.148,26.884,9,7,3,2,4,5,,,,
+3/20/19 16:15,3/20/19 16:18,0,100,209,1,3/20/19 16:18,R_3FQA56ZXWdrMGgD,,,,,anonymous,EN,I would make them a very dry fruitcake,6.837,48.03,52.548,2,mashed potatoes,jerky,soft chicken tenders,tangerines,carrot cake,bananas,mac and cheese,ham sandwich,1.409,46.568,50.653,8,2,4,6,6,6,2,4,4,3,7.718,16.904,17.762,9,10.524,37.556,38.156,13,7,3,2,3,5,7,3,3,5
+3/20/19 16:24,3/20/19 16:26,0,100,113,1,3/20/19 16:26,R_ZeLxlrtANbTiqGd,,,,,anonymous,EN,meatloaf,39.363,39.363,44.849,1,soup,,,,,,,,5.41,5.41,14.681,1,4,5,,,,,,,,4.52,5.746,7.589,2,6.699,9.427,11.043,2,6,1,,,,,,,
+3/20/19 17:00,3/20/19 17:02,0,100,87,1,3/20/19 17:02,R_30k7ZGgxJG4UGDJ,,,,,anonymous,EN,I could make chicken using a dry rub.,13.079,13.079,37.498,1,Smoothie,Yogurt,,,,,,,3.111,3.111,12.377,1,7,7,7,,,,,,,3.586,4.365,5.279,3,5.408,8.068,9.213,3,7,2,2,,,,,,

@@ -3,16 +3,11 @@
 require(dplyr)
 require(ggplot2)
 require(ggExtra)
+require(tidyr)
 require(lme4)
 require(lmerTest)
 require(mlogit)
-require(lattice)
-require(stringdist)
-require(ggstatsplot)
-require(plotly)
-require(rsm)
 require(rje)
-require(tidyr)
 
 theme_update(strip.background = element_blank(),
              panel.grid.major = element_blank(),
@@ -87,11 +82,9 @@ for (i in 1:nrow(df)) {
   }
 }
 
-df2 = df2 %>% mutate(val.diff = val - val.spec)
-
 df.subj = df2 %>% group_by(subject) %>%
   summarize(cs.size = n(), nas = any(is.na(val) | is.na(val.spec)),
-            var.choice = sd(c(val, val.spec)), val.diff = mean(val.diff),
+            var.choice = sd(c(val, val.spec)),
             val = mean(val), val.spec = mean(val.spec))
 
 df2.filt = df2 %>% filter(!(subject %in% df.subj$subject[df.subj$nas == T | df.subj$var.choice == 0]))
@@ -100,6 +93,7 @@ df2.subj.filt = df.subj %>% filter(!nas & var.choice != 0)
 
 # graphs and analysis -----------------------------------------------------
 
+# test how correlated general & specific value are
 cor.test(df2.filt$val, df2.filt$val.spec)
 
 ## raw data
@@ -111,167 +105,116 @@ p = ggplot(data = df2.filt %>% mutate(chosen = ifelse(chosen == T, T, NA)), aes(
   guides(color = F)
 ggMarginal(p, type='histogram', xparams = list(bins=8), yparams = list(bins = 8))
 
+# test whether general value > midpoint of scale (4), controlling for specific value
 m1 = lmer(val ~ val.spec + (val.spec | subject), data = df2.filt %>% mutate(val = val - 4, val.spec = val.spec - 4))
 summary(m1)
 
+# test whether specific value > midpoint of scale (4), controlling for general value
 m2 = lmer(val.spec ~ val + (val | subject), data = df2.filt %>% mutate(val = val - 4, val.spec = val.spec - 4))
 summary(m2)
 
-## transformation
-nvals = length(unique(df2.filt$val))
-probs.mf = numeric(nvals)
-probs.mb = numeric(nvals)
-probs.mf.chosen = numeric(nvals)
-probs.mb.chosen = numeric(nvals)
-df.figure = data.frame()
+## add info to df
 
-cs.size = mean((df2.filt %>% group_by(subject) %>% summarize(cs.size = n()))$cs.size)
+# add ranks
+subjs = unique(df2.filt$subject)
+for (i in 1:length(subjs)) {
+  subj = subjs[i]
+  df2.rows = df2.filt$subject == subj
+  vals = -df2.filt$val[df2.rows]
+  vals.spec = -df2.filt$val.spec[df2.rows]
+  df2.filt$val.rank[df2.rows] = rank(vals, ties.method = 'min')
+  df2.filt$val.spec.rank[df2.rows] = rank(vals.spec, ties.method = 'min')
+}
+df2.filt = df2.filt %>%
+  mutate(val.rank = ifelse(val.rank > 5, 5, val.rank), val.spec.rank = ifelse(val.spec.rank > 5, 5, val.spec.rank),
+         val.rank = max(val.rank) - val.rank + 1, val.spec.rank = max(val.spec.rank) - val.spec.rank + 1)
 
-for (i in 1:nvals) {
-  probs.mf[i] = mean(df2.filt$val == i)
-  probs.mb[i] = mean(df2.filt$val.spec == i)
+# assign every other midpoint to high or low (for dichotomization)
+c1 = 0
+c2 = 0
+for (i in 1:nrow(df2.filt)) {
+  if (df2.filt$val[i] == 4) {
+    df2.filt$val.four[i] = c1
+    c1 = ifelse(c1 == 0, 1, 0)
+  } else {
+    df2.filt$val.four[i] = -1
+  }
   
-  df2.chosen = df2.filt %>% filter(chosen == 1)
-  probs.mf.chosen[i] = mean(df2.chosen$val == i)
-  probs.mb.chosen[i] = mean(df2.chosen$val.spec == i)
-  
-  df.figure = rbind(df.figure,
-                    data.frame(rank = i,
-                               chosen = 0,
-                               type = 0,
-                               prob = probs.mf[i]))
-  df.figure = rbind(df.figure,
-                    data.frame(rank = i,
-                               chosen = 0,
-                               type = 1,
-                               prob = probs.mb[i]))
-  df.figure = rbind(df.figure,
-                    data.frame(rank = i,
-                               chosen = 1,
-                               type = 0,
-                               prob = probs.mf.chosen[i] / probs.mf[i] / cs.size))
-  df.figure = rbind(df.figure,
-                    data.frame(rank = i,
-                               chosen = 1,
-                               type = 1,
-                               prob = probs.mb.chosen[i] / probs.mb[i] / cs.size))
+  if (df2.filt$val.spec[i] == 4) {
+    df2.filt$val.spec.four[i] = c2
+    c2 = ifelse(c2 == 0, 1, 0)
+  } else {
+    df2.filt$val.spec.four[i] = -1
+  }
 }
 
-df.figure = df.figure %>%
-  mutate(chosen.fac = factor(chosen, c(0,1), c('Considered', 'Chosen')),
-         type.fac = factor(type, c(0,1), c('MF', 'MB'))) %>%
-  select(-c(chosen, type))
-  
-ggplot(df.figure %>% spread(chosen.fac, prob), aes(x = rank, y = Considered, color = type.fac, fill = type.fac, group = type.fac)) +
-  geom_area(position = 'identity', alpha = .7, color = NA) +
-  geom_smooth(method='lm', se = F, size = 1.5) +
-  xlab('') +
-  ylab('') +
-  scale_fill_manual(values = c('#e06958', '#71a4d9')) +
-  scale_color_manual(values = c('#d11a02', '#105db0')) +
-  scale_y_continuous(breaks = c(0, .3), limits = c(0, .3)) +
-  scale_x_continuous(labels = c(1, 7), breaks = c(1,7)) +
-  theme(legend.position = 'none')
+df2.filt = df2.filt %>%
+  mutate(val.adj = ifelse(val == 4, ifelse(val.four == 0, 3.9, 4.1), val),
+         val.spec.adj = ifelse(val == 4, ifelse(val.spec.four == 0, 3.9, 4.1), val.spec),
+         val.fac = factor(val.adj > 4, c(F,T), c('Low', 'High')),
+         val.spec.fac = factor(val.spec.adj > 4, c(F,T), c('Low', 'High')))
 
-ggplot(df.figure %>% spread(chosen.fac, prob), aes(x = rank, y = Chosen, color = type.fac, fill = type.fac, group = type.fac)) +
-  geom_area(position = 'identity', alpha = .7, color = NA) +
-  geom_smooth(method='lm', se = F, size = 1.5) +
-  xlab('') +
-  ylab('') +
-  scale_fill_manual(values = c('#e06958', '#71a4d9')) +
-  scale_color_manual(values = c('#d11a02', '#105db0')) +
-  scale_y_continuous(breaks = c(0, .5), limits = c(0, .52)) +
-  scale_x_continuous(labels = c(1, 7), breaks = c(1,7)) +
-  theme(legend.position = 'none')
 
-df.chosen.mf = df2.filt %>% group_by(val, subject) %>%
+## get inferred probabilities of inclusion in CS
+
+# for graph, do marginal probability
+graph.cs = df2.filt %>% select(subject, val.fac, val.spec.fac) %>%
+  rename(val = val.fac, val.spec = val.spec.fac) %>%
+  gather("type", "rank", -subject) %>%
+  group_by(type, subject) %>%
+  summarize(low = mean(rank == 'Low'), high = mean(rank == 'High')) %>%
+  gather("rank", "prob", -c(subject,type)) %>%
+  group_by(type, rank) %>%
+  summarize(prob.m = mean(prob), prob.se = se(prob)) %>%
+  group_by() %>%
+  mutate(type = factor(type, c('val', 'val.spec')), rank = factor(rank, c('low', 'high')))
+ 
+ggplot(graph.cs, aes(x = rank, y = prob.m, group = type, color = type)) +
+  geom_point(size = 4) +
+  geom_line(size = 1.5) +
+  geom_errorbar(aes(ymin = prob.m - prob.se, ymax = prob.m + prob.se), width = .2) +
+  xlab('') + ylab('') +
+  scale_x_discrete(labels = NULL) +
+  scale_y_continuous(limits = c(.15,.85), breaks = c(.2, .8)) +
+  theme(legend.position = 'none') +
+  scale_color_manual(values = c('#d11a02', '#105db0'))
+
+# for stats, we're going to do it controlling for each other
+df.model.cs = df2.filt %>% group_by(subject) %>%
+  summarize(ll = mean(val.fac == 'Low' & val.spec.fac == 'Low'),
+            lh = mean(val.fac == 'Low' & val.spec.fac == 'High'),
+            hl = mean(val.fac == 'High' & val.spec.fac == 'Low'),
+            hh = mean(val.fac == 'High' & val.spec.fac == 'High')) %>%
+  gather("type", "prob", -subject) %>%
+  mutate(val.high = type %in% c('hl', 'hh'), val.spec.high = type %in% c('lh', 'hh'))
+
+m.cs = lmer(prob ~ val.high + val.spec.high + (1 | subject), data = df.model.cs)
+summary(m.cs)
+
+## analyze choice from CS
+
+df.chosen.mf = df2.filt %>% group_by(val.rank, subject) %>%
   summarize(chosen = mean(chosen)) %>%
-  group_by(val) %>%
+  group_by(val.rank) %>%
   summarize(chosen.m = mean(chosen), chosen.se = se(chosen))
-df.chosen.mb = df2.filt %>% group_by(val.spec, subject) %>%
+df.chosen.mb = df2.filt %>% group_by(val.spec.rank, subject) %>%
   summarize(chosen = mean(chosen)) %>%
-  group_by(val.spec) %>%
+  group_by(val.spec.rank) %>%
   summarize(chosen.m = mean(chosen), chosen.se = se(chosen))
-df.chosen = rbind(df.chosen.mf, df.chosen.mb %>% mutate(val = val.spec) %>% select(-val.spec)) %>%
-  mutate(type = rep(c(0,1), each = 7), type.fac = factor(type, c(0,1), c('MF', 'MB')))
-ggplot(df.chosen, aes(x = val, y = chosen.m, color = type.fac, fill = type.fac, group = type.fac)) +
-  #geom_area(position = 'identity', alpha = .7, color = NA) +
-  #geom_smooth(method='lm', se = F, size = 1.5) +
-  geom_line() +
+df.chosen = rbind(df.chosen.mf, df.chosen.mb %>% mutate(val.rank = val.spec.rank) %>% select(-val.spec.rank)) %>%
+  mutate(type = rep(c(0,1), each = nrow(df.chosen.mf)), type.fac = factor(type, c(0,1), c('MF', 'MB')))
+ggplot(df.chosen, aes(x = val.rank, y = chosen.m, color = type.fac, group = type.fac)) +
+  geom_point(size = 3) +
+  geom_line(size = 1.5) +
+  geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m + chosen.se), width = .2) +
   xlab('') +
   ylab('') +
-  scale_fill_manual(values = c('#e06958', '#71a4d9')) +
   scale_color_manual(values = c('#d11a02', '#105db0')) +
-  #scale_y_continuous(breaks = c(0, .5), limits = c(0, .52)) +
-  #scale_x_continuous(labels = c(1, 7), breaks = c(1,7)) +
+  scale_y_continuous(breaks = c(0, .6), limits = c(0, .67)) +
+  scale_x_continuous(labels = NULL, breaks = c(1,5)) +
   theme(legend.position = 'none')
 
-## dichotomized, by-subject transformation
-
-subjs = length(unique(df2.filt$subject))
-df.figure.subj = data.frame()
-for (subj in 1:subjs) {
-  subj.name = df2.filt$subject[subj]
-  df2.temp = df2.filt %>% filter(subject == subj.name)
-  df2.temp.chosen = df2.temp %>% filter(chosen == 1)
-  cs.size = nrow(df2.temp)
-  
-  df2.temp$val[df2.temp$val == 4] = 4 + sample(c(-.5, .5), 1)
-  df2.temp$val.spec[df2.temp$val.spec == 4] = 4 + sample(c(-.5, .5), 1)
-  
-  cutoff = 4
-  p = mean(df2.temp$val <= cutoff)
-  df.figure.subj = rbind(df.figure.subj,
-                         data.frame(subject = subj,
-                                    rank = 0,
-                                    type = 0,
-                                    considered = p,
-                                    chosen = ifelse(p == 0, NA, mean(df2.temp.chosen$val <= cutoff) / p / cs.size)))
-  p = mean(df2.temp$val > cutoff)
-  df.figure.subj = rbind(df.figure.subj,
-                         data.frame(subject = subj,
-                                    rank = 1,
-                                    type = 0,
-                                    considered = p,
-                                    chosen = ifelse(p == 0, NA, mean(df2.temp.chosen$val > cutoff) / p / cs.size)))
-  p = mean(df2.temp$val.spec <= cutoff)
-  df.figure.subj = rbind(df.figure.subj,
-                         data.frame(subject = subj,
-                                    rank = 0,
-                                    type = 1,
-                                    considered = p,
-                                    chosen = ifelse(p == 0, NA, mean(df2.temp.chosen$val.spec <= cutoff) / p / cs.size)))
-  p = mean(df2.temp$val.spec > cutoff)
-  df.figure.subj = rbind(df.figure.subj,
-                         data.frame(subject = subj,
-                                    rank = 1,
-                                    type = 1,
-                                    considered = p,
-                                    chosen = ifelse(p == 0, NA, mean(df2.temp.chosen$val.spec > cutoff) / p / cs.size)))
-}
-
-df.figure.subj = df.figure.subj %>%
-  mutate(type.fac = factor(type, c(0,1), c('MF', 'MB')),
-         rank.fac = factor(rank, c(0,1), c('Low', 'High')))
-
-df.figure.subj.coll = df.figure.subj %>% group_by(type.fac, rank.fac) %>%
-  summarize(considered.m = mean(considered, na.rm = T), considered.se = se(considered),
-            chosen.m = mean(chosen, na.rm = T), chosen.se = se(chosen))
-ggplot(df.figure.subj.coll, aes(x = rank.fac, y = considered.m, group = type.fac, color = type.fac)) +
-  geom_point() +
-  geom_line() +
-  geom_errorbar(aes(ymin = considered.m - considered.se, ymax = considered.m + considered.se), width = .2)
-ggplot(df.figure.subj.coll, aes(x = rank.fac, y = chosen.m, group = type.fac, color = type.fac)) +
-  geom_point() +
-  geom_line() +
-  geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m + chosen.se), width = .2)
-
-m.test = lmer(considered ~ rank.fac * type.fac + (1 | subject), data = df.figure.subj)
-summary(m.test)
-
-
-
-## logit
+# run multinomial logit
 df2.logit = df2.filt %>% mutate(subject = as.numeric(subject))
 for (i in 1:nrow(df2.logit)) {
   s = df2.logit$subject[i]
@@ -284,22 +227,9 @@ for (i in 1:nrow(df2.logit)) {
 }
 df2.logit2 = mlogit.data(df2.logit, choice = "chosen", shape = "long", id.var = "subject", alt.var = "food.id", chid.var = 'subject')
 
-m.selection = mlogit(chosen ~ val + val.spec | -1, df2.logit2, panel = T,
-                     rpar = c(val = "n", val.spec = "n"), correlation = F, halton = NA, R = 1000, tol = .001)
+m.selection = mlogit(chosen ~ val.rank + val.spec.rank | -1, df2.logit2, panel = T,
+                     rpar = c(val.rank = "n", val.spec.rank = "n"), halton = NA, R = 1000, tol = .001)
 summary(m.selection)
-
-ll1 = logLik(m.selection)
-BIC1 = attr(ll1, 'df') * log(length(m.selection$fitted.values)) - 2 * as.numeric(ll1)
-
-m.selection.nogeneral = mlogit(chosen ~ val.spec | -1, df2.logit2, panel = T,
-                     rpar = c(val.spec = "n"), correlation = F, halton = NA, R = 1000, tol = .001)
-summary(m.selection.nogeneral)
-
-ll0 = logLik(m.selection.nogeneral)
-BIC0 = attr(ll0, 'df') * log(length(m.selection.nogeneral$fitted.values)) - 2 * as.numeric(ll0)
-
-BFnull = exp((BIC1 - BIC0) / 2)
-BFnull
 
 # save --------------------------------------------------------------------
 

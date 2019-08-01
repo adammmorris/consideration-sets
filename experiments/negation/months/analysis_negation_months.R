@@ -7,11 +7,7 @@ require(lmerTest)
 require(mlogit)
 require(lattice)
 require(stringdist)
-require(ggstatsplot)
-require(plotly)
-require(rsm)
 require(rje)
-require(ggthemr)
 
 theme_update(strip.background = element_blank(),
              panel.grid.major = element_blank(),
@@ -218,6 +214,10 @@ for (i in 1:nrow(df.words.filt)) {
   }
 }
 
+
+df.words.filt = df.words.filt %>% mutate(s2_value_rank = ifelse(s2_value_rank > 5, 5, s2_value_rank),
+                                         s2_value_rank = max(s2_value_rank, na.rm = T) - s2_value_rank + 1)
+
 ## s2
 df.s2.filt = df.s2 %>% filter(subject %in% include_names & question_order == 0)
 for (i in 1:nrow(df.s2.filt)) {
@@ -237,6 +237,7 @@ df.demo.filt = df.demo %>% filter(subject %in% include_names)
 
 # results ----------------------------------------------------------
 
+# analysis of intrusions
 df.test2.coll = df.words.filt %>% filter(in.cs) %>%
   group_by(cond.fac, subject) %>%
   summarize(val.opp = mean(val.opp)) %>%
@@ -251,11 +252,13 @@ ggplot(df.test2.coll, aes(x = cond.fac, y = val.opp, fill = cond.fac)) +
   xlab('') +
   scale_x_discrete(labels = c('', '')) +
   scale_y_continuous(breaks = c(0,.2,.4), limits = c(0,.4)) +
-  theme(legend.position = 'none')
+  theme(legend.position = 'none') +
+  scale_fill_manual(values = c('#8E44AD', '#58D68D'))
 
 m = glmer(val.opp ~ cond.fac + (1 | subject), family = 'binomial', data = df.words.filt %>% filter(in.cs))
 summary(m)
 
+# analysis of choice
 df2.chosen = df.words.filt %>% filter(in.cs) %>%
   group_by(cond.fac, s2_value_rank, subject) %>%
   summarize(chosen = mean(chosen, na.rm = T)) %>%
@@ -267,14 +270,27 @@ ggplot(df2.chosen, aes(x = s2_value_rank, y = chosen.m)) +
   geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m + chosen.se), width = .2, position = dodge) +
   facet_wrap(~cond.fac) +
   xlab('') + ylab('') +
-  scale_x_continuous(breaks = c(1, 12), labels = c('', '')) +
+  scale_x_continuous(breaks = c(1, 5), labels = c('', '')) +
   scale_y_continuous(breaks = c(0, .6), labels = c(0, .6)) +
   betterLine(df2.chosen, chosen.m ~ s2_value_rank)
 
 df.words.filt %>% filter(chosen == 1) %>% group_by(cond.fac) %>%
   summarize(best.in.cs = mean(s2_value_rank == 1))
 
+# graph for supplement
+df.supp.graph = df.words.filt %>% filter(in.cs) %>%
+  mutate(val.corrected = ifelse(cond.fac == 'Best', s1_value, max(s1_value) - s1_value + 1)) %>%
+  group_by(cond.fac, val.corrected) %>%
+  summarize(n = n())
 
+whichCond = 'Best'
+ggplot(df.supp.graph %>% filter(cond.fac == whichCond), aes(x = val.corrected, y = n)) +
+  geom_point(size = 3) +
+  geom_line(size = 1.2) +
+  xlab('') + ylab('') +
+  scale_x_continuous(breaks = c(1, 12), labels = c('', '')) +
+  scale_y_continuous(breaks = c(0, 60), labels = NULL, limits = c(0,60)) +
+  betterLine(df.supp.graph %>% filter(cond.fac == whichCond), n ~ val.corrected)
 
 # save --------------------------------------------------------------------
 

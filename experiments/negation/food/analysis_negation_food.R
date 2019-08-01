@@ -6,11 +6,7 @@ require(ggExtra)
 require(lme4)
 require(lmerTest)
 require(mlogit)
-require(lattice)
 require(stringdist)
-require(ggstatsplot)
-require(plotly)
-require(rsm)
 require(rje)
 
 theme_update(strip.background = element_blank(),
@@ -99,7 +95,7 @@ df2 = df2 %>% mutate(cond = factor(cond, 1:2, c('Same', 'Opposite')))
 
 # graph -------------------------------------------------------------------
 
-
+# exclude subjects
 df.subj = df2 %>% group_by(subject) %>%
   summarize(var.choice = sd(val))
 
@@ -109,6 +105,7 @@ df2.filt = df2 %>% filter(!(subject %in% exclude)) %>%
   mutate(chosen = factor(chosen, c(0,1), c('Not chosen', 'Chosen')),
          val.opp = ifelse(cond == 'Same', val < 4, val > 4))
 
+# get ranks
 subjs = unique(df2.filt$subject)
 for (i in 1:length(subjs)) {
   subj = subjs[i]
@@ -120,10 +117,13 @@ for (i in 1:length(subjs)) {
   }
   df2.filt$val.rank[df2.rows] = rank(vals, ties.method = 'min')
 }
+df2.filt = df2.filt %>% mutate(val.rank = ifelse(val.rank > 5, 5, val.rank),
+                               val.rank = max(val.rank) - val.rank + 1)
 
 df2.subj.filt = df.subj %>% filter(!(subject %in% exclude))
 
-# analysis of option generation
+## analysis of "intrusions"
+# graph
 df2.test = df2.filt %>%
   group_by(cond, subject) %>%
   summarize(val = mean(val, na.rm = T), val.opp = mean(val.opp, na.rm = T),
@@ -140,12 +140,29 @@ ggplot(df2.test, aes(x = cond, y = val.opp,fill = cond)) +
   xlab('') +
   scale_x_discrete(labels = c('', '')) +
   scale_y_continuous(breaks = c(0,.2,.4)) +
-  theme(legend.position = 'none')
+  theme(legend.position = 'none') +
+  scale_fill_manual(values = c('#8E44AD', '#58D68D'))
 
+# stats
 m = glmer(val.opp ~ cond + (1 | subject), family = 'binomial', data = df2.filt)
 summary(m)
 
-# analysis of choice
+# graph for supplement
+df.supp.graph = df2.filt %>%
+  mutate(val.corrected = ifelse(cond == 'Same', val, max(val) - val + 1)) %>%
+  group_by(cond, val.corrected) %>%
+  summarize(n = n())
+
+whichCond = 'Opposite'
+ggplot(df.supp.graph %>% filter(cond == whichCond), aes(x = val.corrected, y = n)) +
+  geom_point(size = 3) +
+  geom_line(size = 1.2) +
+  xlab('') + ylab('') +
+  scale_x_continuous(breaks = c(1, 7), labels = c('', '')) +
+  scale_y_continuous(breaks = NULL, labels = NULL, limits = c(0,350)) +
+  betterLine(df.supp.graph %>% filter(cond == whichCond), n ~ val.corrected)
+
+## analysis of choice (for checking that people aren't more confused in opposite condition)
 df2.chosen = df2.filt %>%
   group_by(cond, val.rank, subject) %>%
   summarize(chosen = mean(chosen == 'Chosen')) %>%
@@ -157,7 +174,7 @@ ggplot(df2.chosen, aes(x = val.rank, y = chosen.m)) +
   geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m + chosen.se), width = .2, position = dodge) +
   facet_wrap(~cond) +
   xlab('') + ylab('') +
-  scale_x_continuous(breaks = c(1, 9), labels = c('', '')) +
+  scale_x_continuous(breaks = c(1, 5), labels = c('', '')) +
   scale_y_continuous(breaks = c(0, .6), labels = c(0, .6)) +
   betterLine(df2.chosen, chosen.m ~ val.rank)
 

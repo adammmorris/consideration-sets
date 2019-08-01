@@ -7,6 +7,7 @@ require(dplyr)
 require(ggplot2)
 require(lme4)
 require(lmerTest)
+require(mlogit)
 
 theme_update(strip.background = element_blank(),
              panel.grid.major = element_blank(),
@@ -46,31 +47,31 @@ load('../1/analysis.rdata')
 
 df1 = df.words.filt %>%
   mutate(s1value.fac = cut(s1_value, 6, 1:6), s2value.fac = cut(s2_value, 6, 1:6)) %>%
-  dplyr::select(s1_value, s2_value, s1value.fac, s2value.fac, in.cs, subject, chosen)
+  dplyr::select(s1_value, s2_value, s1_value_rank, s2_value_rank, s1value.fac, s2value.fac, in.cs, subject, chosen, word_ind)
 
 load('../2/analysis.rdata')
 
 df2 = df.words.filt %>%
   mutate(s1value.fac = cut(s1_value, 6, 1:6), s2value.fac = cut(s2_value, 6, 1:6)) %>%
-  dplyr::select(s1_value, s2_value, s1value.fac, s2value.fac, in.cs, subject, chosen)
+  dplyr::select(s1_value, s2_value, s1_value_rank, s2_value_rank, s1value.fac, s2value.fac, in.cs, subject, chosen, word_ind)
 
 load('../3/analysis.rdata')
 
 df3 = df.words.filt %>%
   mutate(s1value.fac = cut(s1_value, 6, 1:6), s2value.fac = cut(s2_value, 6, 1:6)) %>%
-  dplyr::select(s1_value, s2_value, s1value.fac, s2value.fac, in.cs, subject, chosen)
+  dplyr::select(s1_value, s2_value, s1_value_rank, s2_value_rank, s1value.fac, s2value.fac, in.cs, subject, chosen, word_ind)
 
 df3.all = df.words.all %>%
   mutate(s1value.fac = cut(s1_value, 6, 1:6), s2value.fac = cut(s2_value, 6, 1:6)) %>%
-  dplyr::select(s1_value, s2_value, s1value.fac, s2value.fac, in.cs, subject, chosen)
+  dplyr::select(s1_value, s2_value, s1_value_rank, s2_value_rank, s1value.fac, s2value.fac, in.cs, subject, chosen, word_ind)
 
 df = rbind(df1,df2,df3) %>% mutate(s1value.num = as.numeric(s1value.fac), s2value.num = as.numeric(s2value.fac))
 
 df.selection = rbind(df1,df2,df3.all) %>% mutate(s1value.num = as.numeric(s1value.fac), s2value.num = as.numeric(s2value.fac))
 
 
-# make df for logistic
-df.logit = df.selection %>% filter(in.cs == T) %>% select(subject, s1value.num, s2_value, chosen) %>%
+# make df for multinomial logit
+df.logit = df.selection %>% filter(in.cs == T) %>% select(subject, s1_value_rank, s2_value_rank, chosen, word_ind) %>%
   mutate(chosen = as.logical(chosen), intercept = 1) %>%
   rowwise() %>%
   mutate(subject.id = which(as.character(subject) == unique(df.selection$subject))) %>%
@@ -106,40 +107,22 @@ ggplot(df.s1, aes(x = s1value.num, y = in.cs.m)) +
   scale_x_continuous(breaks = c(1,6), labels = c('1', '6')) +
   betterLine(df.s1, in.cs.m ~ s1value.num)
 
-m.s1.cs = glmer(in.cs ~ s1value.num + (s1value.num || subject), data = df, family = 'binomial')
+m.s1.cs = glmer(in.cs ~ s1value.num + (s1value.num | subject) + (s1value.num | word_ind), data = df, family = 'binomial')
 summary(m.s1.cs)
 
 # on choice (for main text)
-ggplot(df.s1, aes(x = s1value.num, y = chosen.m)) +
+df.s1.rank = df %>% group_by(s1_value_rank, subject) %>%
+  summarize(in.cs = mean(in.cs, na.rm = T), chosen = mean(chosen, na.rm = T)) %>%
+  group_by(s1_value_rank) %>%
+  summarize(in.cs.m = mean(in.cs, na.rm = T), in.cs.se = se(in.cs),
+            chosen.m = mean(chosen, na.rm = T), chosen.se = se(in.cs))
+
+ggplot(df.s1.rank, aes(x = s1_value_rank, y = chosen.m)) +
   geom_point(size = 5, color = 'black') + geom_line(color = 'black') +
   geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m+chosen.se), width = .02, color = 'black') +
   xlab('') + ylab('') +
-  scale_y_continuous(breaks = c(0,.8), limits = c(0,.8)) + 
-  scale_x_continuous(breaks = c(1,6), labels = c('', ''))
-# (for supplement)
-ggplot(df.s1, aes(x = s1value.num, y = chosen.m)) +
-  geom_point(size = 5, color = 'black') + geom_line(color = 'black') +
-  geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m+chosen.se), width = .02, color = 'black') +
-  xlab('') + ylab('') +
-  scale_y_continuous(breaks = c(.15, .3), limits = c(.13, .3)) + 
-  scale_x_continuous(breaks = c(1,6), labels = c('1', '6'))+
-  betterLine(df.s1, chosen.m ~ s1value.num)
-
-m.s1.choice = mlogit(chosen ~ s1value.num | -1, df.logit, panel = T,
-                        rpar = c(s1value.num = "n"), halton = NA, R = 1000, tol = .001)
-summary(m.s1.choice)
-
-m.s1.choice.null = mlogit(chosen ~ intercept | -1, df.logit)
-summary(m.s1.choice.null)
-
-ll1 = logLik(m.s1.choice)
-BIC1 = attr(ll1, 'df') * log(length(m.s1.choice$fitted.values)) - 2 * as.numeric(ll1)
-
-ll0 = logLik(m.s1.choice.null)
-BIC0 = attr(ll0, 'df') * log(length(m.s1.choice.null$fitted.values)) - 2 * as.numeric(ll0)
-
-BFnull = exp((BIC1 - BIC0) / 2)
-BFnull
+  scale_y_continuous(breaks = c(0,.8), limits = c(0,.82)) + 
+  scale_x_continuous(breaks = c(1,5), labels = c('', ''))
 
 ## effect of stage 2 value
 df.s2 = df %>% group_by(s2_value, subject) %>%
@@ -156,21 +139,57 @@ ggplot(df.s2, aes(x = s2_value, y = in.cs.m)) +
   scale_x_continuous(breaks = c(2, 25), labels = c(2, 25))+
   betterLine(df.s2, in.cs.m ~ s2_value)
 
-m.s2.cs = glmer(in.cs ~ s2value.num + (s2value.num || subject), data = df, family = 'binomial')
+m.s2.cs = glmer(in.cs ~ s2value.num + (s2value.num | subject) + (s2value.num | word_ind), data = df, family = 'binomial')
 summary(m.s2.cs)
 
-# on choice
-ggplot(df.s2, aes(x = s2_value, y = chosen.m)) +
+# on choice (for main text)
+df.s2.rank = df %>% group_by(s2_value_rank, subject) %>%
+  summarize(in.cs = mean(in.cs, na.rm = T), chosen = mean(chosen, na.rm = T)) %>%
+  group_by(s2_value_rank) %>%
+  summarize(in.cs.m = mean(in.cs, na.rm = T), in.cs.se = se(in.cs),
+            chosen.m = mean(chosen, na.rm = T), chosen.se = se(in.cs))
+
+ggplot(df.s2.rank, aes(x = s2_value_rank, y = chosen.m)) +
   geom_point(size = 5, color = 'black') + geom_line(color = 'black') +
   geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m+chosen.se), width = .02, color = 'black') +
   xlab('') + ylab('') +
   scale_y_continuous(breaks = c(0,.8), limits = c(0,.82)) + 
-  scale_x_continuous(breaks = c(2,25), labels = c(2,25))+
-  betterLine(df.s2, chosen.m ~ s2_value)
+  scale_x_continuous(breaks = c(1,5), labels = c())#+
+  #betterLine(df.s2, chosen.m ~ s2_value)
 
-m.s2.choice = mlogit(chosen ~ s2_value | -1, df.logit, panel = T,
-                        rpar = c(s2_value = "n"), halton = NA, R = 1000, tol = .001)
-summary(m.s2.choice)
+## choice analysis for supplement
+
+# supplement graph
+df.s1.rank.comb = df %>% group_by(s1_value_rank, s2_value_rank, subject) %>%
+  summarize(in.cs = mean(in.cs, na.rm = T), chosen = mean(chosen, na.rm = T)) %>%
+  group_by(s1_value_rank, s2_value_rank) %>%
+  summarize(in.cs.m = mean(in.cs, na.rm = T), in.cs.se = se(in.cs),
+            chosen.m = mean(chosen, na.rm = T), chosen.se = se(in.cs))
+ggplot(df.s1.rank.comb, aes(x = s2_value_rank, y = chosen.m, group = s1_value_rank, color = s1_value_rank)) +
+  geom_point(size = 5) + geom_line() +
+  geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m+chosen.se), width = .02) +
+  xlab('') + ylab('') +
+  scale_y_continuous(breaks = c(0, 1), limits = c(0, 1)) + 
+  scale_x_continuous(breaks = c(1,5), labels = c('1', '5')) +
+  theme(legend.position = 'none')
+
+# stats
+m.choice = mlogit(chosen ~ s1_value_rank + s2_value_rank | -1 + word_ind, df.logit, panel = T,
+                     rpar = c(s1_value_rank = "n", s2_value_rank = "n"), halton = NA, R = 1000, tol = .001)
+summary(m.choice)
+
+m.choice.null = mlogit(chosen ~ s2_value_rank | -1 + word_ind, df.logit, panel = T,
+                  rpar = c(s2_value_rank = "n"), halton = NA, R = 1000, tol = .001)
+
+ll1 = logLik(m.choice)
+BIC1 = attr(ll1, 'df') * log(length(m.choice$fitted.values)) - 2 * as.numeric(ll1)
+
+ll0 = logLik(m.choice.null)
+BIC0 = attr(ll0, 'df') * log(length(m.choice.null$fitted.values)) - 2 * as.numeric(ll0)
+
+BFnull = exp((BIC1 - BIC0) / 2)
+BFnull
+
 
 
 # save --------------------------------------------------------------------

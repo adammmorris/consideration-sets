@@ -2,17 +2,12 @@
 
 require(dplyr)
 require(ggplot2)
+require(tidyr)
 require(lme4)
 require(lmerTest)
 require(mlogit)
-require(lattice)
 require(stringdist)
-require(ggstatsplot)
-require(plotly)
-require(rsm)
 require(rje)
-require(BayesFactor)
-require(ggthemr)
 
 theme_update(strip.background = element_blank(),
              panel.grid.major = element_blank(),
@@ -104,7 +99,7 @@ df.words = df.words.raw %>% filter(subject %in% subjlist) %>%
   mutate(repeated = word_ind == lead(word_ind)) %>%
   filter(!repeated)
 
-# s2
+# stage 2 prep
 df.s2 = df.s2.raw %>% filter(subject %in% subjlist)
 df.s2$choice = toupper(df.s2$choice)
 df.s2$scratch = gsub("[.]", ",", toupper(as.character(df.s2$scratch)))
@@ -138,7 +133,7 @@ df.s2.subj = df.s2 %>% filter(subject %in% subjlist) %>%
             numTrials = n(),
             cond = cond[1])
 
-# s1
+# stage 1 prep
 df.s1 = df.s1.raw %>% filter(subject %in% subjlist) %>% mutate(choice = as.numeric(choice))
 df.s1$word_chosen = ifelse(df.s1$choice, df.s1$alt, df.s1$word)
 df.s1$correct_choice = ifelse(df.s1$value == df.s1$value2, T, ifelse(df.s1$value > df.s1$value2, df.s1$choice == 0, df.s1$choice == 1))
@@ -177,7 +172,7 @@ for (subj in 1:length(subjlist)) {
 
 df.s1.filt = df.s1 %>% filter(subject %in% include_names)
 
-## words
+## prep words df
 
 df.words.filt = df.words %>% filter(subject %in% include_names)
 for (i in 1:nrow(df.words.filt)) {
@@ -213,9 +208,35 @@ for (i in 1:nrow(df.words.filt)) {
 }
 
 df.words.filt = df.words.filt %>% mutate(chosen = ifelse(in.cs, 0, NA), chosen_noNA = 0,
-                                         high_s1value = factor(s1_value > mid.value, c(F,T), c('Low', 'High')))
+                                         high_s1value = factor(s1_value > mid.value, c(F,T), c('Low', 'High')),
+                                         high_s2value = factor(s2_value > 16, c(F,T), c('Low', 'High')))
 
-## s2
+# get ranks
+for (i in 1:nrow(df.words.filt)) {
+  if (!is.na(df.words.filt$in.cs[i]) && df.words.filt$in.cs[i] == T) {
+    subj = df.words.filt$subject[i]
+    df.words.temp = df.words.filt %>% filter(subject == subj, in.cs)
+    
+    s1.vals = df.words.temp$s1_value
+    s2.vals = df.words.temp$s2_value
+    
+    s1.vals.rank = rank(-s1.vals, ties.method = 'min')
+    s2.vals.rank = rank(-s2.vals, ties.method = 'min')
+    
+    cur.s1.rank = s1.vals.rank[s1.vals == df.words.filt$s1_value[i]]
+    cur.s2.rank = s2.vals.rank[s2.vals == df.words.filt$s2_value[i]]
+    df.words.filt$s1_value_rank[i] = ifelse(cur.s1.rank >= 5, 5, cur.s1.rank)
+    df.words.filt$s2_value_rank[i] = ifelse(cur.s2.rank >= 5, 5, cur.s2.rank)
+  } else {
+    df.words.filt$s1_value_rank[i] = NA
+    df.words.filt$s2_value_rank[i] = NA
+  }
+}
+
+df.words.filt = df.words.filt %>% mutate(s1_value_rank = max(s1_value_rank, na.rm = T) - s1_value_rank + 1,
+                                         s2_value_rank = max(s2_value_rank, na.rm = T) - s2_value_rank + 1)
+
+## stage 2 data frame prep
 df.s2.filt = df.s2 %>% filter(subject %in% include_names & question_order == 0)
 for (i in 1:nrow(df.s2.filt)) {
   subj.name = df.s2.filt$subject[i]
@@ -234,23 +255,23 @@ df.demo.filt = df.demo %>% filter(subject %in% include_names)
 
 # create data frame for multinomial logit (for testing what influences choice out of consideration set)
 
-df.logit = df.words.filt %>% filter(in.cs == T) %>% select(subject, s1_value, s2_value, chosen) %>%
+df.logit = df.words.filt %>% filter(in.cs == T) %>% select(subject, s1_value, s2_value, s1_value_rank, s2_value_rank, chosen, word_ind) %>%
   mutate(chosen = as.logical(chosen), intercept = 1) %>%
   rowwise() %>%
   mutate(subject.id = which(as.character(subject) == unique(df.words.filt$subject))) %>%
   group_by(subject.id) %>%
   mutate(option.id = row_number()) %>%
   mlogit.data(choice = "chosen", shape = "long", id.var = "subject.id", alt.var = "option.id", chid.var = "subject.id")
-
+   
 # results ----------------------------------------------------------
 
+df.words.all = df.words.filt
 if (expt == '3') {
-  df.words.all = df.words.filt
   df.words.freq = df.words.filt %>% filter(cond > 0)
   df.words.filt = df.words.filt %>% filter(cond == 0)
 }
 
-## effects of stage 1 value
+## effects of stage 1 value -> generation
 
 # effect on generation -- dichotomized
 graph.s1.binary = df.words.filt %>% group_by(high_s1value, subject) %>%
@@ -266,13 +287,14 @@ if (expt != '3') {
   cs.s1.binary.breaks = c(.35, .45)
   cs.s1.binary.lims = c(.35, .47)
 }
-ggplot(graph.s1.binary, aes(x = high_s1value, y = in.cs.m)) +
-  geom_point(size = 5, color = 'black') +
-  geom_errorbar(aes(ymin = in.cs.m - in.cs.se, ymax = in.cs.m+in.cs.se), width = .2, color = 'black') +
+ggplot(graph.s1.binary, aes(x = high_s1value, y = in.cs.m, group = 1)) +
+  geom_point(size = 5) +
+  stat_summary(fun.y=sum, geom="line", size = 1.5) +
+  geom_errorbar(aes(ymin = in.cs.m - in.cs.se, ymax = in.cs.m+in.cs.se), width = .2) +
   xlab('') + ylab('') +
   scale_x_discrete(labels = c('', '')) +
   scale_y_continuous(breaks = cs.s1.binary.breaks, limits = cs.s1.binary.lims) + 
-  geom_smooth(method='lm')
+  theme(legend.position = 'none')
 
 # effect on generation -- undichotomized
 graph.s1.full = df.words.filt %>% group_by(s1_value) %>%
@@ -288,39 +310,12 @@ ggplot(graph.s1.full, aes(x = s1_value, y = in.cs)) +
   betterLine(graph.s1.full, in.cs ~ s1_value)
 
 # stats for generation
-m.cs.s1 = glmer(in.cs~s1_value+(s1_value||subject),
+m.cs.s1 = glmer(in.cs~s1_value+(s1_value|subject) + (s1_value|word_ind),
                data = df.words.filt,
                family='binomial')
 summary(m.cs.s1)
 
-# effect on choice
-ggplot(graph.s1.full, aes(x = s1_value, y = chosen)) +
-  geom_point(size = 5) + geom_line() +
-  geom_errorbar(aes(ymin = chosen - chosen.se, ymax = chosen+chosen.se), width = .2) +
-  xlab('') + ylab('') +
-  scale_x_continuous(breaks = c(min(graph.s1.full$s1_value), max(graph.s1.full$s1_value))) +
-  scale_y_continuous(breaks = c(.15, .3), limits = c(.13, .3)) +
-  betterLine(graph.s1.full, chosen ~ s1_value)
-
-# stats for choice
-
-m.choice.s1 = mlogit(chosen ~ s1_value | -1, df.logit, panel = T,
-                     rpar = c(s1_value = "n"), correlation = F, halton = NA, R = 1000, tol = .001)
-summary(m.choice.s1)
-
-ll1 = logLik(m.choice.s1)
-BIC1 = attr(ll1, 'df') * log(length(m.choice.s1$fitted.values)) - 2 * as.numeric(ll1)
-
-m.choice.s1.null = mlogit(chosen ~ intercept | -1, df.logit, correlation = F, halton = NA, R = 1000, tol = .001)
-summary(m.choice.s1.null)
-
-ll0 = logLik(m.choice.s1.null)
-BIC0 = attr(ll0, 'df') * log(length(m.choice.s1.null$fitted.values)) - 2 * as.numeric(ll0)
-
-BFnull = exp((BIC1 - BIC0) / 2)
-BFnull
-
-## effects of stage 2 value
+## effects of stage 2 value -> generation
 
 # effect on generation
 graph.s2 = df.words.filt %>% group_by(s2_value, subject) %>%
@@ -338,37 +333,67 @@ ggplot(graph.s2, aes(x = s2_value, y = in.cs.m)) +
   betterLine(graph.s2, in.cs.m ~ s2_value)
 
 # stats for generation
-m.cs.s2 = glmer(in.cs~s2_value+(s2_value||subject),
+m.cs.s2 = glmer(in.cs~s2_value+(s2_value|subject) + (s2_value|word_ind),
                 data = df.words.filt,
                 family='binomial')
 summary(m.cs.s2)
 
-# effect on choice
-ggplot(graph.s2, aes(x = s2_value, y = chosen.m)) +
-  geom_point(size = 5) + geom_line() +
-  geom_errorbar(aes(ymin = chosen.m - chosen.se, ymax = chosen.m+chosen.se), width = .2) +
-  labs(x = '', y = '')+
-  scale_y_continuous(breaks = c(0, .8), limits = c(0, .87)) +
-  scale_x_continuous(breaks = c(2, 25), limits = c(2,25)) +
-  betterLine(graph.s2, chosen.m ~ s2_value)
+m.cs.s2.null = glmer(in.cs~1+(s2_value|subject) + (s2_value|word_ind),
+                data = df.words.filt,
+                family='binomial')
 
-# stats for choice
-m.choice.s2 = mlogit(chosen ~ s2_value | -1, df.logit, panel = T,
-                     rpar = c(s2_value = "n"), correlation = F, halton = NA, R = 1000, tol = .001)
-summary(m.choice.s2)
+BFnull.s2cs = exp((BIC(m.cs.s2) - BIC(m.cs.s2.null)) / 2)
+BFnull.s2cs
+
+## effects on choice
+
+# combined
+graph.choice = df.words.all %>% group_by(s1_value_rank, s2_value_rank) %>% filter(in.cs == T) %>%
+  summarize(chosen = mean(chosen, na.rm = T), chosen.se = sqrt(chosen * (1-chosen) / n()))
+ggplot(graph.choice, aes(x = s2_value_rank, y = chosen, group = s1_value_rank, color = s1_value_rank)) +
+  geom_point(size = 5) + geom_line() +
+  geom_errorbar(aes(ymin = chosen - chosen.se, ymax = chosen+chosen.se), width = .2) +
+  xlab('') + ylab('') +
+  scale_x_continuous(breaks = c(1,5), labels = c(1,5)) +
+  scale_y_continuous(breaks = c(0, 1), limits = c(0, 1)) +
+  theme(legend.position = 'none')
+
+# stats
+if (expt %in% c(2,3)) {
+  # we had to omit word-specific intercepts for Studies 4 & 5 b/c the model couldn't converge
+  m.choice = mlogit(chosen ~ s1_value_rank + s2_value_rank | -1, df.logit, panel = T,
+                    rpar = c(s1_value_rank = "n", s2_value_rank = "n"), halton = NA, R = 1000, tol = .001)
+  m.choice.null = mlogit(chosen ~ s2_value_rank | -1, df.logit, panel = T,
+                         rpar = c(s2_value_rank = "n"), halton = NA, R = 1000, tol = .001)
+} else {
+  m.choice = mlogit(chosen ~ s1_value_rank + s2_value_rank | -1 + word_ind, df.logit, panel = T,
+                    rpar = c(s1_value_rank = "n", s2_value_rank = "n"), halton = NA, R = 1000, tol = .001)
+  m.choice.null = mlogit(chosen ~ s2_value_rank | -1 + word_ind, df.logit, panel = T,
+                         rpar = c(s2_value_rank = "n"), halton = NA, R = 1000, tol = .001)
+}
+summary(m.choice)
+
+ll1 = logLik(m.choice)
+BIC1 = attr(ll1, 'df') * log(length(m.choice$fitted.values)) - 2 * as.numeric(ll1)
+
+ll0 = logLik(m.choice.null)
+BIC0 = attr(ll0, 'df') * log(length(m.choice.null$fitted.values)) - 2 * as.numeric(ll0)
+
+BFnull.s1choice = exp((BIC1 - BIC0) / 2)
+BFnull.s1choice
 
 ## analyze stuff unique to the different experiments
 
 if (expt != '3') {
   ## in the first & second months experiments, we analyzed for "checkmark" shape
   # how does effect change if you drop the most extreme values?
-  m.checkmark1 = glmer(in.cs~s1_value+(s1_value||subject),
+  m.checkmark1 = glmer(in.cs~s1_value+(s1_value|subject)+(s1_value|word_ind),
                        data = df.words.filt %>% filter(!(s1_value %in% c(1,12))),
                        family='binomial')
   summary(m.checkmark1)
   
   # is there a quadratic component to the effect?
-  m.checkmark2 = glmer(in.cs~s1_value+I(s1_value^2)+(s1_value+I(s1_value^2)||subject),
+  m.checkmark2 = glmer(in.cs~s1_value+I(s1_value^2)+(s1_value+I(s1_value^2)|subject)+(s1_value+I(s1_value^2)|word_ind),
                        data = df.words.filt %>% mutate(s1_value = s1_value - mean(s1_value)),
                        family='binomial')
   summary(m.checkmark2) 
@@ -390,12 +415,12 @@ if (expt != '3') {
     scale_y_continuous(breaks = c(.3,.4), limits = c(.3,.41)) +
     theme(axis.title = element_text(size = 24))
   
-  m.freq = glmer(in.cs~cond_fac+(cond_fac||subject),
+  m.freq = glmer(in.cs~cond_fac+(cond_fac|subject)+(cond_fac|word_ind),
                  data = df.words.freq,
                  family='binomial')
   summary(m.freq)
   
-  m.freq.null = glmer(in.cs~1+(cond_fac||subject),
+  m.freq.null = glmer(in.cs~1+(cond_fac|subject)+(cond_fac|word_ind),
                  data = df.words.freq,
                  family='binomial')
   

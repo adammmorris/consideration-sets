@@ -231,6 +231,18 @@ m.selection = mlogit(chosen ~ val.rank + val.spec.rank | -1, df2.logit2, panel =
                      rpar = c(val.rank = "n", val.spec.rank = "n"), halton = NA, R = 1000, tol = .001)
 summary(m.selection)
 
+m.selection.null = mlogit(chosen ~ val.spec.rank | -1, df2.logit2, panel = T,
+                     rpar = c(val.spec.rank = "n"), halton = NA, R = 1000, tol = .001)
+
+ll1 = logLik(m.selection)
+BIC1 = attr(ll1, 'df') * log(length(m.selection$fitted.values)) - 2 * as.numeric(ll1)
+
+ll0 = logLik(m.selection.null)
+BIC0 = attr(ll0, 'df') * log(length(m.selection.null$fitted.values)) - 2 * as.numeric(ll0)
+
+BFnull.s1choice = exp((BIC1 - BIC0) / 2)
+BFnull.s1choice
+
 # save --------------------------------------------------------------------
 
 

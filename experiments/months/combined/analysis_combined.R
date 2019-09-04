@@ -110,6 +110,12 @@ ggplot(df.s1, aes(x = s1value.num, y = in.cs.m)) +
 m.s1.cs = glmer(in.cs ~ s1value.num + (s1value.num | subject) + (s1value.num | word_ind), data = df, family = 'binomial')
 summary(m.s1.cs)
 
+# is there a quadratic component to the generation effect?
+m.checkmark = glmer(in.cs~s1value.num+I(s1value.num^2)+(s1value.num+I(s1value.num^2)|subject)+(s1value.num+I(s1value.num^2)|word_ind),
+                     data = df %>% mutate(s1value.num = s1value.num - mean(s1value.num)),
+                     family='binomial')
+summary(m.checkmark) 
+
 # on choice (for main text)
 df.s1.rank = df %>% group_by(s1_value_rank, subject) %>%
   summarize(in.cs = mean(in.cs, na.rm = T), chosen = mean(chosen, na.rm = T)) %>%

@@ -93,6 +93,12 @@ df2.subj.filt = df.subj %>% filter(!nas & var.choice != 0)
 
 # graphs and analysis -----------------------------------------------------
 
+# look at distributions
+mean(df2.filt$val[df2.filt$chosen == 1] < 4)
+mean(df2.filt$val[df2.filt$chosen == 1] > 4)
+mean(df2.filt$val.spec[df2.filt$chosen == 1] > 4)
+mean(df2.filt$val.spec[df2.filt$chosen == 1] < 4)
+
 # test how correlated general & specific value are
 cor.test(df2.filt$val, df2.filt$val.spec)
 
@@ -233,6 +239,7 @@ summary(m.selection)
 
 m.selection.null = mlogit(chosen ~ val.spec.rank | -1, df2.logit2, panel = T,
                      rpar = c(val.spec.rank = "n"), halton = NA, R = 1000, tol = .001)
+summary(m.selection.null)
 
 ll1 = logLik(m.selection)
 BIC1 = attr(ll1, 'df') * log(length(m.selection$fitted.values)) - 2 * as.numeric(ll1)

@@ -68,11 +68,12 @@ betterLine = function(data, formula, color = '#105db0') {
 
 # choose which experiment -------------------------------------------------
 
-expt = readline(prompt="Which months experiment do you want to analyze? (Enter 1, 2, or 3): ")
+expt = readline(prompt="Which months study do you want to analyze? (Enter 4, 5, or 6): ")
 
 # import data -------------------------------------------------------------
 
-if (expt != '3') {
+# some quirks of the 3rd experiment need to be separated out
+if (expt != '6') {
   cs.flipped = F 
   mid.value = 6
   numTrials = 132
@@ -82,9 +83,7 @@ if (expt != '3') {
   numTrials = 120
 }
 
-numWords = 12
-minNAs = 1
-numQuestions = 2
+numWords = 12 # number of word options in Stage 1
 
 # Load data
 df.demo = read.csv(paste0(expt, '/demo.csv'), stringsAsFactors = F) %>% arrange(subject) %>% mutate(total_time_real = total_time / 60000)
@@ -142,6 +141,9 @@ df.s1.subj = df.s1 %>% group_by(subject) %>%
   summarize(pctCorrect_choice = mean(correct_choice, na.rm = T), numTrials = n())
 
 # compute exclusion -------------------------------------------------------
+
+minNAs = 1 # minimum number of NAs allowed
+numQuestions = 2 # number of questions in Stage II -- the comprehension check & the 3rd-letter-late question
 
 include_rows = NULL
 include_names = NULL
@@ -266,7 +268,7 @@ df.logit = df.words.filt %>% filter(in.cs == T) %>% select(subject, s1_value, s2
 # results ----------------------------------------------------------
 
 df.words.all = df.words.filt
-if (expt == '3') {
+if (expt == '6') {
   df.words.freq = df.words.filt %>% filter(cond > 0)
   df.words.filt = df.words.filt %>% filter(cond == 0)
 }
@@ -280,7 +282,7 @@ graph.s1.binary = df.words.filt %>% group_by(high_s1value, subject) %>%
   summarize(in.cs.m = mean(in.cs, na.rm = T), in.cs.se = se(in.cs),
             chosen.m = mean(chosen, na.rm = T), chosen.se = se(chosen))
 
-if (expt != '3') {
+if (expt != '6') {
   cs.s1.binary.breaks = c(.35, .4)
   cs.s1.binary.lims = c(.34, .41)
 } else {
@@ -333,12 +335,12 @@ ggplot(graph.s2, aes(x = s2_value, y = in.cs.m)) +
   betterLine(graph.s2, in.cs.m ~ s2_value)
 
 # stats for generation
-m.cs.s2 = glmer(in.cs~s2_value+(s2_value|subject) + (s2_value|word_ind),
+m.cs.s2 = glmer(in.cs~s2_value+(s2_value|subject) + (1|word_ind),
                 data = df.words.filt,
                 family='binomial')
 summary(m.cs.s2)
 
-m.cs.s2.null = glmer(in.cs~1+(s2_value|subject) + (s2_value|word_ind),
+m.cs.s2.null = glmer(in.cs~1+(s2_value|subject) + (1|word_ind),
                 data = df.words.filt,
                 family='binomial')
 
@@ -359,8 +361,8 @@ ggplot(graph.choice, aes(x = s2_value_rank, y = chosen, group = s1_value_rank, c
   theme(legend.position = 'none')
 
 # stats
-if (expt %in% c(2,3)) {
-  # we had to omit word-specific intercepts for Studies 4 & 5 b/c the model couldn't converge
+if (expt %in% c(5,6)) {
+  # we had to omit word-specific intercepts for Studies 5 & 6 b/c the model couldn't converge
   m.choice = mlogit(chosen ~ s1_value_rank + s2_value_rank | -1, df.logit, panel = T,
                     rpar = c(s1_value_rank = "n", s2_value_rank = "n"), halton = NA, R = 1000, tol = .001)
   m.choice.null = mlogit(chosen ~ s2_value_rank | -1, df.logit, panel = T,
@@ -384,7 +386,7 @@ BFnull.s1choice
 
 ## analyze stuff unique to the different experiments
 
-if (expt != '3') {
+if (expt != '6') {
   ## in the first & second months experiments, we analyzed for "checkmark" shape
   # how does effect change if you drop the most extreme values?
   m.checkmark1 = glmer(in.cs~s1_value+(s1_value|subject)+(s1_value|word_ind),

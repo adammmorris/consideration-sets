@@ -1,0 +1,1 @@
+Studies 4-6 are analyzed in 'analysis_months.R'. Their aggregated results are analyzed in 'analysis_aggregated.R'. Study 7 is analyzed in 'analysis_months_7.R'. The results of each analysis are saved in the '.RData' files in the corresponding folders.

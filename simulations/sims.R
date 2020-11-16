@@ -1,16 +1,38 @@
 require(dplyr)
 require(ggplot2)
 
+theme_update(strip.background = element_blank(),
+             panel.grid.major = element_blank(),
+             panel.grid.minor = element_blank(),
+             panel.background = element_blank(),
+             plot.background = element_blank(),
+             axis.text=element_text(size=30, colour = "black"),
+             axis.title=element_text(size=18, face = "bold"),
+             axis.title.x = element_text(vjust = 0),
+             legend.title = element_text(size = 24, face = "bold"),
+             legend.text = element_text(size = 20),
+             plot.title = element_text(size = 26, face = "bold", vjust = 1),
+             panel.margin = unit(1.0, "lines"), 
+             plot.margin = unit(c(0.5,  0.5, 0.5, 0.5), "lines"),
+             axis.line = element_line(colour = "black", size = 2),
+             axis.ticks = element_line(color = 'black', size = 3),
+             axis.ticks.length = unit(.25, 'cm')
+)
+
+# Only works in RStudio -- otherwise you have to set the path manually
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
 # which parameters do you want?
-n = 10000
-a = 100
+n = 20
+a = 10
 
 path = paste0(n,'_',a)
 df = read.csv(paste0('data/', path, '.csv'), header=F)
 colnames(df) = c('Output','Correlation','CS.Size', 'Random')
 df = df %>% mutate(Correlation = factor(Correlation), Random = factor(Random), CS.Size = factor(CS.Size))#, labels = c('Random sampling', '0.25', '0.50', '0.75', 'Perfect')))
 
-sizes = c(1:5, 7, 9, 12, 15, 20, 40, 80, max(as.numeric(as.character(df$CS.Size))))
+#sizes = c(1:5, 7, 9, 12, 15, 20, 40, 80, max(as.numeric(as.character(df$CS.Size))))
+sizes = c(1:5, 7, 9, 12, 15, 20)
 df.filt = df %>% filter(CS.Size %in% sizes)
 
 ggplot(mapping = aes(x = CS.Size, y = Output, color = Correlation, group = Correlation)) +

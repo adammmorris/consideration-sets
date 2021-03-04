@@ -1,1 +1,0 @@
-Studies 1 & 2 are analyzed in 'analysis_food.R'. Study 3 is analyzed in 'analysis_food_3.R'. The pilot experiment (described in the SM) is analyzed in 'analysis_food_pilot.R'. The results of each analysis are saved in the corresponding '.RData' files in each folder.

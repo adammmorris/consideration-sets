@@ -1,0 +1,523 @@
+<!doctype html>
+<html>
+<head>
+	<title>Harvard University HIT</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/jspsych.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-text.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-text-timed.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-text-memory.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-text-center.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-likert.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-checkboxes.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-radio.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-likert-timed.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-survey-multi-choice.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-single-stim.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-single-stim-hint.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-html.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-text.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-instructions.js"></script>
+	<script src="http://amorris.mprlab327.opalstacked.com/jspsych_5/plugins/jspsych-instructions-timed.js"></script>
+	<link href="http://amorris.mprlab327.opalstacked.com/jspsych_5/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+	<script src="utilities.js"></script>
+	<style>
+	td, th {padding: 50px;}
+	.big {font-size: 40px;}
+	.med {font-size: 24px;}
+	</style>
+</head>
+<body>
+</body>
+<script>
+
+/* SETUP */
+
+// find the assignmentId & debugging status from the URL
+var urlParams = parseURLParams(window.location.href);
+var assignmentId = '';
+var debug = false;
+if (typeof urlParams != "undefined") {
+    if (urlParams.hasOwnProperty('assignmentId')) {
+        assignmentId = urlParams.assignmentId[0];
+    }
+
+    if (urlParams.hasOwnProperty('debug')) {
+        debug = urlParams.debug[0];
+    }
+}
+
+// meta-variables
+var turk_code = "";
+var study_version = "";
+var db_words = "", db_s1 = "", db_s2 = "", db_demo = "";
+
+var study_time = 25;
+var study_money = 2.51;
+var pointsPerCent = 5;
+
+var instr_reading_time = 2000; // in milliseconds
+
+var instructions_time = 0;
+var curBonus = 0;
+
+// training
+var pwords = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+var nWords = pwords.length;
+
+var rewards_tr = _.shuffle([1,2,3,4,5,6,7,8,9,10,11,12]);
+
+var pairs = new Array(132);
+var ind = 0;
+for (var i = 0; i < nWords; i++) {
+	for (var j = i + 1; j < nWords; j++) {
+		pairs[ind] = [i, j];
+		pairs[ind+1] = [j, i];
+		ind = ind + 2;
+	}
+}
+pairs = _.shuffle(pairs);
+
+var nTrainingTrials = pairs.length;
+var nTrainingTrials_to_use = nTrainingTrials;
+
+var trRewards = new Array(nTrainingTrials);
+for (var j = 0; j < nTrainingTrials; j++) {
+	trRewards[j] = [rewards_tr[pairs[j][0]], rewards_tr[pairs[j][1]]];
+}
+
+// test
+var rewards_te = [14, 2, 18, 18, 25, 14, 12, 7, 16, 20, 22, 3];
+var timing_test = 20;
+
+if (debug) {
+	nTrainingTrials_to_use = 1;
+	instr_reading_time = 0;
+	timing_test = 1;
+	nPossTrials_to_use_prac = 1;
+	nPossTrials_to_use = 1;
+}
+
+var numShowTrials = nTrainingTrials_to_use / 3;
+
+var comp_check = false;
+var comp_check_pass = false;
+var comp_check_rt = false;
+
+var comp_check2 = false;
+var comp_check_pass2 = false;
+
+/* INTRO BLOCKS */
+
+var welcome = {
+	type: "text",
+	text: "<div class='center-content'><br><br><br><br>Welcome to the HIT. Press any key to begin.",
+};
+
+var get_id = {
+	type: 'survey-text',
+	questions: ["Worker ID:"],
+	preamble: ["Please enter your Amazon Mechanical Turk Worker ID below.<br>(When you're done, press 'Submit Answers'; don't hit Enter.)<br><br>If you do not enter your ID accurately, we will not be able to pay you."],
+};
+
+var get_id_loop = {
+	timeline: [get_id],
+	loop_function: function(data) {
+		id = JSON.parse(data[0].responses).Q0;
+		if (id) {
+			jsPsych.data.addProperties({
+				subject: id,
+				version: study_version,
+				assignmentId: assignmentId
+			});
+
+			return false;
+		} else {
+			alert("Please provide your Amazon Mechanical Turk Worker ID.");
+			return true;
+		}
+	}
+}
+
+var start_instructions = 0;
+
+
+/* INSTRUCTIONS */
+
+var numParts = 2;
+var instructions_text = [
+	"Welcome to this HIT! Please <b>do not</b> press the 'back' button in your browser during the study; if you do, you will have to start over.",
+	"In this experiment, you will play a game with "+numParts+" parts. In <b>Part 1</b>, you will be shown a bunch of words; each word will be a month of the year (like 'SEPTEMBER' or 'MARCH').<br><br>\
+	Each month is worth a certain amount of points. \
+	So suppose 'SEPTEMBER' is worth 10 points, and 'MARCH' is worth 1 point. \
+	If you choose 'SEPTEMBER', you would earn 10 points; if you choose 'MARCH', you would earn 1 point. <b>If you choose words with higher point values, you'll win more money.</b> We'll explain how this works in the next few pages.",
+	"On every trial, we'll give you a choice between two of the words.\
+	For example, you might have to choose between 'SEPTEMBER' and 'MARCH'. Here's what it will look like:<br><br>\
+	<div align='center'><table>\
+	<tr><th class='big' style='border: 5px solid white'>SEPTEMBER</th><td>or</td><th class='big' style='border: 5px solid white'>MARCH</th></tr></table></div> \
+	<br><br>In our example, if you choose SEPTEMBER, you'd win 10 points; if you choose MARCH, you'd win 1 point. After you make your choice, we'll tell you how many points each word was worth.",
+	"Bonus points are important - at the end of the HIT, you'll get 1 extra cent for every " + pointsPerCent + " points you earn in this part. \
+	This can add up to a lot of bonus money if you play well.<br><br>\
+	You should do your best to pay attention, because the information in Part 1 will also be critical for you to earn \
+	more bonus money in later parts. <b>If you don't pay attention in Part 1, you will earn less bonus money throughout the whole game.</b> \
+	You should pay attention to all the words we show you, and to the amount of points they're worth.<br><br>\
+	People who pay attention tend to earn about $1 - $2 more than people who don't.",
+	"Early in the game, to help you learn the word values, we'll give you hints about how many bonus points each word is worth. Each trial will have a button like this:<br><br>\
+	<div align='center'><button>Show Hints</button></div><br>\
+	If you want a hint, you can click that button. This will help you learn the word values.<br><br>\
+	But, later in the game, <b>we will take away this button</b>, and you'll have to work from memory. The hint button will disappear between trials 30-40. Thus, if you want to win bonus points later on, you have to pay attention and <b>try to learn which words are good and bad</b>.",
+	"A final note: <b>It's really important to us that you don't physically write anything down (like with pencil and paper) during the experiment.</b> \
+	You're limited to what you can do in your head, and whatever resources we give you to help.",
+	"There will be " + nTrainingTrials + " trials in Part 1.<br><br>When you're ready to start, hit 'Next'."
+];
+
+var instructions = {
+	type: "instructions-timed",
+	pages: instructions_text,
+	show_clickable_nav: true,
+	continue_time: instr_reading_time,
+	on_finish: function(data) {
+		instructions_time = Date.now() - start_instructions;
+	}
+}
+
+
+/* TRAINING */
+
+var trRTs = new Array(nTrainingTrials);
+var trResponses = new Array(nTrainingTrials);
+var trResponses2 = new Array(nTrainingTrials);
+
+var trChoices = new Array(nTrainingTrials); // 0 = word, 1 = alt, -1 = neither
+var trTrials = new Array(nTrainingTrials);
+
+for (var j = 0; j < nTrainingTrials; j++) {
+	trTrials[j] = new Array(2);
+
+	word1 = pwords[pairs[j][0]].toUpperCase();
+	word2 = pwords[pairs[j][1]].toUpperCase();
+
+	var re1_show =trRewards[j][0];
+	var re2_show =trRewards[j][1];
+
+	trTrials[j][0] = {
+		type: 'single-stim-hint',
+		stimulus: "<div align='center'><table>\
+				<tr><th class='big' style='border: 5px solid white'>"+word1+"</th><td>or</td><th class='big' style='border: 5px solid white'>"+word2+"</th></tr>\
+				<tr><th class='med' style='font-size: 11px; font-weight: normal'>&nbsp;</td><td></td><th class='med' style='font-size: 11px; font-weight: normal'>&nbsp;</td></tr></table>\
+				</div>",
+		stimulus_hint: 	"<div align='center'><table>\
+				<tr><th class='big' style='border: 5px solid white'>"+word1+"</th><td>or</td><th class='big' style='border: 5px solid white'>"+word2+"</th></tr>\
+				<tr><th class='med' style='font-size: 11px; font-weight: normal'>" +re1_show+" points</td><td></td><th class='med' style='font-size: 11px; font-weight: normal'>"+re2_show+" points</td></tr></table>\
+				</div>",
+		is_html: true,
+		choices: [87, 80],
+		data: {which_trial: j, word1: word1, word2: word2},
+		timing_post_trial: 0,
+		show_hint: j < numShowTrials ? true : false,
+		prompt: "<div align='center'><br><br>Press W choose to the word on the left, and P to choose the word on the right.</div>",
+		on_finish: function(data) {
+			choice = data.key_press == 80 ? 1 : 0;
+			curBonus = curBonus + trRewards[data.which_trial][choice];
+
+			jsPsych.data.addProperties({curTrial: data.which_trial, choice: choice, used_hint: data.used_hint_inner, rt_training: data.rt});
+		}
+	};
+
+	trTrials[j][1] = {
+		type: 'instructions',
+		pages: function() {
+			var cur_choice = jsPsych.data.getLastTrialData().choice;
+			var word1 = jsPsych.data.getLastTrialData().word1;
+			var word2 = jsPsych.data.getLastTrialData().word2;
+			var colors = cur_choice == 0 ? ['red','white'] : ['white','red'];
+			var curTrial = jsPsych.data.getLastTrialData().which_trial;
+			var re1 = trRewards[curTrial][0];
+			var re2 = trRewards[curTrial][1];
+			return(["<div align='center'><table>\
+				<tr><th class='big' style='border: 5px solid "+colors[0]+"'>"+word1+"</th><td>or</td><th class='big' style='border: 5px solid "+colors[1]+"'>"+word2+"</th></tr>\
+				<tr><th class='med'>= "+re1+" pts</th><td></td><th class='med'>= "+re2+" pts</th></tr></table></div>"]);
+		},
+		is_html: true,
+		show_clickable_nav: true,
+		allow_keys: false,
+		postamble: function() {
+			curTrial = jsPsych.data.getData();
+			curTrial = curTrial[0].curTrial;
+			return ["<p style='font-size: 10px'>Trial " + (curTrial + 1) + " out of " + nTrainingTrials + "<br>Total bonus: " + curBonus + "</p>"];
+		},
+		data: {which_trial: j},
+		on_finish: function(data) {
+			s1_data = {
+				subject: data.subject,
+				version: data.version,
+				assignmentId: data.assignmentId,
+				trial: data.which_trial,
+				word: pwords[pairs[data.which_trial][0]].toUpperCase(),
+				value: trRewards[data.which_trial][0],
+				alt: pwords[pairs[data.which_trial][1]].toUpperCase(),
+				value2: trRewards[data.which_trial][1],
+				choice: data.choice,
+				rt: data.rt_training,
+				used_hint: data.used_hint ? "1" : "0"
+			}
+
+			save_data(s1_data, db_s1);
+		}
+	};
+};
+trTrials = _.flatten(trTrials);
+
+/* TEST */
+
+var whichPart_qs = 2;
+var instructions_text4 = [
+	"Great job. Now we'll start <b>Part "+whichPart_qs+"</b>.<br><br>Please read the following instructions carefully.",
+	"In Part "+whichPart_qs+", you'll be able to win bonus money in a different way. We will ask you a question about the words you saw in Part 1. Specifically, you will have to think of <b>words you saw in Part 1 with a certain property</b>.<br><br>\
+	For example, we might ask you to think of a word that has the most vowels in it. The more vowels in the word you think of, the more bonus money you win. \
+	So 'CONSTITUTIONAL' would be a good word, because it has 6 vowels. But you wouldn't actually be able to use 'CONSTITUTIONAL' - you'd have to pick a word you saw in Part 1.<br><br>Make sense?",
+	"The amount of bonus money that a word is worth in Part "+whichPart_qs+" is completely determined by the question we ask. \
+	So for example, if we asked you to give us a word that has the most vowels in it, the bonus money would be determined only by \
+	the number of vowels in the word.<br><br><b>The amount of money that the word was worth in Part 1 is no longer important, \
+	and will not affect anything in Part "+whichPart_qs+".</b> So if a word was really bad in Part 1, \
+	but it has a lot of vowels, it would be a good answer to this question. \
+	Similarly, if a word was really good in Part 1, but it doesn't have many vowels, \
+	it would be a bad answer to this question. There is no relation between the values in Part 1 and the values in Part "+whichPart_qs+".<br><br>",
+	"Just as before, please don't physically write anything down (like with pencil and paper) during Part "+whichPart_qs+". \
+	We'll give you a virtual 'notepad' for each question, if you need space to write while you're thinking. It will look like this: <br><br> \
+	Virtual notepad (don't enter final answer here):<br>\
+	<textarea rows='5' cols='100'></textarea><br><br>\
+	Anything you write in the notepad will not affect your bonus payment - it's just there to help you.",
+	"We'll give you a textbox to write your answer in. It will look like this: <br><br>\
+	Enter your word here:<br>\
+	<textarea rows='1' cols='40'></textarea></div>\
+	<br><br>You will have a limited amount of time to answer the question. We'll give you a timer that shows how much time you have left. <b>You must write down your word within the time limit, or you won't get any bonus money for this part.</b> The screen will automatically advance when the timer reaches zero.",
+	"So, to summarize: We'll ask you to think of a word from Part 1 with a certain property. You'll have to think of your word within a time limit. The whole screen will look like this:<br><br>\
+	<div style='border: 1px solid black; padding: 10px'><span style='color: red; font-size: 16pt'>X seconds left to answer</span><br><br>\
+	Virtual notepad (don't enter final answer here):<br>\
+	<textarea rows='5' cols='100'></textarea><br><br>\
+	Enter your word here:<br>\
+	<textarea rows='1' cols='40'></textarea><br><br></div>\
+	<br><br>Our advice is to just trust your instincts. When you're ready to start, hit 'Next'. (Don't hit 'Next' until you're ready to think quickly!)"
+];
+
+var instructions4 = {
+	type: "instructions-timed",
+	pages: instructions_text4,
+	show_clickable_nav: true,
+	continue_time: instr_reading_time,
+	on_finish: function(data) {
+		for (var j = 0; j < nWords; j++) {
+			words_data = {
+				subject: data.subject,
+				version: data.version,
+				assignmentId: data.assignmentId,
+				word: pwords[j].toUpperCase(),
+				word_ind: j,
+				s1_value: rewards_tr[j],
+				s2_value: rewards_te[j]
+			}
+
+			save_data(words_data, db_words);
+		}
+	}
+}
+
+testTrials = new Array(2);
+
+var question = "We'll ask you to think of a word from Part 1 whose <b>third letter is late in the alphabet.</b> You'll earn bonus money based on the position in the alphabet of the third letter in your word (i.e. A = 1 cent, Z = 26 cents).";
+
+// Question & check
+testTrials[0] = {
+	type: 'survey-multi-choice',
+	questions: ["<h2>Question 1</h2>"+question+"<br><br>For example, the third letter of the word IMPACT is P, which is the 16th letter in the alphabet. Thus, if IMPACT had been one of the words in Part 1, it would earn 16 cents.<br><br>If the word FIZZLE had been one of the words in Part 1, how many cents would FIZZLE earn you?" , "Given that FIZZLE wasn't one of the words in Part 1, how many cents would it actually earn you? (Remember that your word <b>must</b> be one of the words from Part 1!)"],
+	options: [[0,15,26,30], [0,15,26,30]],
+	on_finish: function(data) {
+		ans = JSON.parse(data.responses).Q0;
+		comp_check = ans;
+		comp_check_pass = ans == '26' ? 1 : 0;
+		comp_check_rt = data.response_time; 
+
+		ans2 = JSON.parse(data.responses).Q1;
+		comp_check2 = ans2;
+		comp_check_pass2 = ans2 == '0' ? 1 : 0;
+	}
+}
+
+timing = (timing_test + 1) * 1000;
+
+testTrials[1] = {
+	type: 'survey-text-timed',
+	preamble: ["<h2>Question 1</h2><div style='opacity: .6'>" + question + "</div>" + "<br>Think of your word (i.e. month) from Part 1, and enter it into the small textbox at the bottom. You have <b>" + timing_test + " seconds</b> to answer."],
+	questions: ["Virtual notepad (don't enter final answer here):", "Enter your word here:"],
+	rows: [5,1],
+	cols: [100,40],
+	timing_response: timing,
+	data: {timing_response: timing},
+	show_timer_after: 5000,
+	pressure: true,
+	on_finish: function(data) {
+		s2_data = {
+			subject: data.subject,
+			version: data.version,
+			assignmentId: data.assignmentId,
+			question: "Third letter late",
+			question_ind: 0,
+			all_values: JSON.stringify(rewards_te),
+			question_order: 0,
+			comp_check: comp_check,
+			comp_check_pass: comp_check_pass,
+			comp_check_rt: comp_check_rt,
+			comp_check2: comp_check2,
+			comp_check_pass2: comp_check_pass2,
+			scratch: JSON.parse(data.responses).Q0,
+			choice: JSON.parse(data.responses).Q1,
+			rt: data.timing_response
+		}
+
+		save_data(s2_data, db_s2);
+	}
+}
+
+var cs_instr = {
+	type: 'instructions-timed',
+	pages: ["<h2>Question 2</h2>Because the last question had a time limit, most people are unable to consider all the words from Part 1 before making their choice.<br><br>In Question 2, we'll ask you: Which words <b>did</b> you consider while answering the last question,\
+		before choosing your final answer?\
+		In other words, which words came to mind while you were trying to answer Question 1?",
+		"We'll show you one word at a time. Select 'Yes' if that word came to mind at all while answering the question, and 'No' if it never came to mind. (This won't affect your bonus pay, so please answer honestly.)<br><br>\
+		When you're ready, press 'Next'."],
+	show_clickable_nav: true,
+	continue_time: instr_reading_time
+}
+
+var cs_questions = new Array(nWords);
+var cs_vals = new Object();
+var word_order = _.shuffle(_.range(nWords));
+for (var i = 0; i < nWords; i++) {
+	cs_questions[i] = {
+		type: 'survey-radio',
+		questions: ["<b>"+pwords[word_order[i]]+"</b><br>"],
+		preamble: ["Did this word come to mind while you were answering the last question?"],
+		data: {word: pwords[word_order[i]]},
+		required: true,
+		on_finish: function(data) {
+			cs_vals[data.word] = JSON.parse(data.responses).Q0;
+		}
+	}
+}
+
+
+/* DEBRIEF & CONCLUDE */
+
+var comments = {
+	type: 'survey-text',
+	questions: ["You're almost done! Do you have any comments about the study? What was your strategy for the 'third letter' question?"],
+	rows: [15],
+	columns: [120],
+	on_finish: function(data) {
+		jsPsych.data.addProperties({comments: JSON.parse(data.responses).Q0});
+		s2_data = {
+					subject: data.subject,
+					version: data.version,
+					assignmentId: data.assignmentId,
+					question: 'choice-set',
+					question_ind: 2,
+					all_values: JSON.stringify(rewards_te),
+					question_order: 2,
+					comp_check: -1,
+					comp_check_pass: -1,
+					comp_check_rt: -1,
+					scratch: "",
+					choice: JSON.stringify(cs_vals),
+					rt: data.rt
+			};
+		save_data(s2_data, db_s2);
+	}
+}
+
+var demo = {
+	type: "survey-multi-choice", 
+	preamble: ["Please answer these last questions:"], 
+	questions: ["What is your gender?",
+		"When choosing words in the 'third letter' question, did you intentionally use the bonus values in Part 1 as a guide? \
+		(In other words, did you intentionally choose words that had previously won you lots of bonus money in Part 1?)",
+		"Did you physically write anything down during the HIT (like with pencil and paper)? \
+		Please be honest: There's no penalty if you did. (We just want to know.)"],
+	options: [["Male", "Female", "Other"], ["Yes", "No"], ["Yes", "No"]],
+	required: [true, true, true],
+	on_finish: function(data) {
+		demo_data = {
+			subject: data.subject,
+			version: data.version,
+			assignmentId: data.assignmentId,
+			gender: JSON.parse(data.responses).Q0,
+			instructions_time: instructions_time,
+			total_time: Date.now() - start_instructions,
+			s1_bonus: curBonus,
+			use_s1: JSON.parse(data.responses).Q1,
+			write_down: JSON.parse(data.responses).Q2,
+			comments: data.comments
+		}
+
+		save_data(demo_data, db_demo);
+	}
+};
+
+var debrief = {
+	type: 'instructions',
+	pages: ["Thank you for your participation. We will pay your bonus within the next week.<br><br>\
+		In this study, we were trying to understand how people make decisions when there are lots of available options. \
+		Here, the available options were all the words from Part 1, and the decision you had to make was which word(s) to choose for \
+		the questions in Part 2. We hypothesized that people solved these problems by coming up with a small number of options to evaluate in-depth \
+		(based on their past experience with those options), and then choosing among those."],
+	show_clickable_nav: true
+};
+
+var check_end = function(elem) {
+	if ($('#end_checkbox').is(':checked')) {
+		return true;
+	} else {
+		alert("Make sure to copy the code.");
+		return false;
+	}
+	return false;
+};
+
+var end = {
+	type: 'html',
+	url: "end.php?turkcode=" + turk_code,
+	cont_btn: "end",
+	check_fn: check_end,
+	force_refresh: true
+};
+
+/* create experiment definition array */
+var experiment = [];
+
+experiment.push(welcome);
+experiment.push(get_id_loop);
+experiment.push(instructions);
+for (var j = 0; j < nTrainingTrials_to_use * 2; j++) {
+	experiment.push(trTrials[j]);
+}
+experiment.push(instructions4);
+experiment.push(testTrials[0]);
+experiment.push(testTrials[1]);
+experiment.push(cs_instr);
+for (var i = 0; i < nWords; i++) {
+	experiment.push(cs_questions[i]);	
+}
+experiment.push(comments);
+experiment.push(demo);
+experiment.push(debrief);
+experiment.push(end);
+
+jsPsych.init({
+	timeline: experiment
+});
+</script>
+</html>

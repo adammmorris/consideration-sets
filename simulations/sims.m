@@ -1,13 +1,19 @@
+% Generating options and choosing between them rely on distinct forms of value representation
+% Adam Morris, Jonathan Phillips, Karen Huang, Fiery Cushman
+% Simulation code
 nWords_all = [20 100 1000 10000];
 actioncost_all = [2 5 10 25 50 100];
 
-for nWords_ind = 1
+for nWords_ind = 1:length(nWords_all)
     for actioncost_ind = 1:length(actioncost_all)
         % the four parameters we manipulate
         nWords = nWords_all(nWords_ind);
         actioncost = actioncost_all(actioncost_ind);
-        %nToEval = [1:20 40 80 nWords];
-        nToEval = [1:20];
+        if nWords == 20
+            nToEval = [1:20];
+        else
+            nToEval = [1:20 40 80 nWords];
+        end
         r = [0 .25 .5 .75 1];
         
         nEnvs = length(r);

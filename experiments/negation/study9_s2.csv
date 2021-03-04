@@ -1,0 +1,1075 @@
+subject,cond,question,question_ind,all_values,question_order,comp_check,comp_check_pass,comp_check_rt,comp_check2,comp_check_pass2,choice,scratch,rt,stamp,id
+aa1d5b03db0621cc7b9e52f923bd7d41,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+July",NA,16000,6/5/19 12:18,37512
+aa1d5b03db0621cc7b9e52f923bd7d41,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""June"":1,""November"":0,""March"":0,""April"":1,""December"":0,""February"":1,""May"":0,""September"":0,""August"":1,""January"":0,""October"":0}",NA,3558,6/5/19 12:19,37513
+0606a6422ccf8697f3cdaf1ba5938c0e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/5/19 12:19,37514
+313d98b69d3d4f352a3ffbef73ba44f9,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,NOVEMBER,NA,16000,6/5/19 12:19,37515
+ef0ab7523742e158ec7d3963b238fdf7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"july
+",NA,16000,6/5/19 12:20,37516
+d6220ba5dd432def120772e2e1454e3c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"october
+october",NA,16000,6/5/19 12:20,37517
+33d15458e3deedb1550b0f63887c6cab,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/5/19 12:20,37518
+0139cd9fbefdf10ba048ff8923b8e13a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"april
+april",NA,16000,6/5/19 12:20,37519
+0606a6422ccf8697f3cdaf1ba5938c0e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""July"":1,""April"":0,""September"":0,""November"":0,""January"":0,""March"":0,""October"":0,""February"":0,""June"":0,""August"":0,""December"":1}",NA,4543,6/5/19 12:20,37520
+d5062a49bf0db1c385c0f222ebb4ba67,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:20,37521
+ef0ab7523742e158ec7d3963b238fdf7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""July"":1,""March"":1,""June"":0,""April"":1,""May"":0,""February"":0,""November"":0,""January"":1,""December"":0,""August"":0,""October"":0}",NA,2285,6/5/19 12:20,37522
+d6220ba5dd432def120772e2e1454e3c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""February"":0,""June"":0,""August"":0,""October"":1,""July"":1,""January"":1,""November"":0,""March"":0,""April"":0,""September"":0,""December"":1}",NA,1987,6/5/19 12:21,37523
+313d98b69d3d4f352a3ffbef73ba44f9,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""November"":1,""January"":0,""December"":0,""April"":0,""July"":0,""May"":0,""March"":0,""October"":0,""February"":0,""August"":0,""June"":0}",NA,5669,6/5/19 12:21,37524
+65c24d0990f2c00efdeb0eda1a720966,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/5/19 12:21,37525
+97f0244747728f90f985af0f5134c2b6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:21,37526
+0139cd9fbefdf10ba048ff8923b8e13a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""December"":0,""November"":0,""January"":0,""February"":0,""July"":0,""September"":0,""March"":0,""August"":0,""June"":0,""October"":0,""May"":0}",NA,3527,6/5/19 12:21,37527
+a502708665d7f923db9acd8187705704,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/5/19 12:21,37528
+01f9c492df46b84d0e30a2551492afaf,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/5/19 12:21,37529
+d5062a49bf0db1c385c0f222ebb4ba67,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""September"":1,""November"":1,""April"":0,""May"":0,""August"":0,""January"":1,""July"":0,""June"":0,""October"":1,""February"":0,""March"":1}",NA,19124,6/5/19 12:21,37530
+33d15458e3deedb1550b0f63887c6cab,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""October"":0,""January"":1,""November"":0,""May"":1,""December"":0,""June"":1,""August"":0,""April"":0,""February"":1,""July"":0,""September"":0}",NA,20195,6/5/19 12:21,37531
+97f0244747728f90f985af0f5134c2b6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""July"":1,""September"":1,""November"":1,""June"":0,""January"":1,""October"":1,""August"":0,""March"":0,""December"":1,""May"":0,""February"":1}",NA,6657,6/5/19 12:22,37532
+65c24d0990f2c00efdeb0eda1a720966,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""August"":1,""July"":0,""January"":0,""November"":1,""October"":0,""June"":1,""May"":1,""September"":0,""December"":0,""April"":1,""March"":1}",NA,4643,6/5/19 12:22,37533
+145a21fdb5bafa538b0f19fea5e40b91,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/5/19 12:22,37534
+3672ba0dea8ca4c3af20936e2d0f55ae,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 12:22,37535
+03b602885b5804bf01afc9a814a19c30,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:22,37536
+4ce73caf0540517e6cee3a82ec10425e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"May
+March
+September
+May",NA,16000,6/5/19 12:22,37537
+a502708665d7f923db9acd8187705704,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""June"":0,""August"":0,""April"":0,""December"":0,""October"":1,""March"":1,""November"":0,""May"":0,""January"":0,""February"":0,""September"":0}",NA,6542,6/5/19 12:22,37538
+b007722bc37cd70d10475ac40ecc7b3c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,october,NA,16000,6/5/19 12:23,37539
+0588f4985fe8828b0ab3cc7b9047e4f8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:23,37540
+4e647d8afe3ad4afee614629541a9bc4,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/5/19 12:23,37541
+adcee5ecf15a329d2c6291b5e01d7191,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/5/19 12:23,37542
+9fc361f9a98d3c0094182d9a50ebeba5,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 12:23,37543
+01bccaa4dd71661a7bc855c50cc08033,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:23,37544
+792de444e782773689cfe01b3b4b1748,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"may
+may",NA,16000,6/5/19 12:23,37545
+3672ba0dea8ca4c3af20936e2d0f55ae,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""July"":1,""September"":0,""January"":0,""February"":0,""October"":1,""May"":1,""December"":0,""June"":1,""April"":0,""November"":1,""March"":0}",NA,6698,6/5/19 12:23,37546
+5528af7ee0e138e557b032194547d5bf,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/5/19 12:23,37547
+03b602885b5804bf01afc9a814a19c30,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""December"":1,""September"":0,""January"":0,""July"":0,""April"":0,""May"":0,""June"":1,""August"":0,""February"":1,""March"":0,""October"":0}",NA,7808,6/5/19 12:23,37548
+01f9c492df46b84d0e30a2551492afaf,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""September"":0,""May"":1,""January"":0,""October"":1,""November"":0,""August"":0,""March"":1,""June"":1,""April"":1,""February"":1,""December"":0}",NA,21368,6/5/19 12:24,37549
+b007722bc37cd70d10475ac40ecc7b3c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""January"":0,""August"":1,""April"":1,""November"":1,""May"":0,""September"":1,""February"":0,""October"":1,""July"":0,""June"":0,""March"":0}",NA,6326,6/5/19 12:24,37550
+cc6a2d2b667efa492ba164339eac64a9,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/5/19 12:24,37551
+145a21fdb5bafa538b0f19fea5e40b91,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":1,""November"":0,""April"":0,""September"":1,""February"":0,""March"":0,""January"":0,""June"":1,""July"":1,""May"":0,""October"":0,""December"":1}",NA,18637,6/5/19 12:24,37552
+4ce73caf0540517e6cee3a82ec10425e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""August"":1,""October"":0,""May"":1,""December"":0,""November"":0,""April"":1,""September"":1,""March"":1,""January"":0,""June"":0,""July"":0}",NA,4598,6/5/19 12:24,37553
+15737b958a86bbc07d367a0122820b1f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,Junr,NA,16000,6/5/19 12:24,37554
+acb9811940a7f4e9730d36be0a30e7fc,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"april
+july
+janyar",NA,16000,6/5/19 12:24,37555
+0588f4985fe8828b0ab3cc7b9047e4f8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""December"":1,""April"":0,""November"":0,""June"":0,""March"":0,""July"":1,""January"":1,""May"":0,""October"":0,""September"":1,""August"":1}",NA,8888,6/5/19 12:24,37556
+2a74d78b51669090f8a6d97909151eda,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"june
+june",NA,16000,6/5/19 12:24,37557
+adcee5ecf15a329d2c6291b5e01d7191,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""July"":0,""February"":0,""April"":0,""June"":0,""March"":0,""August"":1,""October"":0,""December"":1,""January"":1,""May"":0,""November"":1}",NA,4310,6/5/19 12:24,37558
+a7645269c2219564d4519dd722f13cf1,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+September",NA,16000,6/5/19 12:24,37559
+4e647d8afe3ad4afee614629541a9bc4,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""February"":1,""May"":0,""August"":1,""January"":0,""November"":0,""June"":1,""December"":0,""July"":1,""October"":1,""April"":0,""March"":1}",NA,4251,6/5/19 12:24,37560
+01bccaa4dd71661a7bc855c50cc08033,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""January"":0,""August"":0,""June"":0,""October"":0,""April"":0,""July"":0,""December"":1,""September"":1,""May"":0,""March"":0,""February"":0}",NA,6380,6/5/19 12:24,37561
+792de444e782773689cfe01b3b4b1748,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""April"":1,""February"":0,""November"":1,""March"":0,""July"":0,""May"":1,""January"":0,""June"":0,""September"":1,""August"":1,""December"":0}",NA,1855,6/5/19 12:24,37562
+9b1544bef9f96d79a951810764453784,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/5/19 12:24,37563
+8fb788f4b7f1947957247e54d49ad334,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 12:24,37564
+575b72a6389eaee6685a520a37ceb7c1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/5/19 12:24,37565
+9fc361f9a98d3c0094182d9a50ebeba5,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""August"":1,""December"":1,""June"":1,""July"":0,""February"":0,""September"":1,""January"":0,""November"":0,""May"":0,""March"":1,""October"":0}",NA,7144,6/5/19 12:24,37566
+c6e6b8d0f24a8eca0431fee027778ccf,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/5/19 12:24,37567
+cb7a97d1b84b2f7db47d0702c0552ad0,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/5/19 12:24,37568
+febe35ef4e5436750dfae0694ab706e6,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"May
+",NA,16000,6/5/19 12:24,37569
+d9f95e4b4bb24a34da0eaf6b10a60f08,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"
+ap",NA,16000,6/5/19 12:24,37570
+3e7f24fcab2e1790be89c88b2a8e253e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/5/19 12:25,37571
+350701e14e541d1d2e974801138baa47,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/5/19 12:25,37572
+683a8784423082929bf4549678371ba8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"may
+may",NA,16000,6/5/19 12:25,37573
+9465c38635d14d19a28344227d8fe401,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/5/19 12:25,37574
+5528af7ee0e138e557b032194547d5bf,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""August"":1,""February"":0,""July"":1,""September"":1,""January"":0,""December"":1,""June"":0,""March"":0,""November"":0,""April"":0,""May"":0}",NA,7232,6/5/19 12:25,37575
+71b9e5d3be0147c79ee924491bd791b1,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 12:25,37576
+15737b958a86bbc07d367a0122820b1f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""February"":0,""May"":0,""June"":1,""April"":0,""March"":0,""October"":1,""December"":0,""September"":0,""November"":0,""August"":1,""January"":0}",NA,1484,6/5/19 12:25,37577
+d70d824270de5baca1aa20a78e3f95f3,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"April
+April",NA,16000,6/5/19 12:25,37578
+8f7653d451cf3a002900498bdf463d36,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 12:25,37579
+7beae255fd7d34f1cbf5d3515d72128b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+",NA,16000,6/5/19 12:25,37580
+acb9811940a7f4e9730d36be0a30e7fc,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""July"":0,""February"":0,""October"":0,""March"":0,""May"":1,""September"":0,""August"":1,""April"":1,""November"":0,""December"":1,""January"":1}",NA,3024,6/5/19 12:25,37581
+922cdd7a04398b2a20d8a0ea057fef45,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"december
+december",NA,16000,6/5/19 12:25,37582
+dd1e7f800c7b8525151b2a6835f52d7d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March
+March",NA,16000,6/5/19 12:25,37583
+d1a0a583f6ea3f1795791b87b6991185,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/5/19 12:25,37584
+2a74d78b51669090f8a6d97909151eda,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""June"":0,""May"":1,""December"":1,""February"":1,""March"":0,""November"":1,""April"":0,""July"":1,""October"":1,""August"":0,""September"":1}",NA,9444,6/5/19 12:25,37585
+cc6a2d2b667efa492ba164339eac64a9,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""July"":1,""March"":1,""November"":0,""April"":0,""September"":0,""August"":1,""October"":0,""December"":0,""May"":1,""February"":0,""June"":1}",NA,3833,6/5/19 12:25,37586
+febe35ef4e5436750dfae0694ab706e6,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""May"":1,""July"":0,""November"":0,""August"":0,""March"":0,""April"":0,""December"":0,""February"":0,""October"":0,""January"":0,""June"":0}",NA,2834,6/5/19 12:25,37587
+8fb788f4b7f1947957247e54d49ad334,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""September"":0,""February"":0,""May"":1,""November"":0,""June"":1,""March"":0,""July"":1,""October"":0,""April"":0,""August"":0,""January"":0}",NA,4392,6/5/19 12:26,37588
+cb7a97d1b84b2f7db47d0702c0552ad0,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""May"":0,""April"":0,""March"":0,""February"":0,""July"":1,""January"":1,""June"":1,""August"":0,""October"":1,""September"":1,""November"":0}",NA,3446,6/5/19 12:26,37589
+9b1544bef9f96d79a951810764453784,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""December"":1,""January"":1,""October"":1,""November"":0,""May"":0,""June"":0,""August"":0,""February"":0,""September"":1,""March"":1,""April"":0}",NA,6228,6/5/19 12:26,37590
+575b72a6389eaee6685a520a37ceb7c1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""February"":1,""October"":1,""August"":1,""July"":0,""January"":0,""April"":1,""September"":1,""November"":0,""May"":1,""June"":0,""March"":1}",NA,6020,6/5/19 12:26,37591
+a791e7402ed884837ee8216b9a3122c6,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/5/19 12:26,37592
+1ff16cb968c4e69fb8a28a2d6393b7d8,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/5/19 12:26,37593
+683a8784423082929bf4549678371ba8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":1,""May"":1,""July"":1,""September"":0,""October"":0,""April"":0,""December"":0,""June"":1,""February"":0,""March"":0,""November"":1,""January"":0}",NA,4107,6/5/19 12:26,37594
+350701e14e541d1d2e974801138baa47,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""March"":1,""February"":0,""January"":1,""September"":0,""November"":0,""August"":1,""May"":0,""July"":1,""October"":0,""December"":0,""April"":0}",NA,7794,6/5/19 12:26,37595
+71b9e5d3be0147c79ee924491bd791b1,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""May"":1,""December"":0,""July"":1,""April"":1,""October"":0,""September"":0,""November"":0,""March"":0,""February"":0,""June"":1,""January"":0}",NA,1869,6/5/19 12:26,37596
+c6e6b8d0f24a8eca0431fee027778ccf,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""November"":0,""April"":1,""October"":1,""August"":1,""December"":0,""July"":1,""September"":1,""January"":1,""March"":1,""May"":0,""February"":1}",NA,4994,6/5/19 12:26,37597
+94a9cfb42f74b4de83d1fd3967c76ece,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"february
+february",NA,16000,6/5/19 12:26,37598
+40a64ca0c8614b08012ef94fb31cdd9b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/5/19 12:26,37599
+d9f95e4b4bb24a34da0eaf6b10a60f08,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""December"":0,""July"":0,""April"":1,""September"":0,""August"":1,""June"":0,""January"":1,""March"":0,""May"":0,""October"":1,""February"":0}",NA,20308,6/5/19 12:26,37600
+e5d0301fef9cb79be515ad3cf0f51345,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:26,37601
+9465c38635d14d19a28344227d8fe401,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""January"":0,""December"":1,""September"":1,""July"":0,""February"":1,""October"":1,""May"":0,""June"":0,""November"":1,""April"":1,""August"":0}",NA,6097,6/5/19 12:26,37602
+a7645269c2219564d4519dd722f13cf1,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""March"":0,""May"":0,""September"":1,""November"":0,""July"":0,""February"":1,""January"":0,""April"":1,""October"":1,""August"":0,""December"":0}",NA,54981,6/5/19 12:26,37603
+922cdd7a04398b2a20d8a0ea057fef45,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""August"":0,""April"":0,""May"":0,""January"":0,""November"":1,""March"":0,""December"":1,""February"":0,""October"":0,""September"":0,""June"":0}",NA,1752,6/5/19 12:26,37604
+f764987cb7c15221b700808cd74b8a8e,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/5/19 12:26,37605
+3e7f24fcab2e1790be89c88b2a8e253e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""October"":0,""August"":1,""June"":1,""November"":0,""July"":1,""March"":1,""April"":0,""February"":0,""September"":0,""December"":0,""May"":1}",NA,13633,6/5/19 12:26,37606
+d70d824270de5baca1aa20a78e3f95f3,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""May"":1,""December"":1,""June"":1,""February"":1,""September"":0,""January"":1,""March"":1,""July"":1,""November"":0,""August"":0,""April"":1}",NA,6841,6/5/19 12:26,37607
+91f01d56e0ef3b5a99334a6c914ad292,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/5/19 12:26,37608
+94415cb36fabaf6e95aa9d2b98fe8503,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/5/19 12:26,37609
+52d09e4fbcee55977d5d9b3dc1b536ae,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/5/19 12:26,37610
+d6e1e36a87df9fb3d16c7415438a7c53,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/5/19 12:26,37611
+f6377f957e2e3b1f18a66392fd98229f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/5/19 12:26,37612
+215eb97e51116b75271eba376b6a53dd,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,MARCH,NA,16000,6/5/19 12:27,37613
+93ab53f6f7fa915e1b3627d26a2aebf5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"December
+December",NA,16000,6/5/19 12:27,37614
+8f7653d451cf3a002900498bdf463d36,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""December"":0,""August"":1,""November"":0,""October"":0,""June"":1,""July"":0,""April"":1,""February"":0,""January"":0,""May"":0,""March"":1}",NA,5193,6/5/19 12:27,37615
+d1a0a583f6ea3f1795791b87b6991185,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""March"":1,""May"":1,""October"":1,""September"":1,""August"":1,""January"":0,""April"":0,""July"":0,""June"":0,""February"":0,""November"":0}",NA,6745,6/5/19 12:27,37616
+40a64ca0c8614b08012ef94fb31cdd9b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""December"":0,""September"":0,""November"":0,""August"":0,""May"":0,""July"":0,""April"":0,""June"":0,""January"":0,""March"":0,""October"":1}",NA,3127,6/5/19 12:27,37617
+7beae255fd7d34f1cbf5d3515d72128b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""April"":0,""May"":0,""November"":0,""August"":0,""January"":1,""March"":1,""September"":1,""July"":0,""October"":0,""December"":0,""June"":0}",NA,11892,6/5/19 12:27,37618
+31f6c007bacf045f9e15afeba6eb0962,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/5/19 12:27,37619
+4737d0a0370e126209d3236cea5ab66f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/5/19 12:27,37620
+bc98df1cc3c208a722f227fb2030f73a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/5/19 12:27,37621
+57991ae2bcfa59aeae01ce6bafa20a46,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:27,37622
+868e086ea21cd4014edb00736f7ba8f5,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"june
+",NA,16000,6/5/19 12:27,37623
+fc06126c3f63e296c7fde3e55383f9e6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"October
+October
+",NA,16000,6/5/19 12:27,37624
+98fcc8f28a7e7bf721ff80e639187d74,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:27,37625
+e03e48c647a10b80ffed5a89cc725039,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/5/19 12:27,37626
+a99c7c04bb86b1fea9635904e2e4ad46,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/5/19 12:27,37627
+a791e7402ed884837ee8216b9a3122c6,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""December"":0,""July"":0,""May"":0,""June"":0,""September"":0,""March"":1,""February"":0,""November"":1,""August"":1,""January"":0,""October"":1}",NA,27790,6/5/19 12:27,37628
+246ba2c4a1f0217e9fdc82459711e9c5,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/5/19 12:27,37629
+23fd6ac0a06a9f59d8fedd462b05e8cb,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,july,NA,16000,6/5/19 12:27,37630
+5dd9cc0ed2362365490f8186bc5ef95a,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/5/19 12:27,37631
+94a9cfb42f74b4de83d1fd3967c76ece,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""February"":1,""October"":1,""March"":0,""July"":0,""January"":0,""April"":0,""June"":0,""August"":0,""November"":1,""September"":1,""December"":0}",NA,2501,6/5/19 12:27,37632
+f764987cb7c15221b700808cd74b8a8e,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""November"":1,""February"":0,""September"":0,""March"":0,""August"":0,""October"":0,""June"":0,""May"":0,""April"":0,""January"":0,""July"":0}",NA,9223,6/5/19 12:27,37633
+91d0c857b88006fd8110c5eef2c0ecb2,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,april,NA,16000,6/5/19 12:27,37634
+e5d0301fef9cb79be515ad3cf0f51345,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""May"":0,""February"":1,""September"":0,""August"":1,""April"":0,""December"":1,""July"":0,""November"":1,""June"":1,""October"":1,""March"":0}",NA,13670,6/5/19 12:28,37635
+91aaee6c8f409274be7c423c16d719c3,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"december
+December",NA,16000,6/5/19 12:28,37636
+52d09e4fbcee55977d5d9b3dc1b536ae,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""September"":0,""August"":1,""February"":0,""December"":0,""October"":0,""May"":1,""June"":0,""April"":0,""November"":0,""January"":0,""March"":0}",NA,1589,6/5/19 12:28,37637
+93ab53f6f7fa915e1b3627d26a2aebf5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""September"":1,""March"":0,""May"":1,""February"":0,""November"":0,""June"":0,""July"":0,""January"":0,""December"":1,""April"":0,""August"":0}",NA,5857,6/5/19 12:28,37638
+1ff16cb968c4e69fb8a28a2d6393b7d8,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""July"":0,""March"":1,""November"":0,""September"":0,""May"":0,""December"":1,""August"":0,""October"":1,""April"":0,""June"":0,""February"":1}",NA,34030,6/5/19 12:28,37639
+f6377f957e2e3b1f18a66392fd98229f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""September"":0,""March"":1,""August"":0,""November"":0,""April"":0,""October"":0,""June"":1,""July"":1,""May"":1,""January"":0,""December"":0}",NA,7071,6/5/19 12:28,37640
+dd1e7f800c7b8525151b2a6835f52d7d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""September"":1,""May"":0,""January"":1,""July"":1,""August"":0,""December"":0,""February"":1,""March"":1,""November"":0,""April"":0,""October"":0}",NA,44093,6/5/19 12:28,37641
+a49b4b6bca93b2cebcfb5d8b380a1593,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 12:28,37642
+94415cb36fabaf6e95aa9d2b98fe8503,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""August"":0,""March"":0,""January"":0,""December"":0,""May"":0,""April"":1,""November"":0,""October"":0,""July"":0,""June"":0,""February"":1}",NA,8099,6/5/19 12:28,37643
+91f01d56e0ef3b5a99334a6c914ad292,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""April"":0,""October"":0,""June"":1,""September"":0,""July"":0,""March"":0,""August"":0,""December"":1,""February"":0,""November"":1,""May"":0}",NA,5581,6/5/19 12:28,37644
+d6e1e36a87df9fb3d16c7415438a7c53,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""October"":0,""April"":1,""May"":0,""January"":0,""December"":0,""July"":1,""August"":1,""September"":1,""March"":0,""February"":0,""June"":1}",NA,4933,6/5/19 12:28,37645
+e03e48c647a10b80ffed5a89cc725039,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""March"":0,""September"":1,""August"":0,""December"":0,""July"":0,""October"":0,""February"":1,""November"":0,""January"":1,""June"":1,""May"":0}",NA,3823,6/5/19 12:28,37646
+bc98df1cc3c208a722f227fb2030f73a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""September"":0,""December"":1,""August"":0,""June"":0,""July"":1,""October"":0,""February"":0,""November"":1,""March"":0,""April"":0,""January"":1}",NA,7007,6/5/19 12:28,37647
+31f6c007bacf045f9e15afeba6eb0962,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""April"":0,""July"":1,""October"":0,""November"":0,""September"":0,""May"":0,""January"":1,""March"":0,""August"":0,""June"":0,""February"":0}",NA,11096,6/5/19 12:28,37648
+a9c0956b473f3faeda6bbaf2cbac32a1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"june
+June
+June
+",NA,16000,6/5/19 12:28,37649
+fc06126c3f63e296c7fde3e55383f9e6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""December"":0,""June"":0,""May"":0,""August"":0,""January"":0,""July"":0,""September"":0,""October"":1,""April"":1,""November"":0,""February"":0}",NA,10127,6/5/19 12:28,37650
+23fd6ac0a06a9f59d8fedd462b05e8cb,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""February"":0,""May"":0,""November"":0,""September"":0,""March"":0,""June"":0,""October"":0,""December"":0,""April"":0,""July"":1,""January"":0}",NA,2090,6/5/19 12:28,37651
+0fdf4a969469fa3cede49637a1d740fe,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,may,NA,16000,6/5/19 12:28,37652
+3d361dcda58a848a3fceb2a596cc19a9,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/5/19 12:28,37653
+4737d0a0370e126209d3236cea5ab66f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""June"":0,""October"":0,""December"":0,""August"":1,""January"":0,""September"":1,""March"":1,""February"":0,""May"":0,""July"":0,""April"":1}",NA,15966,6/5/19 12:28,37654
+57991ae2bcfa59aeae01ce6bafa20a46,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""December"":1,""April"":1,""November"":0,""June"":0,""January"":0,""October"":0,""March"":1,""September"":1,""May"":0,""August"":0,""February"":0}",NA,18406,6/5/19 12:29,37655
+98fcc8f28a7e7bf721ff80e639187d74,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""July"":0,""September"":1,""February"":0,""May"":0,""October"":1,""December"":1,""August"":0,""November"":1,""January"":1,""March"":0,""June"":0}",NA,10138,6/5/19 12:29,37656
+f47ac7b9ea7e3f732912e21a5145a893,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/5/19 12:29,37657
+a99c7c04bb86b1fea9635904e2e4ad46,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""January"":1,""March"":0,""February"":0,""September"":1,""April"":0,""November"":0,""December"":0,""July"":0,""August"":0,""June"":0,""May"":0}",NA,8039,6/5/19 12:29,37658
+91d0c857b88006fd8110c5eef2c0ecb2,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""June"":0,""January"":0,""September"":1,""November"":0,""May"":0,""April"":1,""March"":0,""October"":1,""July"":0,""December"":0,""August"":0}",NA,5299,6/5/19 12:29,37659
+5dd9cc0ed2362365490f8186bc5ef95a,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""September"":1,""June"":1,""May"":1,""July"":1,""February"":1,""March"":1,""November"":0,""August"":0,""January"":0,""April"":0,""October"":0}",NA,5042,6/5/19 12:29,37660
+246ba2c4a1f0217e9fdc82459711e9c5,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""December"":0,""November"":0,""August"":0,""January"":0,""March"":0,""February"":0,""September"":1,""April"":0,""June"":1,""July"":1,""October"":0}",NA,9404,6/5/19 12:29,37661
+91aaee6c8f409274be7c423c16d719c3,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""August"":1,""April"":0,""February"":0,""September"":1,""March"":0,""November"":1,""October"":1,""July"":0,""June"":0,""December"":1,""May"":0}",NA,12689,6/5/19 12:29,37662
+a49b4b6bca93b2cebcfb5d8b380a1593,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""October"":0,""November"":1,""September"":0,""July"":0,""December"":0,""June"":1,""February"":0,""May"":1,""April"":0,""January"":0,""March"":1}",NA,7074,6/5/19 12:29,37663
+868e086ea21cd4014edb00736f7ba8f5,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""February"":1,""April"":1,""October"":1,""December"":1,""March"":1,""August"":1,""July"":1,""September"":1,""November"":1,""May"":1,""January"":1}",NA,79084,6/5/19 12:30,37664
+215eb97e51116b75271eba376b6a53dd,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""July"":1,""September"":1,""June"":0,""August"":0,""January"":1,""October"":1,""May"":0,""April"":1,""November"":0,""February"":0,""December"":0}",NA,23969,6/5/19 12:30,37665
+630e014f43a78adc1a292826f4d1c282,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/5/19 12:30,37666
+a9c0956b473f3faeda6bbaf2cbac32a1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""March"":0,""October"":0,""September"":0,""February"":0,""May"":1,""July"":0,""January"":1,""November"":1,""August"":0,""December"":0,""June"":1}",NA,7165,6/5/19 12:30,37667
+46069a952754aca388d18129bfd46f6d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,august,NA,16000,6/5/19 12:30,37668
+0fdf4a969469fa3cede49637a1d740fe,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""February"":0,""October"":1,""March"":1,""November"":0,""January"":0,""August"":0,""May"":1,""June"":0,""September"":0,""April"":1,""December"":0}",NA,3217,6/5/19 12:30,37669
+3d361dcda58a848a3fceb2a596cc19a9,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""October"":0,""March"":0,""September"":0,""December"":1,""February"":1,""April"":0,""January"":1,""May"":0,""August"":0,""July"":0,""June"":0}",NA,17708,6/5/19 12:30,37670
+e2e3c1bdf74456288aa1ea07bb54a373,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,december,NA,16000,6/5/19 12:30,37671
+46069a952754aca388d18129bfd46f6d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""February"":0,""August"":1,""June"":1,""December"":0,""November"":0,""October"":0,""July"":1,""March"":1,""September"":0,""May"":0,""January"":0}",NA,1837,6/5/19 12:31,37672
+630e014f43a78adc1a292826f4d1c282,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""September"":0,""November"":0,""October"":0,""July"":0,""December"":1,""May"":0,""January"":0,""March"":0,""August"":0,""April"":0,""June"":0}",NA,5014,6/5/19 12:31,37673
+472fb5f31b2df81628ada1f8fe2571bf,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,sepetemper,NA,16000,6/5/19 12:31,37674
+d70414c5cae8fef8bf26f8a44d784c1a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/5/19 12:31,37675
+4400595d835ddccb16ab358798e9de19,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:31,37676
+e2e3c1bdf74456288aa1ea07bb54a373,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""January"":1,""February"":0,""April"":0,""December"":1,""September"":0,""July"":0,""June"":0,""November"":1,""May"":0,""October"":0,""August"":1}",NA,1364,6/5/19 12:32,37677
+d045f7d79d679a001954320462d4ef40,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+July",NA,16000,6/5/19 12:32,37678
+83c0b73c9ab49fec14345a1c6b769ec0,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,february,NA,16000,6/5/19 12:32,37679
+fb86f63977a837056ec62ede6d509760,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/5/19 12:33,37680
+fc84b7cb1752179d2c236257cdd43442,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,Apri,NA,16000,6/5/19 12:33,37681
+63b7dceac5069e991565ad20b14b10df,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"December
+",NA,16000,6/5/19 12:33,37682
+d045f7d79d679a001954320462d4ef40,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""February"":0,""October"":0,""April"":0,""August"":0,""March"":0,""July"":1,""May"":0,""November"":1,""December"":1,""June"":0,""September"":1}",NA,10262,6/5/19 12:33,37683
+2bf983382a921ec7ac6e075966f6ad62,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/5/19 12:33,37684
+83c0b73c9ab49fec14345a1c6b769ec0,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""January"":0,""September"":1,""February"":1,""December"":0,""July"":0,""May"":0,""June"":0,""October"":0,""March"":0,""November"":0,""April"":0}",NA,7000,6/5/19 12:33,37685
+472fb5f31b2df81628ada1f8fe2571bf,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""November"":0,""June"":1,""December"":1,""October"":1,""April"":1,""September"":1,""August"":1,""March"":1,""January"":1,""February"":0,""May"":1}",NA,10165,6/5/19 12:33,37686
+4400595d835ddccb16ab358798e9de19,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""May"":0,""September"":0,""April"":0,""October"":0,""January"":1,""August"":0,""July"":0,""November"":0,""December"":1,""February"":0,""March"":0}",NA,24794,6/5/19 12:34,37687
+d70414c5cae8fef8bf26f8a44d784c1a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""October"":1,""August"":0,""September"":0,""March"":1,""February"":1,""April"":1,""May"":0,""December"":1,""July"":0,""January"":1,""November"":1}",NA,40434,6/5/19 12:34,37688
+2bf983382a921ec7ac6e075966f6ad62,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""August"":1,""July"":0,""November"":0,""January"":1,""September"":0,""October"":0,""February"":1,""April"":0,""May"":1,""December"":0,""June"":0}",NA,6587,6/5/19 12:34,37689
+0f1e0cfe66e80139b2fb27c4d8a033c7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/5/19 12:35,37690
+fb86f63977a837056ec62ede6d509760,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""August"":1,""February"":0,""September"":0,""January"":0,""April"":0,""November"":0,""May"":1,""June"":0,""October"":0,""March"":1,""July"":0}",NA,18014,6/5/19 12:35,37691
+4a1eefef6a78750d31e2d3b82ae5d5b4,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/5/19 12:35,37692
+fc84b7cb1752179d2c236257cdd43442,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""June"":0,""July"":0,""May"":0,""December"":1,""September"":1,""November"":0,""August"":1,""March"":0,""February"":0,""October"":0,""January"":1}",NA,49717,6/5/19 12:35,37693
+63b7dceac5069e991565ad20b14b10df,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""September"":0,""June"":0,""January"":0,""December"":1,""May"":0,""February"":0,""November"":0,""March"":1,""April"":1,""July"":1,""August"":0}",NA,14700,6/5/19 12:35,37694
+1b25bcc0850d7e29cd083df666caba90,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,august,NA,16000,6/5/19 12:35,37695
+0f1e0cfe66e80139b2fb27c4d8a033c7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""January"":1,""November"":1,""October"":0,""April"":0,""May"":0,""March"":0,""August"":0,""July"":0,""June"":0,""February"":0,""September"":1}",NA,5400,6/5/19 12:36,37696
+4a1eefef6a78750d31e2d3b82ae5d5b4,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":1,""March"":0,""April"":0,""May"":1,""July"":0,""June"":0,""November"":0,""December"":1,""September"":1,""October"":0,""February"":0,""January"":0}",NA,2208,6/5/19 12:36,37697
+1b25bcc0850d7e29cd083df666caba90,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""October"":0,""February"":0,""July"":0,""April"":0,""March"":0,""November"":0,""September"":1,""June"":0,""December"":0,""August"":1,""May"":0}",NA,6622,6/5/19 12:37,37698
+6c257614e0575f9ef8e3d5af08f936dc,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,february,NA,16000,6/5/19 12:37,37699
+4465f4e68db22c6c197bdbdc3106efab,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"October
+",NA,16000,6/5/19 12:37,37700
+cba645e780f3a5f9d3e13b31ace1df49,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/5/19 12:38,37701
+51791129ed2d04824576b6e46ba9d305,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"April
+April",NA,16000,6/5/19 12:38,37702
+6c257614e0575f9ef8e3d5af08f936dc,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""April"":1,""December"":0,""November"":0,""May"":1,""June"":1,""October"":0,""February"":1,""July"":0,""September"":0,""March"":1,""August"":1}",NA,2193,6/5/19 12:38,37703
+4465f4e68db22c6c197bdbdc3106efab,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""March"":0,""November"":0,""July"":0,""June"":0,""September"":0,""August"":0,""October"":1,""May"":0,""January"":0,""December"":0,""April"":0}",NA,7639,6/5/19 12:39,37704
+73e424d79e3ca8f7d3cc8c8244d30878,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:39,37705
+cba645e780f3a5f9d3e13b31ace1df49,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""October"":1,""June"":0,""November"":0,""May"":0,""July"":1,""February"":0,""April"":1,""September"":1,""December"":0,""January"":0,""August"":0}",NA,10517,6/5/19 12:39,37706
+67a2ed4482769f5bf004855e2df4fdfe,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+",NA,16000,6/5/19 12:39,37707
+f47ac7b9ea7e3f732912e21a5145a893,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/5/19 12:39,37708
+73e424d79e3ca8f7d3cc8c8244d30878,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""November"":1,""July"":1,""February"":0,""January"":0,""December"":1,""April"":1,""May"":1,""October"":0,""June"":1,""September"":0,""March"":1}",NA,4928,6/5/19 12:40,37709
+9a0f02d5e86c67100757cfe642009fd0,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,october,NA,16000,6/5/19 12:40,37710
+51791129ed2d04824576b6e46ba9d305,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""January"":0,""November"":1,""May"":0,""December"":0,""March"":0,""February"":0,""October"":0,""June"":0,""September"":0,""April"":1,""July"":0}",NA,26862,6/5/19 12:40,37711
+f47ac7b9ea7e3f732912e21a5145a893,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""April"":0,""October"":1,""December"":0,""September"":1,""March"":0,""May"":0,""August"":0,""July"":0,""November"":1,""June"":1,""January"":0}",NA,10112,6/5/19 12:40,37712
+c83ecae9801a2297a2055bc7c9658b32,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/5/19 12:41,37713
+99b977df227b9a61fa9cf7e45403e6f3,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"july
+",NA,16000,6/5/19 12:41,37714
+67a2ed4482769f5bf004855e2df4fdfe,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""October"":1,""December"":0,""July"":1,""March"":0,""May"":0,""November"":0,""April"":1,""September"":1,""August"":1,""June"":0,""January"":0}",NA,41102,6/5/19 12:41,37715
+9a0f02d5e86c67100757cfe642009fd0,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""January"":0,""June"":0,""September"":0,""August"":0,""November"":0,""July"":0,""October"":1,""February"":1,""April"":1,""March"":0,""May"":0}",NA,12837,6/5/19 12:42,37716
+99b977df227b9a61fa9cf7e45403e6f3,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""January"":0,""August"":0,""March"":0,""July"":1,""April"":1,""June"":1,""February"":0,""December"":0,""November"":1,""May"":1,""October"":1}",NA,4441,6/5/19 12:42,37717
+c83ecae9801a2297a2055bc7c9658b32,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""December"":0,""February"":1,""June"":0,""July"":1,""October"":0,""January"":0,""September"":1,""August"":0,""May"":0,""November"":0,""March"":1}",NA,7445,6/5/19 12:42,37718
+c92997d8fe5432ef48d4cb9d8f85d723,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 12:44,37719
+309f6e1d804402f9b7fa111a58cd3ce7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/5/19 12:44,37720
+d0ccce9461ccc76063a9369e11f4dd75,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0," december\
+december
+",NA,16000,6/5/19 12:45,37721
+309f6e1d804402f9b7fa111a58cd3ce7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""January"":1,""May"":1,""February"":0,""October"":0,""July"":1,""August"":1,""March"":1,""April"":1,""September"":1,""June"":1,""December"":1}",NA,3988,6/5/19 12:45,37722
+c92997d8fe5432ef48d4cb9d8f85d723,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""February"":1,""April"":0,""August"":0,""June"":1,""May"":0,""December"":1,""September"":0,""November"":0,""March"":1,""January"":0,""October"":0}",NA,13261,6/5/19 12:45,37723
+d0ccce9461ccc76063a9369e11f4dd75,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""March"":0,""September"":0,""October"":0,""May"":0,""August"":0,""July"":0,""December"":1,""June"":0,""February"":0,""November"":0,""January"":0}",NA,6693,6/5/19 12:46,37724
+09cf9580dec49b077ee9770a88e8df41,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"
+November",NA,16000,6/5/19 12:46,37725
+92edcfba76dd985512df9f92c050d52e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,december,NA,16000,6/5/19 12:46,37726
+09cf9580dec49b077ee9770a88e8df41,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""June"":0,""August"":0,""March"":0,""October"":0,""December"":0,""April"":0,""September"":0,""January"":0,""May"":0,""February"":0,""November"":1}",NA,3508,6/5/19 12:47,37727
+92edcfba76dd985512df9f92c050d52e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""November"":1,""March"":0,""July"":0,""April"":0,""January"":0,""May"":0,""February"":0,""August"":0,""December"":1,""October"":1,""September"":1}",NA,7493,6/5/19 12:48,37728
+9096746f23519bd4ab0dabb1ac55e6ae,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/5/19 12:48,37729
+29422e4ea0bba9e443849ab80ee508e6,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/5/19 12:48,37730
+767b4ec80f793aec8fb8ccf297b115cd,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,,NA,16000,6/5/19 12:48,37731
+9096746f23519bd4ab0dabb1ac55e6ae,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""October"":0,""November"":0,""January"":1,""April"":1,""June"":1,""December"":1,""March"":0,""September"":0,""May"":0,""February"":0,""July"":1}",NA,12526,6/5/19 12:49,37732
+69586c7c19b9c41e1fb91a45c6ad9d1d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"December
+Decemb",NA,16000,6/5/19 12:50,37733
+29422e4ea0bba9e443849ab80ee508e6,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""February"":1,""September"":1,""March"":0,""July"":0,""December"":0,""April"":1,""May"":0,""January"":0,""June"":0,""November"":0,""August"":0}",NA,1794,6/5/19 12:50,37734
+767b4ec80f793aec8fb8ccf297b115cd,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""July"":1,""April"":1,""January"":1,""February"":0,""June"":1,""May"":0,""August"":0,""October"":0,""September"":1,""March"":0,""November"":1}",NA,13956,6/5/19 12:51,37735
+69586c7c19b9c41e1fb91a45c6ad9d1d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""June"":0,""October"":0,""December"":1,""September"":0,""August"":1,""February"":1,""November"":1,""March"":0,""April"":0,""May"":0,""July"":1}",NA,11106,6/5/19 12:51,37736
+5a5909e0a2d8675b951bb8574e967d62,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March
+March",NA,16000,6/5/19 12:54,37737
+c9a66f27e1ceced4bf6de7e003821e9d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/5/19 12:55,37738
+5a5909e0a2d8675b951bb8574e967d62,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""July"":0,""March"":1,""April"":0,""November"":0,""October"":1,""December"":0,""January"":0,""August"":0,""February"":0,""September"":0,""May"":1}",NA,7051,6/5/19 12:55,37739
+c9a66f27e1ceced4bf6de7e003821e9d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""July"":1,""February"":0,""June"":1,""December"":1,""October"":0,""April"":1,""November"":0,""January"":0,""May"":0,""August"":1,""March"":1}",NA,8019,6/5/19 12:56,37740
+b936fcf77fd93c1aaeb4df5af494744a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/5/19 12:58,37741
+63808be1c63fd7efa2d45a5cb4af1842,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/5/19 12:58,37742
+4c220e287216a2caa8016945b120d1fc,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+",NA,16000,6/5/19 12:58,37743
+4c220e287216a2caa8016945b120d1fc,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""November"":0,""April"":1,""October"":0,""December"":0,""February"":1,""July"":1,""June"":1,""January"":1,""September"":0,""August"":0,""May"":0}",NA,1869,6/5/19 12:59,37744
+b936fcf77fd93c1aaeb4df5af494744a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""June"":1,""July"":0,""April"":1,""February"":1,""May"":0,""August"":1,""December"":0,""March"":0,""October"":0,""January"":1,""September"":1}",NA,1522,6/5/19 12:59,37745
+63808be1c63fd7efa2d45a5cb4af1842,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""June"":0,""September"":1,""March"":0,""April"":1,""May"":0,""July"":1,""February"":0,""August"":1,""November"":1,""December"":0,""October"":1}",NA,6009,6/5/19 12:59,37746
+0a518354f325545f8c4d87140d258cb0,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"november
+november",NA,16000,6/5/19 13:00,37747
+0a518354f325545f8c4d87140d258cb0,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""September"":0,""March"":0,""May"":0,""October"":0,""August"":0,""February"":0,""January"":0,""July"":0,""June"":0,""April"":0,""December"":1}",NA,2100,6/5/19 13:01,37748
+9f9274320ba2d44ea4cd6f1756889743,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,december,NA,16000,6/5/19 13:01,37749
+5ac7fbfeee301665ee291cb2d9b2efb5,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+",NA,16000,6/5/19 13:02,37750
+000547a3988cbabc201f1ba00cedf11f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,october,NA,16000,6/5/19 13:03,37751
+9f9274320ba2d44ea4cd6f1756889743,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""August"":0,""May"":0,""February"":0,""March"":0,""October"":0,""July"":0,""September"":0,""January"":0,""June"":0,""November"":0,""April"":1}",NA,23804,6/5/19 13:03,37752
+3dd3d0658ef341267313d8148e62bc6c,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"may
+may
+august
+april
+june
+july
+",NA,16000,6/5/19 13:03,37753
+5ac7fbfeee301665ee291cb2d9b2efb5,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""December"":0,""July"":0,""November"":0,""August"":0,""February"":1,""May"":0,""March"":0,""October"":1,""April"":1,""June"":0,""January"":1}",NA,4539,6/5/19 13:04,37754
+3dd3d0658ef341267313d8148e62bc6c,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""June"":1,""July"":0,""April"":0,""October"":0,""November"":0,""March"":1,""January"":0,""September"":0,""August"":0,""May"":0,""February"":0}",NA,9945,6/5/19 13:04,37755
+000547a3988cbabc201f1ba00cedf11f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""October"":1,""March"":1,""February"":0,""January"":0,""November"":0,""July"":1,""December"":0,""August"":0,""April"":0,""September"":0,""May"":1}",NA,11528,6/5/19 13:05,37756
+17b37fdead24940016a88b52252fcde2,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/5/19 13:06,37757
+17b37fdead24940016a88b52252fcde2,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""November"":0,""August"":0,""October"":1,""April"":0,""September"":0,""July"":0,""February"":0,""January"":0,""March"":1,""June"":1,""May"":1}",NA,2993,6/5/19 13:07,37758
+0efd4dc2a0e5ee86a967067fe9ef9545,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/5/19 13:08,37759
+0efd4dc2a0e5ee86a967067fe9ef9545,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""December"":0,""March"":1,""February"":1,""October"":1,""January"":0,""June"":1,""May"":0,""August"":1,""April"":0,""November"":1,""September"":0}",NA,4816,6/5/19 13:09,37760
+8e14befbeffb3248062e95aefa00982b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"June
+june",NA,16000,6/5/19 13:10,37761
+8e14befbeffb3248062e95aefa00982b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""July"":0,""November"":0,""December"":0,""February"":0,""September"":0,""October"":0,""April"":0,""August"":0,""January"":0,""May"":0,""June"":1}",NA,2572,6/5/19 13:11,37762
+ad51aec9577bfe5d79331e2401fd7f4d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/5/19 13:13,37763
+ad51aec9577bfe5d79331e2401fd7f4d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""October"":0,""February"":0,""December"":0,""March"":0,""September"":1,""July"":0,""April"":0,""August"":0,""January"":1,""November"":0,""May"":0}",NA,3811,6/5/19 13:14,37764
+04b157ee2bd0e26eaa3b97eddf4e22c2,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/5/19 13:14,37765
+04b157ee2bd0e26eaa3b97eddf4e22c2,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""February"":0,""August"":0,""May"":1,""December"":0,""March"":1,""January"":0,""October"":1,""July"":1,""April"":1,""September"":0,""November"":0}",NA,6345,6/5/19 13:16,37766
+c0c39a555a9d772b85aff12a195872a6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,,NA,16000,6/5/19 13:19,37767
+c0c39a555a9d772b85aff12a195872a6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""December"":1,""October"":1,""February"":1,""August"":1,""June"":1,""January"":1,""September"":1,""April"":1,""November"":1,""March"":1,""May"":1}",NA,36403,6/5/19 13:21,37768
+87fb85e89d2b87e37dc90d0bf2159a9c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 13:22,37769
+87fb85e89d2b87e37dc90d0bf2159a9c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""March"":0,""February"":0,""July"":1,""April"":0,""June"":0,""December"":1,""August"":0,""October"":0,""January"":1,""September"":0,""May"":0}",NA,25651,6/5/19 13:23,37770
+2a13a769e237299d2cd7ac70ee2756df,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"december
+december",NA,16000,6/5/19 13:25,37771
+2a13a769e237299d2cd7ac70ee2756df,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""December"":1,""September"":0,""October"":0,""June"":0,""February"":1,""May"":0,""July"":0,""January"":1,""August"":0,""March"":0,""April"":0}",NA,4985,6/5/19 13:26,37772
+2c598a59c17d2898b881c63e3139696c,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"november
+",NA,16000,6/5/19 13:30,37773
+2c598a59c17d2898b881c63e3139696c,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""July"":0,""September"":0,""March"":0,""January"":0,""June"":0,""February"":0,""October"":1,""April"":0,""December"":0,""August"":1,""May"":0}",NA,2111,6/5/19 13:31,37774
+0512c35574cf0fe0e6bf4b1816dc4665,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 13:33,37775
+62590a064e5170287badcb55ef4927d4,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,MAY,NA,16000,6/5/19 13:33,37776
+62590a064e5170287badcb55ef4927d4,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""May"":1,""September"":1,""June"":0,""March"":0,""April"":0,""November"":0,""January"":0,""July"":0,""October"":0,""December"":0,""August"":1}",NA,5989,6/5/19 13:35,37777
+59deac343ea2a9d128767aaefccceee4,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/5/19 13:36,37778
+59deac343ea2a9d128767aaefccceee4,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""May"":1,""January"":0,""July"":1,""September"":0,""April"":1,""December"":0,""October"":0,""November"":0,""February"":0,""June"":1,""March"":0}",NA,6364,6/5/19 13:37,37779
+0512c35574cf0fe0e6bf4b1816dc4665,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""November"":0,""August"":1,""February"":0,""June"":1,""May"":0,""October"":0,""December"":1,""September"":1,""March"":1,""April"":0,""July"":0}",NA,149516,6/5/19 13:37,37780
+94346235f869f8be826c8261bc17a024,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/5/19 13:37,37781
+94346235f869f8be826c8261bc17a024,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""June"":0,""August"":0,""September"":0,""January"":0,""October"":0,""March"":0,""February"":1,""April"":0,""May"":0,""November"":0,""July"":0}",NA,3369,6/5/19 13:38,37782
+2ff53f85b0cabba06e4e046151911f8e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/5/19 13:40,37783
+5fc63d1fbaf03cf3340c1b05a0678e10,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 13:40,37784
+5fc63d1fbaf03cf3340c1b05a0678e10,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""March"":0,""October"":0,""April"":0,""February"":1,""July"":0,""June"":0,""November"":0,""September"":1,""August"":0,""December"":1,""January"":0}",NA,1861,6/5/19 13:41,37785
+feb6494ce5ca78d031449466d5a65e86,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/5/19 13:41,37786
+2ff53f85b0cabba06e4e046151911f8e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""September"":1,""June"":0,""March"":0,""July"":0,""February"":1,""May"":0,""December"":1,""April"":0,""October"":0,""August"":0,""November"":0}",NA,22372,6/5/19 13:41,37787
+b0fe66a203b64dfaa5219940dad226e4,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"November
+November",NA,16000,6/5/19 13:41,37788
+842835d00356cefce4c856db0c859733,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/5/19 13:42,37789
+feb6494ce5ca78d031449466d5a65e86,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""July"":0,""June"":0,""April"":1,""October"":0,""December"":1,""January"":0,""August"":1,""March"":0,""May"":1,""September"":0,""November"":0}",NA,5003,6/5/19 13:42,37790
+b0fe66a203b64dfaa5219940dad226e4,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""February"":0,""August"":0,""July"":0,""December"":0,""October"":0,""September"":0,""May"":0,""April"":1,""June"":0,""January"":0,""March"":0}",NA,23477,6/5/19 13:43,37791
+22a7d158badad91f5e1366d10f2a92b9,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,5www,NA,16000,6/5/19 13:43,37792
+842835d00356cefce4c856db0c859733,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""August"":1,""May"":0,""January"":0,""December"":0,""April"":1,""June"":1,""March"":0,""July"":0,""November"":0,""October"":0,""February"":1}",NA,6906,6/5/19 13:43,37793
+22a7d158badad91f5e1366d10f2a92b9,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""September"":0,""January"":1,""February"":1,""November"":1,""July"":1,""June"":1,""December"":1,""October"":1,""August"":1,""April"":1,""May"":1}",NA,10344,6/5/19 13:44,37794
+d047620767295e52b451b9d138af0ed8,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/5/19 13:45,37795
+d047620767295e52b451b9d138af0ed8,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""May"":0,""July"":1,""December"":0,""March"":1,""January"":0,""February"":0,""April"":0,""August"":1,""June"":1,""September"":0,""November"":1}",NA,17900,6/5/19 13:47,37796
+4c28d82b2c1f67f930823dc5db4337ac,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+JU",NA,16000,6/5/19 13:53,37797
+e5f9dc7ef4e232d7fb6f2cb2827b744a,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/5/19 13:54,37798
+e5f9dc7ef4e232d7fb6f2cb2827b744a,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""August"":1,""May"":1,""June"":1,""April"":1,""October"":0,""February"":0,""December"":0,""July"":1,""November"":0,""January"":0,""September"":1}",NA,11252,6/5/19 13:55,37799
+90e4387d38cf2d202dcd107799116027,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"december
+de",NA,16000,6/5/19 13:56,37800
+4c28d82b2c1f67f930823dc5db4337ac,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""February"":1,""August"":1,""September"":0,""October"":0,""June"":1,""July"":1,""January"":0,""April"":0,""May"":1,""November"":0,""March"":0}",NA,50712,6/5/19 13:56,37801
+5c9cfc553ee7c73646fade4630a1e873,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"5
+
+5",NA,16000,6/5/19 13:57,37802
+90e4387d38cf2d202dcd107799116027,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""July"":0,""March"":1,""May"":0,""January"":0,""September"":0,""June"":0,""October"":0,""February"":0,""August"":0,""December"":1,""November"":0}",NA,8666,6/5/19 13:57,37803
+5c9cfc553ee7c73646fade4630a1e873,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""December"":1,""May"":1,""April"":1,""February"":1,""August"":1,""January"":1,""October"":1,""March"":1,""November"":1,""July"":1,""June"":1}",NA,12388,6/5/19 13:59,37804
+3b462e7a5f3459b379d5e994d6417c5e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/5/19 14:00,37805
+3b462e7a5f3459b379d5e994d6417c5e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""November"":0,""December"":0,""October"":1,""February"":0,""January"":0,""September"":1,""April"":0,""May"":0,""March"":0,""June"":0,""July"":0}",NA,2211,6/5/19 14:01,37806
+1f6ae04d88f06ffdffc544c4768b4566,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/5/19 14:11,37807
+1f6ae04d88f06ffdffc544c4768b4566,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""November"":0,""February"":1,""June"":0,""September"":0,""December"":1,""October"":1,""January"":1,""August"":0,""March"":0,""July"":0,""May"":1}",NA,66126,6/5/19 14:13,37808
+1ea58f2da567c26abbadfd5e7e1dd1a1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"april
+a",NA,16000,6/5/19 14:18,37809
+1ea58f2da567c26abbadfd5e7e1dd1a1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""September"":0,""May"":1,""March"":1,""April"":1,""December"":0,""August"":0,""July"":0,""February"":0,""June"":0,""January"":0,""November"":0}",NA,4955,6/5/19 14:19,37810
+6fc6baaaf4dcd9a93af0354ddf2fb11c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/5/19 14:46,37811
+6fc6baaaf4dcd9a93af0354ddf2fb11c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""October"":0,""February"":1,""August"":0,""November"":0,""September"":1,""March"":1,""May"":1,""April"":0,""December"":0,""June"":1,""July"":1}",NA,8449,6/5/19 14:48,37812
+0a81efea470ba619e3be262fd5aca95f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 15:39,38846
+0a81efea470ba619e3be262fd5aca95f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""December"":0,""March"":0,""August"":1,""October"":0,""November"":1,""May"":0,""June"":0,""September"":0,""February"":0,""January"":0,""April"":0}",NA,6417,6/12/20 15:40,38852
+234a9f54bf4f26b1f34e00e5597dace1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 15:40,38853
+2516c9c84d7da60ae684a1cbb37687c3,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 15:40,38854
+4c6411716d64111506fc5b7516a71b2b,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 15:41,38863
+71302237747d87d753ba4cb38ac63133,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 15:41,38864
+2516c9c84d7da60ae684a1cbb37687c3,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""August"":0,""January"":0,""December"":1,""July"":0,""October"":1,""February"":1,""June"":0,""March"":0,""May"":0,""November"":1,""September"":1}",NA,1914,6/12/20 15:41,38866
+6f4bff1b93d4b3ecf7cc1626583b65f5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 15:41,38867
+c584e66b3e1b13f31425d11d511a1728,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 15:41,38870
+e8812acb7d2b62cacc3989e4ce458d54,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"February
+February",NA,16000,6/12/20 15:42,38877
+6d2f522b3fc3a9b174990705c480d0aa,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 15:42,38878
+34c9efb610984984b1b3449d1902ca6d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 15:42,38882
+234a9f54bf4f26b1f34e00e5597dace1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""May"":1,""April"":1,""December"":0,""August"":0,""January"":0,""July"":0,""November"":0,""September"":0,""February"":1,""March"":0,""June"":0}",NA,12920,6/12/20 15:42,38883
+4c6411716d64111506fc5b7516a71b2b,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""December"":1,""January"":1,""August"":0,""June"":0,""July"":0,""May"":1,""October"":1,""September"":1,""February"":1,""April"":1,""March"":1}",NA,6393,6/12/20 15:42,38884
+71302237747d87d753ba4cb38ac63133,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""March"":1,""July"":0,""February"":1,""April"":0,""September"":0,""May"":0,""June"":1,""November"":0,""October"":0,""January"":1,""December"":0}",NA,5686,6/12/20 15:42,38885
+3bab342a789475e47fbf5e5b7605b985,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"June
+june
+",NA,16000,6/12/20 15:42,38886
+c584e66b3e1b13f31425d11d511a1728,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""February"":0,""January"":0,""November"":0,""March"":0,""December"":0,""April"":0,""July"":0,""August"":0,""May"":1,""June"":0,""October"":0}",NA,3617,6/12/20 15:42,38888
+a22e60013f26f433df9a1c7a8c5c892b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 15:42,38889
+6f4bff1b93d4b3ecf7cc1626583b65f5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""April"":1,""December"":0,""July"":0,""September"":0,""March"":0,""August"":1,""February"":0,""October"":1,""June"":0,""May"":0,""November"":0}",NA,5044,6/12/20 15:42,38890
+6d2f522b3fc3a9b174990705c480d0aa,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""November"":0,""December"":0,""October"":0,""July"":1,""April"":0,""March"":1,""May"":0,""January"":0,""June"":1,""February"":0,""August"":0}",NA,2699,6/12/20 15:43,38892
+c2497c4bdb90b868697bc4a149466f42,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"November
+November",NA,16000,6/12/20 15:43,38893
+458d3ac0a4fce79b13e26714a12d242d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 15:43,38895
+e8812acb7d2b62cacc3989e4ce458d54,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""March"":0,""January"":0,""June"":0,""May"":0,""September"":0,""November"":1,""December"":0,""August"":0,""April"":0,""July"":1,""February"":1}",NA,5442,6/12/20 15:43,38902
+2d38dcedd3a057b4d70fed057e33eff3,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 15:44,38905
+34c9efb610984984b1b3449d1902ca6d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""January"":0,""March"":1,""September"":0,""April"":0,""July"":0,""October"":1,""November"":1,""February"":0,""May"":1,""June"":0,""December"":0}",NA,5870,6/12/20 15:44,38907
+3bab342a789475e47fbf5e5b7605b985,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""August"":0,""July"":0,""September"":0,""February"":0,""November"":0,""May"":0,""March"":0,""April"":0,""December"":0,""June"":1,""October"":0}",NA,5343,6/12/20 15:44,38908
+c2497c4bdb90b868697bc4a149466f42,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""March"":0,""January"":0,""December"":0,""October"":1,""August"":1,""May"":1,""September"":0,""June"":0,""February"":0,""April"":0,""November"":1}",NA,8258,6/12/20 15:44,38909
+b220ac16b950c33ce1cc2509c7e661c4,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/12/20 15:44,38911
+458d3ac0a4fce79b13e26714a12d242d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""January"":0,""July"":0,""April"":0,""May"":0,""October"":0,""November"":1,""February"":0,""August"":1,""June"":0,""March"":0,""December"":1}",NA,7815,6/12/20 15:44,38912
+3b4ee2ca4035110ffac3b91e5d079b45,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 15:44,38913
+bb4e2a9eba22bc99059f9f18e0cf70a1,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"3
+",NA,16000,6/12/20 15:44,38915
+2d38dcedd3a057b4d70fed057e33eff3,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""December"":1,""February"":0,""July"":1,""November"":0,""June"":1,""April"":0,""January"":0,""September"":0,""May"":1,""March"":0,""August"":0}",NA,1407,6/12/20 15:45,38920
+a22e60013f26f433df9a1c7a8c5c892b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""December"":1,""April"":0,""October"":1,""June"":1,""May"":0,""July"":1,""September"":1,""January"":1,""November"":1,""February"":1,""March"":0}",NA,49267,6/12/20 15:45,38922
+b220ac16b950c33ce1cc2509c7e661c4,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""May"":0,""March"":1,""February"":0,""April"":0,""December"":1,""June"":0,""July"":0,""September"":0,""October"":1,""January"":1,""August"":0}",NA,2003,6/12/20 15:45,38928
+3b4ee2ca4035110ffac3b91e5d079b45,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""March"":1,""May"":0,""January"":1,""September"":0,""October"":1,""February"":1,""November"":0,""August"":0,""June"":0,""July"":0,""December"":0}",NA,7219,6/12/20 15:45,38932
+3cadd1d7e4c9e2554f0ff2d3cac7d5c6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 15:46,38935
+c9500142dbb5c2032510a2b09057c5ea,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 15:46,38938
+da2129e8fbb30421087f1d0a457be3a6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:46,38939
+d72e3fb73f1fba64d36f85f205f3ecc6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 15:46,38941
+175f3bca0ced17ff3e2835be57fb69fe,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 15:46,38943
+bb4e2a9eba22bc99059f9f18e0cf70a1,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""September"":1,""April"":1,""March"":1,""June"":1,""August"":1,""January"":1,""July"":1,""November"":1,""December"":1,""October"":1,""May"":1}",NA,8503,6/12/20 15:46,38947
+e5115439de4f21b0e58cd31780ecda4d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:46,38949
+41605d40e536f8d55c68ce0175332d4b,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,august,NA,16000,6/12/20 15:46,38951
+6a1ae46b5c2c35289ea4cf2fdda3a6ab,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 15:47,38955
+f0c1493418ecee5983b66fc91480209c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 15:47,38956
+d740079e1a3a61329e3dd4f525d4f6e0,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"December
+December",NA,16000,6/12/20 15:47,38957
+88ea1637a62be027834ab862ed407f5f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,Febuary,NA,16000,6/12/20 15:47,38958
+046baa11a475c8f3b4462c45885ae791,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 15:47,38959
+3cadd1d7e4c9e2554f0ff2d3cac7d5c6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""January"":0,""September"":0,""December"":0,""November"":0,""July"":1,""February"":0,""August"":0,""April"":1,""March"":0,""May"":0,""October"":1}",NA,8245,6/12/20 15:47,38963
+3e9291d52ac318dff33edee7bddbd995,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+",NA,16000,6/12/20 15:47,38965
+8f8b6615633920afd6e24a63883b3487,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:47,38966
+da2129e8fbb30421087f1d0a457be3a6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""September"":1,""May"":1,""February"":0,""January"":0,""August"":1,""April"":1,""July"":1,""November"":0,""March"":0,""June"":1,""October"":0}",NA,3827,6/12/20 15:47,38967
+153002687bc5cd4dc41edd0718ef22b3,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"september
+",NA,16000,6/12/20 15:47,38969
+f111fd3fc2869179b8d01167524d72ac,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 15:47,38971
+3a5b3748d5b23ae78ff26e26dfbd857e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,,NA,16000,6/12/20 15:47,38972
+e5115439de4f21b0e58cd31780ecda4d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""December"":0,""October"":0,""November"":1,""March"":0,""April"":0,""February"":0,""January"":1,""July"":0,""August"":0,""May"":0,""September"":0}",NA,3309,6/12/20 15:47,38974
+895654f4c118f44d35c201a6d355e0f8,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"
+August",NA,16000,6/12/20 15:47,38976
+cdfccfe9e11da9b9e3d3445776b680b1,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,7,NA,16000,6/12/20 15:48,38979
+c9500142dbb5c2032510a2b09057c5ea,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""February"":1,""January"":0,""March"":1,""April"":1,""September"":1,""October"":0,""November"":0,""July"":0,""August"":1,""June"":1,""May"":0}",NA,13628,6/12/20 15:48,38981
+d740079e1a3a61329e3dd4f525d4f6e0,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""June"":0,""March"":1,""January"":0,""May"":1,""August"":0,""November"":0,""October"":0,""February"":1,""September"":0,""April"":0,""July"":0}",NA,3118,6/12/20 15:48,38982
+175f3bca0ced17ff3e2835be57fb69fe,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""October"":0,""March"":0,""June"":0,""May"":1,""November"":1,""July"":1,""January"":0,""December"":0,""August"":0,""February"":0,""April"":0}",NA,28212,6/12/20 15:48,38983
+41605d40e536f8d55c68ce0175332d4b,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""October"":1,""November"":0,""December"":0,""May"":0,""March"":0,""February"":1,""September"":0,""June"":0,""August"":1,""January"":1,""July"":0}",NA,7822,6/12/20 15:48,38985
+d72e3fb73f1fba64d36f85f205f3ecc6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""October"":0,""September"":1,""August"":0,""February"":1,""April"":0,""November"":1,""January"":0,""March"":1,""June"":0,""May"":0,""December"":0}",NA,5820,6/12/20 15:48,38986
+19f1e609369bc5f1f4fe144dcee94eb6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,may,NA,16000,6/12/20 15:48,38990
+b6d51f5c569480fd03024dbe5efa3f1c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:48,38992
+d2c042543e5262966d6046ac3311fcdc,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"November
+November",NA,16000,6/12/20 15:48,38993
+88ea1637a62be027834ab862ed407f5f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""February"":1,""June"":0,""March"":0,""May"":0,""January"":0,""October"":0,""December"":0,""September"":1,""August"":0,""November"":0,""July"":0}",NA,8735,6/12/20 15:48,38995
+3e9291d52ac318dff33edee7bddbd995,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""July"":0,""September"":1,""April"":1,""June"":1,""May"":0,""January"":0,""August"":1,""March"":0,""November"":0,""December"":0,""February"":1}",NA,2748,6/12/20 15:48,38996
+046baa11a475c8f3b4462c45885ae791,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""February"":0,""August"":0,""April"":0,""December"":0,""September"":0,""June"":0,""May"":0,""March"":0,""January"":1,""October"":0,""November"":1}",NA,2949,6/12/20 15:48,38998
+0b0ac11e51a3b7733cff53e8f8036096,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 15:48,38999
+f0c1493418ecee5983b66fc91480209c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""July"":0,""May"":1,""February"":1,""November"":0,""June"":1,""September"":1,""August"":0,""October"":1,""April"":0,""January"":1,""March"":1}",NA,6397,6/12/20 15:48,39002
+58162695ac8a5e5b35640b4bef78ba44,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+",NA,16000,6/12/20 15:48,39003
+8f8b6615633920afd6e24a63883b3487,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""November"":1,""February"":1,""May"":1,""September"":0,""December"":0,""March"":0,""July"":1,""October"":0,""June"":0,""August"":1,""January"":0}",NA,3750,6/12/20 15:48,39005
+5a637d1ace346404596f011ac0b9b09f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 15:48,39006
+3a5b3748d5b23ae78ff26e26dfbd857e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""August"":1,""March"":1,""December"":1,""April"":1,""October"":0,""November"":1,""February"":0,""January"":1,""June"":1,""May"":1,""July"":1}",NA,11593,6/12/20 15:49,39010
+153002687bc5cd4dc41edd0718ef22b3,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""March"":0,""October"":0,""September"":1,""January"":0,""July"":1,""February"":0,""August"":1,""November"":0,""December"":1,""June"":0,""May"":1}",NA,5567,6/12/20 15:49,39011
+05a723cf4f209ba3793b91ee3733da0d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 15:49,39012
+895654f4c118f44d35c201a6d355e0f8,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""August"":1,""April"":0,""September"":0,""November"":0,""October"":0,""May"":0,""March"":0,""December"":0,""February"":0,""June"":0,""July"":0}",NA,10490,6/12/20 15:49,39014
+965e31ea65f1ae7fcf94a78bb57d36ff,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"June
+June",NA,16000,6/12/20 15:49,39015
+8d8bd5209bac7fc52797176e857b6b77,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"january
+",NA,16000,6/12/20 15:49,39016
+386e9b5b5f9776b8858cf1e0cd9044dd,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/12/20 15:49,39020
+2595d78bfc3c38d7a18074e36c60b109,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 15:49,39021
+d2c042543e5262966d6046ac3311fcdc,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""February"":1,""January"":1,""March"":0,""July"":0,""October"":1,""May"":0,""November"":1,""August"":0,""June"":0,""September"":1,""April"":0}",NA,4807,6/12/20 15:49,39022
+42122a244195b06b703f0c193c37f07f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 15:49,39025
+3b3dfb779d31be38f67f9f8db2af68f5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 15:49,39026
+acec92db556a8157c6c142dd95a3e611,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 15:49,39027
+38830b09037c506d0123874f24c0a6bc,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February ,NA,16000,6/12/20 15:49,39029
+f111fd3fc2869179b8d01167524d72ac,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""July"":0,""February"":0,""November"":0,""September"":1,""March"":0,""April"":0,""January"":0,""October"":0,""August"":0,""June"":0,""December"":0}",NA,21420,6/12/20 15:49,39032
+12843dc6d6cbd78bfbac7e57d03b8ed0,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 15:50,39034
+5a637d1ace346404596f011ac0b9b09f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""April"":1,""September"":0,""December"":0,""August"":0,""October"":0,""July"":1,""May"":1,""June"":1,""January"":0,""November"":0,""February"":1}",NA,6869,6/12/20 15:50,39036
+3f105eebf13f62455e2f723a14250c4d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 15:50,39037
+cdfccfe9e11da9b9e3d3445776b680b1,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""June"":0,""February"":1,""October"":0,""April"":0,""August"":0,""December"":0,""January"":0,""September"":0,""July"":1,""March"":0,""May"":0}",NA,9793,6/12/20 15:50,39041
+be3be5f982369e5686e899247a1f149a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 15:50,39042
+05a723cf4f209ba3793b91ee3733da0d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""March"":1,""April"":1,""August"":0,""February"":0,""July"":0,""June"":0,""October"":1,""September"":1,""November"":0,""December"":0,""May"":0}",NA,1344,6/12/20 15:50,39045
+0b0ac11e51a3b7733cff53e8f8036096,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""July"":0,""October"":0,""January"":0,""March"":0,""June"":0,""December"":0,""September"":0,""February"":0,""May"":0,""April"":1,""November"":0}",NA,5856,6/12/20 15:50,39046
+965e31ea65f1ae7fcf94a78bb57d36ff,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""December"":0,""May"":0,""October"":0,""February"":1,""March"":0,""September"":0,""January"":1,""November"":0,""April"":0,""August"":0,""July"":0}",NA,3607,6/12/20 15:50,39047
+58162695ac8a5e5b35640b4bef78ba44,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""July"":0,""February"":0,""May"":0,""December"":0,""October"":0,""September"":0,""April"":0,""August"":0,""March"":0,""November"":0,""January"":1}",NA,43988,6/12/20 15:50,39049
+a842b8acedfd87039424eff17ded9c54,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 15:50,39050
+b45b154fe94d899a8195b7a0f7641494,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 15:50,39051
+12843dc6d6cbd78bfbac7e57d03b8ed0,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""April"":1,""May"":0,""February"":0,""January"":0,""July"":0,""November"":0,""August"":0,""June"":1,""September"":0,""October"":0,""March"":0}",NA,5668,6/12/20 15:50,39054
+8d8bd5209bac7fc52797176e857b6b77,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""April"":1,""October"":1,""May"":1,""March"":1,""August"":0,""February"":1,""September"":0,""November"":1,""June"":0,""December"":0,""July"":0}",NA,5616,6/12/20 15:50,39055
+42122a244195b06b703f0c193c37f07f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""January"":0,""August"":1,""May"":0,""July"":1,""September"":0,""February"":0,""December"":1,""April"":0,""March"":0,""November"":0,""June"":0}",NA,3725,6/12/20 15:50,39058
+2595d78bfc3c38d7a18074e36c60b109,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""January"":0,""June"":0,""August"":0,""April"":0,""May"":0,""February"":0,""March"":0,""December"":0,""July"":0,""November"":0,""September"":1}",NA,3117,6/12/20 15:50,39059
+6a1ae46b5c2c35289ea4cf2fdda3a6ab,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""July"":1,""November"":0,""March"":0,""April"":1,""February"":0,""June"":0,""October"":1,""August"":0,""January"":1,""December"":1,""May"":0}",NA,153900,6/12/20 15:51,39062
+3f105eebf13f62455e2f723a14250c4d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""November"":0,""October"":0,""June"":1,""January"":1,""May"":1,""August"":0,""September"":0,""April"":1,""March"":0,""December"":0,""February"":0}",NA,2887,6/12/20 15:51,39063
+38830b09037c506d0123874f24c0a6bc,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""May"":0,""June"":0,""July"":0,""April"":0,""March"":0,""January"":1,""August"":1,""February"":1,""October"":0,""September"":1,""November"":0}",NA,8550,6/12/20 15:51,39064
+b6d51f5c569480fd03024dbe5efa3f1c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""March"":1,""July"":0,""November"":0,""October"":0,""June"":1,""February"":0,""August"":0,""December"":1,""September"":0,""May"":0,""April"":0}",NA,90085,6/12/20 15:51,39065
+109906d5e444f90c7e5436cbdc078d48,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:51,39067
+386e9b5b5f9776b8858cf1e0cd9044dd,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""October"":0,""June"":1,""December"":1,""February"":0,""May"":1,""September"":0,""March"":1,""July"":0,""November"":0,""January"":1,""April"":1}",NA,39482,6/12/20 15:51,39068
+566e5944dd45fb5430d1dc94ae6db993,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March",NA,16000,6/12/20 15:51,39069
+3b3dfb779d31be38f67f9f8db2af68f5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""June"":0,""May"":1,""July"":0,""January"":1,""September"":1,""April"":0,""December"":0,""November"":0,""February"":0,""October"":0,""August"":1}",NA,14276,6/12/20 15:51,39073
+a842b8acedfd87039424eff17ded9c54,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""March"":0,""April"":1,""January"":0,""October"":0,""May"":0,""September"":0,""February"":0,""November"":0,""August"":0,""July"":0,""December"":0}",NA,5271,6/12/20 15:51,39074
+be3be5f982369e5686e899247a1f149a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""March"":0,""April"":0,""February"":0,""December"":0,""November"":0,""January"":1,""July"":1,""May"":0,""August"":0,""October"":0,""June"":0}",NA,7991,6/12/20 15:52,39077
+19f1e609369bc5f1f4fe144dcee94eb6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""August"":0,""October"":0,""September"":1,""March"":0,""December"":1,""July"":0,""June"":1,""January"":1,""November"":0,""April"":0,""May"":1}",NA,12719,6/12/20 15:52,39079
+b45b154fe94d899a8195b7a0f7641494,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""September"":1,""August"":1,""January"":1,""March"":1,""February"":1,""April"":1,""November"":1,""October"":0,""June"":1,""July"":1,""December"":1}",NA,7730,6/12/20 15:52,39083
+acec92db556a8157c6c142dd95a3e611,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""August"":0,""January"":1,""February"":0,""May"":1,""October"":0,""March"":1,""April"":0,""July"":1,""June"":1,""December"":0,""September"":1}",NA,14756,6/12/20 15:52,39084
+566e5944dd45fb5430d1dc94ae6db993,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""July"":1,""May"":0,""March"":1,""February"":1,""December"":0,""November"":0,""June"":0,""January"":0,""October"":0,""April"":0,""September"":0}",NA,3768,6/12/20 15:52,39087
+109906d5e444f90c7e5436cbdc078d48,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""April"":0,""February"":0,""March"":0,""August"":0,""November"":0,""July"":0,""January"":0,""December"":0,""September"":0,""October"":0,""June"":1}",NA,7290,6/12/20 15:52,39088
+01322c4a051c79110eab86dd9f50f73e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"November
+novemb",NA,16000,6/12/20 15:52,39089
+e9d1699390cb2650a2cefae31a0ee53b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:52,39091
+306f9b9f76273695933f58e9288e7215,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 15:52,39094
+5ecaff6970737e1d5891c6c1eaed49c4,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 15:53,39101
+e9d1699390cb2650a2cefae31a0ee53b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""March"":0,""December"":0,""August"":0,""April"":0,""October"":0,""February"":0,""June"":1,""July"":0,""January"":0,""September"":0,""May"":0}",NA,4368,6/12/20 15:53,39104
+2bcb900e59d3fdb80036357e7e9a0d96,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"November
+November",NA,16000,6/12/20 15:53,39105
+928cfd4da0c3cdc2615ebcb6f651ae3f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 15:54,39108
+c767b4d7c4b05a2defb9a94cb81cad89,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/12/20 15:54,39109
+01322c4a051c79110eab86dd9f50f73e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""July"":0,""April"":0,""September"":0,""October"":0,""February"":0,""March"":0,""May"":0,""June"":0,""January"":0,""November"":1,""August"":0}",NA,6922,6/12/20 15:54,39111
+306f9b9f76273695933f58e9288e7215,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""June"":0,""February"":0,""November"":0,""December"":0,""October"":0,""July"":0,""January"":0,""April"":0,""August"":1,""May"":0,""March"":0}",NA,24927,6/12/20 15:54,39112
+2519be069b9ba0bee61f3b360c0493c1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 15:54,39114
+f7e2da04c74d751d5be9f2f295cca036,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:54,39115
+a43efe650947f0f67be0427ef3ec4f14,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 15:54,39117
+985280953b7f1558dc05658acae0cb8e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"november
+november",NA,16000,6/12/20 15:54,39118
+336caf1722b851748589341a5a12cb36,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,august,NA,16000,6/12/20 15:54,39122
+7f5dc708ef665bc59b48945aa08bd826,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 15:54,39123
+928cfd4da0c3cdc2615ebcb6f651ae3f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""August"":1,""March"":0,""February"":0,""October"":0,""July"":0,""November"":0,""June"":0,""April"":0,""September"":0,""May"":1,""December"":0}",NA,3597,6/12/20 15:54,39124
+5ecaff6970737e1d5891c6c1eaed49c4,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""July"":0,""November"":0,""April"":0,""May"":0,""December"":0,""June"":0,""February"":0,""January"":1,""September"":0,""August"":1,""October"":0}",NA,12716,6/12/20 15:55,39127
+a43efe650947f0f67be0427ef3ec4f14,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""June"":0,""November"":1,""October"":0,""April"":0,""May"":1,""January"":0,""July"":0,""August"":0,""December"":0,""March"":0,""September"":1}",NA,4461,6/12/20 15:55,39132
+aa9ef3ed72331457b7539a8a736c22b0,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,10,NA,16000,6/12/20 15:55,39133
+2bcb900e59d3fdb80036357e7e9a0d96,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""April"":0,""December"":1,""January"":1,""June"":0,""March"":0,""July"":1,""October"":1,""May"":0,""September"":1,""August"":1,""February"":0}",NA,23571,6/12/20 15:55,39134
+985280953b7f1558dc05658acae0cb8e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""November"":1,""February"":0,""August"":0,""July"":0,""January"":0,""June"":0,""May"":0,""December"":0,""September"":0,""October"":0,""March"":1}",NA,3897,6/12/20 15:56,39139
+ed8251c022b56aaf3fa1256031b1bb4b,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 15:56,39140
+c767b4d7c4b05a2defb9a94cb81cad89,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""December"":0,""September"":1,""June"":1,""January"":0,""July"":0,""May"":1,""August"":1,""March"":0,""October"":1,""November"":0,""February"":0}",NA,12851,6/12/20 15:56,39143
+2519be069b9ba0bee61f3b360c0493c1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""October"":1,""March"":1,""November"":1,""May"":1,""August"":1,""September"":0,""December"":0,""June"":1,""April"":1,""February"":0,""July"":1}",NA,8581,6/12/20 15:56,39145
+7f5dc708ef665bc59b48945aa08bd826,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""September"":1,""February"":1,""May"":1,""November"":1,""August"":1,""October"":1,""April"":1,""January"":1,""March"":1,""December"":1,""June"":0}",NA,12377,6/12/20 15:56,39146
+f7e2da04c74d751d5be9f2f295cca036,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""November"":1,""December"":1,""March"":1,""October"":1,""August"":1,""February"":1,""May"":1,""June"":1,""September"":1,""April"":1,""January"":1}",NA,24803,6/12/20 15:56,39149
+333a0ba3354150e83099fa3181f27f95,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/12/20 15:56,39152
+63d7413424e96240553a8885d715c430,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 15:56,39154
+8e3de4a1d58a044dd3f6fa3302a8b435,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 15:57,39158
+924e8a69c9db0cf578f3ed1484eb9d05,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"march
+",NA,16000,6/12/20 15:57,39159
+336caf1722b851748589341a5a12cb36,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""February"":1,""October"":1,""January"":1,""May"":0,""December"":0,""July"":1,""November"":1,""August"":1,""April"":0,""September"":1,""June"":1}",NA,8482,6/12/20 15:57,39162
+3ed255bdb9bfc5287a1a93b3276ab28e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 15:57,39163
+4b9116789264ec24cbb71cef5f421c38,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 15:57,39164
+2899f4e3f8d0fa87a0836221ab87b6f7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 15:57,39165
+63d7413424e96240553a8885d715c430,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""October"":0,""September"":0,""April"":0,""January"":0,""June"":0,""December"":0,""February"":0,""March"":1,""July"":0,""August"":0,""November"":1}",NA,4894,6/12/20 15:57,39166
+94a03a1971a6b430bf5e93bfa3b9a7f7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,may,NA,16000,6/12/20 15:57,39168
+a7c656e72055f2960c3231763aece54d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,4,NA,16000,6/12/20 15:57,39169
+99843792dd7181f222e487313b85d336,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"June
+June",NA,16000,6/12/20 15:58,39173
+b73ca00508f3ce1793b4ed916c54be1e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,july,NA,16000,6/12/20 15:58,39174
+973bbd6abac754e7a7441867658b988e,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 15:58,39175
+7e8522c1fab860e5137a36ddb5aaafed,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,may,NA,16000,6/12/20 15:58,39178
+8e3de4a1d58a044dd3f6fa3302a8b435,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""September"":0,""February"":1,""July"":1,""December"":0,""March"":1,""November"":0,""August"":0,""October"":1,""June"":0,""January"":0,""May"":0}",NA,2066,6/12/20 15:58,39179
+924e8a69c9db0cf578f3ed1484eb9d05,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""December"":0,""July"":1,""March"":1,""November"":0,""February"":1,""June"":1,""January"":1,""August"":0,""May"":0,""October"":1,""April"":1}",NA,3988,6/12/20 15:58,39180
+4b9116789264ec24cbb71cef5f421c38,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""January"":0,""February"":0,""May"":0,""June"":1,""April"":0,""July"":1,""November"":0,""September"":0,""August"":0,""December"":0,""October"":0}",NA,4971,6/12/20 15:58,39182
+333a0ba3354150e83099fa3181f27f95,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""September"":0,""February"":1,""May"":0,""October"":0,""April"":0,""November"":0,""June"":0,""January"":1,""March"":1,""July"":0,""August"":0}",NA,6429,6/12/20 15:58,39183
+6e1670ac0c6befec21ddd5e2eb00dbbd,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 15:58,39185
+3ed255bdb9bfc5287a1a93b3276ab28e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""March"":0,""July"":0,""May"":1,""April"":1,""February"":0,""December"":1,""September"":0,""June"":0,""November"":0,""October"":0,""January"":0}",NA,1989,6/12/20 15:58,39187
+7f1b67866db984743e0fff1b8c4a5d7a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 15:58,39188
+57b145af6bbb16e393e2ffad4d93d6ba,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,november,NA,16000,6/12/20 15:58,39191
+2899f4e3f8d0fa87a0836221ab87b6f7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""January"":0,""June"":0,""July"":0,""August"":0,""November"":0,""October"":0,""March"":0,""May"":0,""September"":0,""February"":1,""April"":0}",NA,3317,6/12/20 15:58,39192
+ed8251c022b56aaf3fa1256031b1bb4b,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""May"":1,""February"":1,""October"":0,""July"":0,""April"":1,""March"":1,""November"":0,""December"":1,""January"":1,""June"":0,""August"":0}",NA,25337,6/12/20 15:58,39193
+417b686a4e5a6dbd2540caa2565a3606,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,november,NA,16000,6/12/20 15:58,39194
+10e6a95289e6c6944fef620bd79cbb19,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 15:59,39197
+94a03a1971a6b430bf5e93bfa3b9a7f7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""December"":1,""October"":0,""August"":1,""April"":0,""May"":1,""February"":0,""March"":0,""January"":0,""November"":0,""June"":0,""September"":0}",NA,5231,6/12/20 15:59,39198
+973bbd6abac754e7a7441867658b988e,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""January"":0,""April"":0,""February"":0,""July"":0,""August"":0,""May"":0,""December"":0,""October"":0,""September"":0,""June"":0,""November"":0}",NA,5612,6/12/20 15:59,39199
+6e1670ac0c6befec21ddd5e2eb00dbbd,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""June"":1,""April"":0,""November"":0,""January"":0,""December"":0,""March"":0,""September"":0,""February"":0,""October"":0,""July"":1,""May"":0}",NA,3013,6/12/20 15:59,39200
+aa9ef3ed72331457b7539a8a736c22b0,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""January"":0,""July"":0,""May"":0,""October"":0,""August"":0,""March"":0,""February"":0,""December"":0,""September"":1,""June"":0,""November"":0}",NA,26764,6/12/20 15:59,39201
+72c35ad25dd70076cdf507919661f8ca,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 15:59,39203
+7e8522c1fab860e5137a36ddb5aaafed,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""January"":0,""December"":0,""July"":0,""October"":0,""August"":0,""May"":1,""February"":0,""April"":1,""March"":1,""September"":0,""November"":0}",NA,18173,6/12/20 15:59,39205
+99843792dd7181f222e487313b85d336,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""May"":0,""January"":1,""October"":0,""December"":0,""April"":1,""September"":0,""February"":0,""November"":0,""March"":0,""August"":0,""July"":1}",NA,28362,6/12/20 15:59,39208
+57b145af6bbb16e393e2ffad4d93d6ba,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""July"":1,""May"":0,""October"":0,""June"":0,""August"":1,""January"":0,""September"":0,""November"":1,""March"":0,""February"":0,""April"":0}",NA,8392,6/12/20 15:59,39209
+0f314c9d966a6bc3a70c9ffaa9d4dc93,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"April
+April",NA,16000,6/12/20 16:00,39213
+7f1b67866db984743e0fff1b8c4a5d7a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""January"":1,""May"":1,""November"":1,""September"":1,""October"":1,""August"":1,""July"":1,""June"":1,""December"":1,""April"":1,""February"":1}",NA,22394,6/12/20 16:00,39214
+cd9e682d2f36e95534e5ff525599d544,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+Sptember",NA,16000,6/12/20 16:00,39215
+a7c656e72055f2960c3231763aece54d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""June"":1,""March"":1,""July"":1,""December"":1,""April"":1,""October"":1,""September"":1,""August"":1,""January"":1,""February"":1,""November"":1}",NA,7388,6/12/20 16:00,39217
+96a77a3d32ed2f148aec130e2b0729e1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+",NA,16000,6/12/20 16:00,39219
+72c35ad25dd70076cdf507919661f8ca,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""December"":0,""August"":0,""June"":0,""November"":0,""April"":0,""March"":1,""May"":0,""January"":0,""February"":1,""October"":1,""September"":0}",NA,1720,6/12/20 16:00,39220
+e6eec74daa27eeaa16b17d96002afd4f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"December
+December",NA,16000,6/12/20 16:00,39221
+b73ca00508f3ce1793b4ed916c54be1e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""October"":1,""September"":0,""April"":0,""February"":0,""January"":0,""March"":0,""December"":1,""November"":0,""August"":1,""July"":1,""June"":1}",NA,40484,6/12/20 16:00,39222
+3085b5865c279a3ba9fc416dbc670c61,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/12/20 16:00,39225
+417b686a4e5a6dbd2540caa2565a3606,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""August"":0,""July"":0,""May"":0,""November"":1,""January"":1,""February"":0,""June"":0,""December"":0,""April"":1,""October"":0,""March"":0}",NA,25691,6/12/20 16:00,39227
+889856f2a87e38bf24b50a77ed31a6c5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 16:00,39228
+054c80373e53b605a752216af16b2c3e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 16:00,39229
+10e6a95289e6c6944fef620bd79cbb19,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""October"":0,""November"":0,""April"":1,""March"":0,""June"":0,""August"":1,""February"":0,""January"":0,""May"":0,""December"":0,""September"":0}",NA,39916,6/12/20 16:01,39230
+12a98d3d695c4fea95bba1a5dc8a59d3,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 16:01,39232
+98f1e3a47450e2410933c3ea976cab3d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 16:01,39234
+0f314c9d966a6bc3a70c9ffaa9d4dc93,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""March"":0,""December"":1,""July"":1,""January"":0,""May"":0,""February"":0,""October"":1,""November"":0,""June"":1,""September"":0,""August"":1}",NA,25917,6/12/20 16:01,39235
+3085b5865c279a3ba9fc416dbc670c61,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""August"":1,""December"":0,""April"":0,""May"":1,""November"":0,""September"":0,""October"":1,""March"":1,""June"":1,""July"":1,""January"":0}",NA,3020,6/12/20 16:01,39237
+9c86a572df0d42f20686fa0ebf834592,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 16:01,39239
+6fe77c41aa107e4d6bc35d7d2dd8c218,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March",NA,16000,6/12/20 16:02,39240
+96a77a3d32ed2f148aec130e2b0729e1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""December"":0,""April"":0,""August"":0,""July"":0,""March"":0,""October"":0,""September"":1,""February"":0,""June"":0,""January"":0,""May"":1}",NA,7426,6/12/20 16:02,39246
+97907fff23d20b48c291e1774381dbf3,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 16:02,39248
+84d86fadb7893b2d3bc98c40627ce899,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March",NA,16000,6/12/20 16:02,39249
+054c80373e53b605a752216af16b2c3e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""November"":1,""December"":0,""January"":1,""September"":1,""April"":0,""February"":0,""May"":0,""March"":1,""July"":0,""June"":0,""August"":0}",NA,9820,6/12/20 16:02,39250
+ca775ea7f16aa1ef4154bc2fb3ed5fce,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 16:02,39251
+cd9e682d2f36e95534e5ff525599d544,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""May"":0,""June"":0,""October"":0,""September"":1,""August"":0,""December"":0,""March"":0,""July"":0,""November"":0,""February"":0,""January"":1}",NA,53981,6/12/20 16:02,39253
+9c86a572df0d42f20686fa0ebf834592,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""November"":0,""March"":0,""July"":0,""April"":0,""September"":0,""May"":0,""June"":0,""February"":1,""December"":0,""August"":0,""October"":0}",NA,1530,6/12/20 16:02,39256
+98f1e3a47450e2410933c3ea976cab3d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""July"":0,""January"":0,""November"":1,""May"":0,""February"":0,""October"":0,""December"":0,""June"":0,""March"":1,""September"":1,""April"":0}",NA,5834,6/12/20 16:02,39257
+e6eec74daa27eeaa16b17d96002afd4f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""August"":0,""July"":0,""October"":1,""May"":0,""January"":0,""March"":0,""February"":0,""September"":1,""November"":1,""April"":0,""December"":1}",NA,82583,6/12/20 16:03,39259
+01c4b432553998beaa2ee106e9fbfbe5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 16:03,39261
+bb3060f46c503574fe3ff75e86f9ab31,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 16:03,39262
+889856f2a87e38bf24b50a77ed31a6c5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""July"":1,""January"":1,""September"":0,""December"":0,""February"":0,""November"":0,""March"":1,""May"":1,""April"":0,""October"":0,""August"":0}",NA,54685,6/12/20 16:03,39268
+12a98d3d695c4fea95bba1a5dc8a59d3,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""December"":0,""November"":0,""July"":1,""January"":0,""May"":0,""February"":0,""October"":0,""April"":0,""June"":0,""August"":0,""September"":0}",NA,4165,6/12/20 16:04,39270
+ca775ea7f16aa1ef4154bc2fb3ed5fce,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""December"":1,""March"":1,""April"":0,""July"":0,""May"":0,""June"":0,""September"":0,""August"":0,""October"":0,""February"":0,""January"":0}",NA,10270,6/12/20 16:04,39272
+6fe77c41aa107e4d6bc35d7d2dd8c218,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""April"":0,""December"":1,""September"":0,""May"":0,""August"":0,""November"":1,""October"":1,""March"":1,""June"":0,""July"":0,""January"":0}",NA,31001,6/12/20 16:04,39273
+1145c54bbfcf7978e5868ad26bdfbf58,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 16:04,39274
+13811ac888b17f91ca6029b22f1e3f93,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,february,NA,16000,6/12/20 16:04,39276
+7f85b56b29a351bfd289ee9f7612fbe4,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 16:04,39278
+01c4b432553998beaa2ee106e9fbfbe5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""November"":1,""July"":0,""September"":0,""January"":0,""December"":0,""February"":0,""April"":0,""October"":0,""August"":0,""May"":1,""June"":0}",NA,2483,6/12/20 16:04,39279
+bb3060f46c503574fe3ff75e86f9ab31,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""June"":0,""September"":0,""October"":1,""December"":0,""February"":0,""July"":1,""March"":0,""August"":0,""April"":0,""May"":0,""November"":1}",NA,3901,6/12/20 16:04,39281
+84d86fadb7893b2d3bc98c40627ce899,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""July"":1,""October"":0,""January"":0,""December"":1,""November"":0,""February"":1,""September"":1,""August"":1,""May"":1,""April"":0,""June"":1}",NA,16341,6/12/20 16:04,39282
+55d382884248290f74aaebcbd58ce5d3,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,octomber,NA,16000,6/12/20 16:04,39286
+7e7ba7e30c1eb0cd02a53bfec08f94f2,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,august ,NA,16000,6/12/20 16:05,39289
+b0dab2814cc5367302ed4b6515e95406,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"august
+august
+",NA,16000,6/12/20 16:05,39293
+97907fff23d20b48c291e1774381dbf3,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""December"":1,""August"":0,""November"":1,""July"":0,""February"":0,""April"":1,""May"":0,""January"":0,""June"":1,""October"":1,""September"":0}",NA,7585,6/12/20 16:05,39296
+7f85b56b29a351bfd289ee9f7612fbe4,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""November"":0,""July"":0,""January"":0,""June"":0,""April"":0,""September"":1,""February"":0,""December"":0,""March"":0,""October"":0,""August"":0}",NA,5467,6/12/20 16:05,39298
+1145c54bbfcf7978e5868ad26bdfbf58,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""November"":0,""April"":0,""December"":0,""February"":0,""September"":0,""August"":1,""July"":0,""January"":0,""March"":1,""June"":0,""May"":1}",NA,11339,6/12/20 16:05,39300
+13811ac888b17f91ca6029b22f1e3f93,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""December"":0,""May"":0,""January"":0,""February"":1,""July"":0,""March"":1,""April"":0,""August"":0,""November"":1,""September"":0,""June"":0}",NA,6203,6/12/20 16:05,39301
+2142fa21cd81c34a901b93b7aac463ce,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 16:05,39302
+55d382884248290f74aaebcbd58ce5d3,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""March"":0,""January"":0,""December"":0,""September"":0,""February"":0,""November"":0,""June"":0,""July"":0,""April"":0,""May"":0,""October"":1}",NA,8081,6/12/20 16:06,39308
+b4b32fa66e532ef6e45b36272051a7e8,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 16:06,39311
+6831e7750688e865359905b6c092c286,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 16:06,39312
+b0dab2814cc5367302ed4b6515e95406,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""November"":1,""June"":0,""August"":1,""May"":0,""April"":1,""October"":0,""December"":0,""January"":0,""March"":0,""February"":0,""July"":1}",NA,5750,6/12/20 16:06,39314
+7e7ba7e30c1eb0cd02a53bfec08f94f2,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""August"":1,""October"":0,""September"":0,""December"":0,""May"":1,""July"":0,""January"":0,""February"":0,""November"":0,""June"":0,""April"":1}",NA,4134,6/12/20 16:07,39317
+2f3ef837f1367bff212cccb19868158d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,july,NA,16000,6/12/20 16:07,39318
+2142fa21cd81c34a901b93b7aac463ce,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""April"":1,""February"":0,""October"":1,""January"":0,""July"":0,""December"":0,""September"":1,""August"":0,""June"":1,""May"":0,""November"":0}",NA,19147,6/12/20 16:07,39319
+6831e7750688e865359905b6c092c286,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""April"":1,""July"":0,""June"":1,""October"":0,""August"":0,""May"":1,""February"":1,""November"":0,""January"":0,""September"":0,""December"":1}",NA,3546,6/12/20 16:07,39320
+b2988558ba25584301036bf89bfa8bda,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 16:08,39322
+c212e07b56c173fa05a4985fd9f31bd9,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 16:08,39324
+2f3ef837f1367bff212cccb19868158d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""April"":1,""December"":1,""November"":1,""August"":0,""February"":1,""June"":0,""January"":0,""September"":0,""May"":0,""October"":1,""March"":1}",NA,6753,6/12/20 16:08,39326
+b4b32fa66e532ef6e45b36272051a7e8,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""December"":1,""January"":1,""August"":1,""October"":1,""July"":1,""June"":1,""April"":1,""February"":1,""May"":1,""September"":1,""March"":1}",NA,21181,6/12/20 16:08,39327
+0ef0d50198cbe2eb190c50089c5ab641,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 16:08,39330
+7f900e2c1cfd3c5c341eb473ba89ffb0,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"14 seconds left to enter your responsnth here:May
+",NA,16000,6/12/20 16:09,39332
+e43e77d5938f71119a85c82bd10c7055,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,decemb,NA,16000,6/12/20 16:09,39333
+049f3f36e4799746418c5b5731de5e67,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 16:09,39334
+b2988558ba25584301036bf89bfa8bda,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""July"":0,""October"":0,""January"":1,""August"":0,""November"":0,""February"":0,""April"":1,""May"":1,""December"":0,""September"":0,""June"":1}",NA,8095,6/12/20 16:09,39335
+7ed6cdf9b83326b27027288719290d13,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/12/20 16:09,39337
+c212e07b56c173fa05a4985fd9f31bd9,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""December"":1,""November"":0,""March"":0,""July"":0,""June"":1,""August"":0,""April"":0,""September"":0,""October"":0,""February"":0,""January"":0}",NA,11567,6/12/20 16:09,39340
+7ed6cdf9b83326b27027288719290d13,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""February"":0,""August"":0,""September"":0,""December"":0,""July"":0,""May"":0,""April"":0,""November"":0,""June"":0,""October"":1,""January"":1}",NA,1791,6/12/20 16:10,39341
+0ef0d50198cbe2eb190c50089c5ab641,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""June"":0,""April"":0,""November"":0,""May"":0,""September"":0,""February"":1,""August"":0,""July"":0,""January"":0,""December"":0,""March"":0}",NA,37614,6/12/20 16:10,39343
+d2a27c513ab6d21a3d261f11dc65811b,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+July
+July",NA,16000,6/12/20 16:10,39344
+7f900e2c1cfd3c5c341eb473ba89ffb0,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""March"":1,""February"":1,""July"":0,""August"":0,""November"":1,""October"":0,""December"":1,""September"":0,""May"":1,""April"":1,""January"":1}",NA,20888,6/12/20 16:11,39347
+d9cc21ce0250792dc1b18d7424f94c95,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+",NA,16000,6/12/20 16:11,39349
+3d290faabc561733a4bd4d80c6fdb9c7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,1,NA,16000,6/12/20 16:11,39350
+049f3f36e4799746418c5b5731de5e67,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""June"":0,""August"":0,""October"":0,""November"":0,""April"":0,""September"":0,""February"":1,""March"":0,""December"":0,""January"":0,""May"":0}",NA,47317,6/12/20 16:11,39351
+e43e77d5938f71119a85c82bd10c7055,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""September"":1,""January"":0,""June"":0,""August"":1,""July"":0,""May"":1,""December"":1,""February"":0,""March"":0,""October"":0,""November"":0}",NA,17131,6/12/20 16:11,39352
+d2a27c513ab6d21a3d261f11dc65811b,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""May"":0,""September"":0,""March"":0,""December"":0,""April"":0,""July"":1,""August"":0,""June"":0,""October"":0,""January"":0,""November"":0}",NA,4141,6/12/20 16:12,39358
+3d290faabc561733a4bd4d80c6fdb9c7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""December"":1,""April"":1,""June"":1,""January"":1,""July"":1,""May"":1,""August"":1,""March"":1,""February"":1,""September"":1,""October"":1}",NA,5773,6/12/20 16:12,39360
+bdbdf7e2a1cc38889addc16850ffba68,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 16:12,39361
+614230ab2fd2447cbe50ca578b2d46e5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 16:12,39362
+11bbcddbcb16a7d754d5e20bfa336ce1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 16:12,39363
+d9cc21ce0250792dc1b18d7424f94c95,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""February"":0,""April"":0,""June"":0,""July"":1,""October"":0,""November"":0,""May"":0,""March"":0,""August"":0,""January"":0,""December"":0}",NA,8694,6/12/20 16:12,39365
+481a401a216da9aef1b5112d6a369ad3,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 16:12,39366
+3ba47815ade531c6d57b01aa760e89bf,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,DECEMBER,NA,16000,6/12/20 16:13,39370
+ce2de6204362019a49645c50dec1510e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,november,NA,16000,6/12/20 16:13,39371
+c8e75940777130e72b84d39f6fa89f40,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,JUNE,NA,16000,6/12/20 16:13,39372
+33e075a7cf24d93fa593af3cb20f9334,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October\,NA,16000,6/12/20 16:13,39374
+77ab999913bd3c3c91b5a668d00bbe34,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 16:13,39375
+614230ab2fd2447cbe50ca578b2d46e5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""November"":1,""July"":0,""December"":0,""January"":0,""April"":1,""February"":0,""May"":0,""June"":1,""October"":0,""March"":1,""September"":0}",NA,16984,6/12/20 16:13,39376
+481a401a216da9aef1b5112d6a369ad3,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""January"":1,""October"":1,""May"":0,""June"":0,""February"":1,""December"":1,""March"":0,""August"":0,""November"":0,""April"":0,""September"":0}",NA,10030,6/12/20 16:13,39378
+bdbdf7e2a1cc38889addc16850ffba68,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""March"":1,""April"":1,""September"":1,""May"":1,""August"":1,""June"":0,""July"":1,""November"":1,""February"":1,""October"":1,""January"":1}",NA,10391,6/12/20 16:14,39381
+11bbcddbcb16a7d754d5e20bfa336ce1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""April"":0,""February"":0,""December"":1,""October"":0,""May"":0,""November"":0,""January"":1,""March"":0,""June"":0,""July"":0,""August"":0}",NA,25815,6/12/20 16:14,39384
+f7216ff2d6c6128e0af7814e9b5e54ba,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"December
+december
+de",NA,16000,6/12/20 16:14,39385
+c8e75940777130e72b84d39f6fa89f40,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""December"":0,""January"":0,""October"":0,""June"":1,""April"":0,""May"":0,""February"":1,""March"":0,""September"":0,""August"":0,""November"":0}",NA,6498,6/12/20 16:14,39388
+33e075a7cf24d93fa593af3cb20f9334,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""November"":0,""May"":0,""October"":1,""February"":0,""July"":0,""January"":0,""September"":0,""March"":0,""June"":1,""April"":0,""August"":0}",NA,7528,6/12/20 16:15,39391
+3ba47815ade531c6d57b01aa760e89bf,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""July"":0,""April"":0,""November"":0,""August"":0,""February"":0,""March"":0,""January"":1,""May"":0,""October"":0,""December"":1,""September"":1}",NA,16092,6/12/20 16:15,39392
+77ab999913bd3c3c91b5a668d00bbe34,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""August"":0,""December"":0,""September"":1,""February"":0,""October"":0,""June"":1,""January"":0,""March"":0,""July"":1,""April"":0,""November"":1}",NA,22184,6/12/20 16:15,39393
+a93e01463bf40d3ce0d33b7103578a3c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 16:15,39394
+4aeb85756415296c0f241b9fe0723fdf,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 16:15,39396
+f7216ff2d6c6128e0af7814e9b5e54ba,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""June"":0,""November"":0,""September"":0,""April"":0,""May"":0,""January"":0,""August"":0,""October"":0,""March"":0,""February"":0,""December"":1}",NA,9377,6/12/20 16:15,39397
+bf7b3cbe577708f8d4ce82533458fa09,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 16:16,39401
+6cb0a31e941636cbe9f129f6196a509e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"august
+august
+
+",NA,16000,6/12/20 16:16,39402
+4aeb85756415296c0f241b9fe0723fdf,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""July"":0,""September"":0,""November"":1,""October"":0,""March"":0,""June"":0,""December"":1,""January"":0,""February"":0,""August"":0,""April"":0}",NA,3454,6/12/20 16:16,39403
+e15db2865ad605c18637da1a62bc8843,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"December
+December",NA,16000,6/12/20 16:16,39404
+bf7b3cbe577708f8d4ce82533458fa09,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""July"":1,""September"":1,""February"":0,""November"":0,""April"":0,""August"":0,""March"":1,""October"":0,""December"":0,""June"":1,""January"":0}",NA,2761,6/12/20 16:16,39408
+9dcbeda4bb6cde119a03df27f7cb4d0a,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 16:17,39409
+6cb0a31e941636cbe9f129f6196a509e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""March"":0,""April"":0,""August"":1,""June"":0,""July"":0,""February"":1,""January"":0,""December"":0,""October"":0,""September"":0,""May"":0}",NA,5202,6/12/20 16:17,39412
+b20efb35a280399539a94c5ab059ba58,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 16:17,39413
+a93e01463bf40d3ce0d33b7103578a3c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""August"":1,""May"":0,""November"":1,""October"":0,""February"":0,""September"":0,""March"":0,""April"":0,""January"":0,""December"":0,""July"":1}",NA,94757,6/12/20 16:18,39414
+ccdf44f382e9f623c0bc9f137bc3c9eb,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 16:18,39419
+b20efb35a280399539a94c5ab059ba58,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""March"":0,""December"":1,""June"":0,""October"":1,""April"":0,""July"":0,""August"":0,""January"":0,""November"":1,""February"":0,""May"":0}",NA,2684,6/12/20 16:19,39420
+e15db2865ad605c18637da1a62bc8843,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""December"":1,""October"":0,""September"":1,""June"":1,""March"":1,""January"":1,""May"":0,""February"":1,""July"":0,""November"":1,""August"":0}",NA,50307,6/12/20 16:19,39421
+6fc48fbef096b85dcb0ed8c217b9585c,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"Jamuary
+May",NA,16000,6/12/20 16:19,39422
+cf27242a0aff042fd5897e4fa69a55f9,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,fe,NA,16000,6/12/20 16:19,39424
+9dcbeda4bb6cde119a03df27f7cb4d0a,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""October"":1,""March"":1,""February"":0,""January"":0,""August"":0,""April"":0,""December"":1,""May"":0,""November"":0,""June"":0,""July"":1}",NA,10663,6/12/20 16:19,39425
+02c00370b9665353711a395fbd79427a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"SEPTEMBER
+SEPTEMBER",NA,16000,6/12/20 16:19,39428
+6fc48fbef096b85dcb0ed8c217b9585c,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""September"":0,""April"":0,""December"":0,""August"":0,""July"":0,""October"":1,""May"":1,""February"":0,""June"":0,""November"":0,""March"":1}",NA,1708,6/12/20 16:19,39429
+ccdf44f382e9f623c0bc9f137bc3c9eb,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""October"":0,""April"":1,""July"":0,""September"":0,""November"":0,""May"":1,""August"":0,""June"":1,""December"":0,""January"":0,""March"":1}",NA,5858,6/12/20 16:20,39430
+fd6d2c7d2c8abf436c56f213a0bdb672,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,6,NA,16000,6/12/20 16:20,39432
+cc2713cbce5e0ffd566088cf29f74f2f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,4,NA,16000,6/12/20 16:20,39434
+cf618cf7ebdf13accd8c2c8d69418150,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"AUGUST
+AUGUST
+",NA,16000,6/12/20 16:20,39435
+cf27242a0aff042fd5897e4fa69a55f9,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""July"":1,""October"":0,""March"":1,""December"":1,""November"":0,""September"":1,""August"":1,""February"":1,""April"":1,""January"":1,""June"":1}",NA,8132,6/12/20 16:20,39439
+277b41cabdc0b8b64318a39aad306b4a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March",NA,16000,6/12/20 16:21,39440
+c5fe3cee09d62b34a1d113b5ba708c85,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 16:21,39441
+cc2713cbce5e0ffd566088cf29f74f2f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":1,""September"":0,""April"":1,""October"":0,""November"":1,""June"":0,""March"":1,""February"":0,""January"":1,""July"":0,""December"":1,""May"":0}",NA,6719,6/12/20 16:22,39443
+fd6d2c7d2c8abf436c56f213a0bdb672,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""July"":1,""February"":0,""September"":1,""October"":1,""March"":0,""June"":1,""August"":1,""April"":0,""December"":1,""January"":0,""November"":1}",NA,22048,6/12/20 16:22,39446
+02c00370b9665353711a395fbd79427a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""May"":0,""February"":0,""September"":1,""October"":0,""July"":0,""April"":1,""August"":0,""January"":1,""December"":0,""June"":0,""March"":0}",NA,8092,6/12/20 16:22,39448
+cf618cf7ebdf13accd8c2c8d69418150,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""January"":0,""June"":0,""March"":1,""December"":0,""October"":1,""September"":0,""August"":1,""November"":1,""July"":0,""February"":0,""May"":0}",NA,50351,6/12/20 16:22,39450
+c5fe3cee09d62b34a1d113b5ba708c85,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""October"":1,""August"":1,""December"":1,""February"":0,""July"":0,""April"":1,""November"":1,""September"":0,""May"":0,""January"":0,""June"":0}",NA,13063,6/12/20 16:22,39454
+ba751f3c8ffebc0fec902b37f134682f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"january
+",NA,16000,6/12/20 16:23,39455
+15a16b7d5424c203026cd20f1622d56b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,OCTA=,NA,16000,6/12/20 16:23,39456
+277b41cabdc0b8b64318a39aad306b4a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""September"":0,""August"":0,""March"":1,""May"":0,""January"":1,""October"":0,""December"":1,""June"":0,""February"":0,""April"":0,""November"":0}",NA,13595,6/12/20 16:23,39457
+b2f57f51e4baaa6d8ee35cdbb2d68e48,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"august
+",NA,16000,6/12/20 16:23,39462
+6942c5270dd6d9bd4e98c500a86aa219,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 16:24,39465
+15a16b7d5424c203026cd20f1622d56b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""October"":1,""November"":1,""July"":1,""August"":1,""March"":1,""April"":1,""February"":1,""December"":1,""May"":1,""January"":1,""June"":1}",NA,12646,6/12/20 16:24,39467
+faa172c4d614272578aef983d3c8d0ed,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"April
+april",NA,16000,6/12/20 16:25,39469
+ddff42fc9a6e5d769c821e68009e6205,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 16:25,39470
+6942c5270dd6d9bd4e98c500a86aa219,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""January"":0,""October"":0,""June"":0,""April"":1,""December"":0,""November"":0,""May"":0,""July"":0,""March"":0,""August"":1,""February"":1}",NA,3830,6/12/20 16:25,39471
+b2f57f51e4baaa6d8ee35cdbb2d68e48,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""August"":1,""December"":0,""November"":1,""January"":0,""June"":0,""October"":1,""July"":0,""March"":0,""February"":1,""May"":0,""September"":1}",NA,6858,6/12/20 16:25,39474
+ddff42fc9a6e5d769c821e68009e6205,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""May"":0,""November"":0,""January"":0,""October"":0,""July"":0,""June"":0,""September"":1,""December"":0,""August"":0,""April"":1,""March"":1}",NA,5186,6/12/20 16:26,39476
+ba751f3c8ffebc0fec902b37f134682f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""December"":0,""August"":0,""April"":0,""May"":0,""March"":0,""June"":0,""November"":0,""July"":0,""September"":0,""October"":0,""January"":1}",NA,85919,6/12/20 16:26,39478
+776e1da53d8c691ac849a40273bcfe9a,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"JULY
+JU",NA,16000,6/12/20 16:26,39481
+faa172c4d614272578aef983d3c8d0ed,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""October"":0,""November"":0,""August"":1,""July"":0,""September"":0,""December"":0,""June"":1,""January"":0,""February"":0,""May"":0,""March"":0}",NA,20810,6/12/20 16:26,39483
+3f5c0bbfbd5f8178b39fe212f4e9ec71,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"november
+november",NA,16000,6/12/20 16:27,39485
+776e1da53d8c691ac849a40273bcfe9a,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""May"":0,""October"":0,""March"":1,""July"":1,""January"":0,""December"":0,""April"":0,""August"":1,""September"":0,""June"":1,""February"":0}",NA,6132,6/12/20 16:27,39489
+989e456d931ebc22fe0f11c610b1f1ee,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 16:27,39490
+49f1f24f59c3e894d58d1104dd4622ae,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 16:27,39491
+e39ded79b154d24cfbc8ad751c5e705f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 16:28,39492
+9b7a2892cbcbf08d70ee0bb85c44f7da,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"december
+december",NA,16000,6/12/20 16:28,39495
+3f5c0bbfbd5f8178b39fe212f4e9ec71,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""February"":0,""May"":0,""September"":0,""July"":0,""April"":0,""March"":0,""August"":0,""June"":0,""October"":0,""December"":0,""November"":1}",NA,2046,6/12/20 16:28,39496
+49f1f24f59c3e894d58d1104dd4622ae,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""January"":1,""November"":0,""October"":1,""June"":0,""February"":1,""July"":0,""May"":0,""April"":0,""September"":0,""December"":0,""August"":0}",NA,1917,6/12/20 16:28,39500
+e39ded79b154d24cfbc8ad751c5e705f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""June"":1,""February"":0,""September"":1,""May"":0,""July"":0,""August"":1,""December"":0,""April"":0,""January"":0,""October"":0,""March"":1}",NA,1529,6/12/20 16:29,39502
+989e456d931ebc22fe0f11c610b1f1ee,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""January"":0,""June"":0,""August"":0,""July"":0,""October"":1,""December"":0,""April"":1,""November"":0,""March"":1,""May"":0,""September"":0}",NA,3204,6/12/20 16:29,39504
+9b7a2892cbcbf08d70ee0bb85c44f7da,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""November"":0,""March"":0,""June"":0,""April"":0,""August"":0,""May"":0,""October"":0,""September"":1,""February"":1,""July"":0,""December"":1}",NA,1437,6/12/20 16:29,39507
+08d8a866e937e66bc2bbc357f0cc4377,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 16:30,39509
+20cdd30409170b94729baa04b0fd72a1,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 16:30,39510
+de7e146af9e60e9cfc71f89d5718f696,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"october
+october",NA,16000,6/12/20 16:30,39511
+420ea0d51a44eefad31fc47d3d4a8071,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"October
+October
+",NA,16000,6/12/20 16:30,39512
+78de17d4c833854c7a1320fe85091b0e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 16:30,39513
+1b8069686831b32b15138e14667ae002,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"April
+april",NA,16000,6/12/20 16:30,39515
+20cdd30409170b94729baa04b0fd72a1,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""December"":1,""November"":1,""June"":0,""March"":1,""April"":0,""July"":1,""May"":0,""September"":1,""October"":0,""August"":1,""January"":0}",NA,9648,6/12/20 16:31,39517
+08d8a866e937e66bc2bbc357f0cc4377,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""March"":1,""December"":0,""November"":0,""February"":1,""June"":1,""October"":0,""September"":1,""August"":0,""July"":0,""January"":0,""April"":1}",NA,6837,6/12/20 16:31,39519
+c7356a2196f8aadee82ee7874338e0b5,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 16:31,39520
+78de17d4c833854c7a1320fe85091b0e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""July"":0,""February"":1,""September"":1,""April"":1,""March"":0,""May"":1,""June"":0,""August"":1,""December"":0,""October"":0,""January"":0}",NA,4793,6/12/20 16:31,39522
+1b8069686831b32b15138e14667ae002,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""March"":1,""January"":0,""July"":1,""February"":1,""December"":0,""June"":0,""April"":1,""September"":0,""October"":0,""November"":0,""May"":0}",NA,6331,6/12/20 16:32,39523
+ca65035aa8ac17af18349464e06d4bb5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"december
+decemberdece",NA,16000,6/12/20 16:32,39525
+420ea0d51a44eefad31fc47d3d4a8071,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""August"":0,""November"":1,""April"":0,""February"":0,""June"":0,""March"":1,""October"":1,""January"":1,""December"":1,""September"":0,""July"":0}",NA,46074,6/12/20 16:32,39527
+c7356a2196f8aadee82ee7874338e0b5,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""June"":1,""August"":0,""December"":0,""November"":1,""March"":1,""April"":1,""July"":1,""September"":0,""May"":1,""October"":0,""February"":1}",NA,2388,6/12/20 16:33,39528
+de7e146af9e60e9cfc71f89d5718f696,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""September"":0,""January"":0,""November"":0,""December"":0,""August"":1,""July"":0,""April"":0,""October"":1,""February"":1,""June"":0,""March"":1}",NA,82150,6/12/20 16:33,39529
+ca65035aa8ac17af18349464e06d4bb5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""January"":0,""June"":0,""July"":0,""May"":0,""March"":0,""November"":0,""August"":0,""September"":0,""April"":0,""October"":0,""February"":0}",NA,5364,6/12/20 16:34,39531
+e9fd0e6593f7e821c9a10b25a880daf8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 16:35,39535
+4099310285aadf12238257d0198a95e5,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"April
+April",NA,16000,6/12/20 16:35,39536
+e72b05519954a499dc7c14c3c888dd1e,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,6,NA,16000,6/12/20 16:35,39537
+adfc4119386c8e78ee97a80fdf6b32d0,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 16:35,39538
+4099310285aadf12238257d0198a95e5,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""April"":1,""August"":1,""November"":0,""May"":0,""December"":1,""July"":0,""February"":0,""January"":0,""October"":1,""September"":0,""March"":0}",NA,2622,6/12/20 16:36,39540
+e9fd0e6593f7e821c9a10b25a880daf8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""January"":1,""November"":0,""May"":1,""June"":1,""April"":0,""August"":1,""October"":0,""September"":1,""July"":0,""March"":1,""February"":0}",NA,4083,6/12/20 16:36,39541
+e72b05519954a499dc7c14c3c888dd1e,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""March"":1,""December"":0,""January"":0,""February"":1,""June"":0,""April"":1,""October"":1,""July"":1,""August"":1,""September"":0,""May"":1}",NA,18861,6/12/20 16:36,39543
+adfc4119386c8e78ee97a80fdf6b32d0,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""September"":0,""May"":1,""January"":0,""July"":1,""March"":0,""November"":0,""October"":0,""February"":0,""December"":0,""August"":0,""April"":0}",NA,6537,6/12/20 16:36,39544
+9dee6cdf23480372755377d001922398,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 16:36,39545
+9dee6cdf23480372755377d001922398,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""April"":1,""May"":1,""December"":0,""July"":0,""March"":0,""February"":1,""September"":1,""June"":1,""November"":0,""January"":1,""August"":1}",NA,4904,6/12/20 16:38,39550
+46a91066975ee740f468499789163a46,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,December,NA,16000,6/12/20 16:38,39554
+a9fbc0a4e8598056235376e7708f57ac,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,december,NA,16000,6/12/20 16:38,39555
+59babb30ae98ebc2bd0833f6689e304c,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 16:39,39557
+6d5ec701a1bc8f282f94d8deadb9f16b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 16:39,39558
+e90bdc899a41d3b822755db6437821fd,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,august,NA,16000,6/12/20 16:39,39565
+9dcea3a69cd19a678e4c634eaed2c6fa,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 16:40,39566
+a9fbc0a4e8598056235376e7708f57ac,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""February"":1,""January"":1,""September"":1,""March"":0,""May"":0,""June"":0,""November"":1,""October"":0,""April"":1,""July"":1,""December"":1}",NA,11613,6/12/20 16:40,39567
+46a91066975ee740f468499789163a46,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""November"":1,""July"":1,""April"":0,""February"":1,""May"":1,""June"":0,""December"":1,""October"":0,""March"":0,""September"":0,""August"":0}",NA,15630,6/12/20 16:40,39568
+6d5ec701a1bc8f282f94d8deadb9f16b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""December"":0,""August"":0,""April"":0,""October"":0,""November"":0,""March"":0,""January"":0,""July"":0,""May"":0,""June"":0,""September"":0}",NA,12274,6/12/20 16:40,39570
+129135b587274f4a9c2f48a96886be20,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 16:40,39571
+e90bdc899a41d3b822755db6437821fd,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""April"":0,""December"":0,""January"":1,""June"":0,""August"":1,""May"":0,""February"":1,""November"":0,""October"":0,""September"":0,""July"":0}",NA,5752,6/12/20 16:41,39577
+9dcea3a69cd19a678e4c634eaed2c6fa,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""November"":1,""December"":0,""June"":0,""May"":0,""September"":1,""April"":0,""July"":0,""October"":1,""August"":1,""January"":0,""March"":0}",NA,9779,6/12/20 16:41,39578
+a5917484e93b9ac2fea4ef8714b8a726,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,april,NA,16000,6/12/20 16:41,39579
+129135b587274f4a9c2f48a96886be20,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""October"":0,""April"":1,""December"":1,""August"":1,""January"":0,""July"":0,""November"":0,""June"":1,""September"":1,""March"":0,""May"":0}",NA,11362,6/12/20 16:41,39581
+59babb30ae98ebc2bd0833f6689e304c,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""September"":0,""November"":1,""June"":1,""March"":1,""July"":1,""April"":1,""January"":1,""August"":1,""December"":0,""October"":0,""February"":1}",NA,95299,6/12/20 16:42,39583
+9b841eb80aadb4d7939b11eaef546f0c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+September",NA,16000,6/12/20 16:42,39585
+c0454d783957f0e842946e0a8e6c83ae,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+Sep",NA,16000,6/12/20 16:42,39586
+1fb39b03ad734ecf2bdc15f79ef262b9,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,8,NA,16000,6/12/20 16:42,39587
+453c0e1b3e6865c451b29a2a4a8d4e39,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 16:43,39589
+6a481c4c4698eb84715db30c9464d635,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 16:43,39591
+a5917484e93b9ac2fea4ef8714b8a726,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""February"":0,""November"":0,""December"":1,""April"":1,""March"":1,""June"":0,""September"":1,""January"":0,""July"":1,""August"":0,""October"":1}",NA,1735,6/12/20 16:43,39592
+9f46a7ecaaf903bf16eea30715c1d384,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"june
+",NA,16000,6/12/20 16:43,39593
+173b3b133f412250b1356fc8b823021b,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,,NA,16000,6/12/20 16:43,39594
+9b841eb80aadb4d7939b11eaef546f0c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""May"":1,""October"":0,""March"":0,""December"":0,""January"":1,""September"":1,""April"":1,""November"":0,""June"":1,""August"":1,""February"":0}",NA,2967,6/12/20 16:43,39596
+1fb39b03ad734ecf2bdc15f79ef262b9,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""January"":1,""September"":1,""July"":1,""November"":0,""December"":1,""April"":0,""March"":1,""August"":1,""May"":1,""June"":1,""February"":0}",NA,6920,6/12/20 16:44,39597
+459234c0cb014300f16e3f7a4e28d992,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,november,NA,16000,6/12/20 16:44,39598
+453c0e1b3e6865c451b29a2a4a8d4e39,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""October"":0,""February"":1,""June"":0,""July"":0,""August"":1,""December"":1,""January"":0,""March"":1,""September"":0,""November"":0,""May"":1}",NA,9861,6/12/20 16:44,39602
+37307c03dfa89c92995e6c19ec9f366d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+July
+July",NA,16000,6/12/20 16:45,39604
+fdb375681a1f3d80998d28cc7becbeb3,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 16:45,39605
+6a481c4c4698eb84715db30c9464d635,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""May"":0,""January"":1,""September"":0,""February"":0,""October"":0,""June"":1,""March"":0,""November"":0,""April"":0,""December"":1,""July"":1}",NA,10361,6/12/20 16:45,39606
+9f46a7ecaaf903bf16eea30715c1d384,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""November"":0,""December"":0,""April"":0,""January"":0,""September"":0,""February"":0,""August"":0,""July"":0,""June"":1,""May"":0,""March"":0}",NA,12556,6/12/20 16:45,39607
+c0454d783957f0e842946e0a8e6c83ae,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""January"":1,""December"":0,""September"":1,""November"":0,""February"":1,""June"":0,""October"":0,""August"":0,""May"":0,""July"":0,""March"":0}",NA,69816,6/12/20 16:45,39609
+fdb375681a1f3d80998d28cc7becbeb3,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""February"":0,""July"":1,""September"":1,""June"":0,""August"":0,""January"":1,""November"":0,""May"":0,""March"":0,""April"":0,""December"":0}",NA,1484,6/12/20 16:45,39610
+459234c0cb014300f16e3f7a4e28d992,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""October"":1,""December"":1,""March"":1,""September"":1,""November"":1,""July"":0,""June"":1,""August"":1,""January"":1,""May"":1,""February"":0}",NA,15440,6/12/20 16:45,39611
+37307c03dfa89c92995e6c19ec9f366d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""November"":0,""December"":0,""June"":0,""July"":1,""February"":0,""August"":0,""January"":0,""March"":0,""May"":0,""October"":0,""April"":0}",NA,4524,6/12/20 16:46,39612
+db0e0f518e0e7178387ede10c20e95ae,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 16:47,39618
+ff5fac86f89b9d165c36dde3a5c3a762,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 16:47,39621
+2ca6ecb5a20b9ebf4ee5943268636945,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/12/20 16:48,39623
+b7bc0acd79b8e31aee69e6e9996001dc,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,,NA,16000,6/12/20 16:48,39624
+0fc0e632f3a205ac11dbdb04a2200d6c,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 16:48,39626
+ff5fac86f89b9d165c36dde3a5c3a762,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""August"":1,""October"":0,""January"":0,""September"":1,""March"":0,""June"":1,""May"":1,""February"":0,""November"":0,""July"":1,""December"":0}",NA,13053,6/12/20 16:49,39627
+2ca6ecb5a20b9ebf4ee5943268636945,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":1,""May"":1,""February"":1,""September"":1,""August"":0,""June"":1,""December"":1,""November"":1,""October"":1,""March"":1,""July"":1,""January"":1}",NA,11373,6/12/20 16:49,39628
+01cc66d9b33ae0c07e750ceb33f3ec9f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+",NA,16000,6/12/20 16:49,39629
+74d2409e3b4bd5b80ed30d0220f0e97f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 16:49,39630
+52eb936bf57b6d0805679657591a6ab3,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 16:49,39631
+db0e0f518e0e7178387ede10c20e95ae,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""May"":1,""April"":1,""June"":1,""September"":0,""October"":0,""November"":0,""December"":0,""February"":0,""January"":0,""March"":0,""July"":0}",NA,4531,6/12/20 16:49,39632
+173b3b133f412250b1356fc8b823021b,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""January"":1,""August"":0,""June"":0,""October"":0,""November"":0,""July"":0,""September"":0,""April"":1,""December"":0,""February"":1,""March"":0}",NA,25008,6/12/20 16:49,39634
+b7bc0acd79b8e31aee69e6e9996001dc,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""July"":1,""April"":1,""August"":1,""December"":1,""September"":0,""June"":1,""February"":1,""May"":1,""March"":1,""October"":0,""January"":1}",NA,22066,6/12/20 16:50,39635
+40ad2ac90b245cbbf0854d42d3735f91,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/12/20 16:50,39636
+52eb936bf57b6d0805679657591a6ab3,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""July"":0,""April"":0,""June"":0,""May"":0,""August"":0,""January"":1,""September"":1,""October"":0,""December"":0,""November"":0,""February"":1}",NA,2213,6/12/20 16:50,39637
+c1f4f90645836e6b6626abee3c70dde4,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,december,NA,16000,6/12/20 16:50,39638
+01cc66d9b33ae0c07e750ceb33f3ec9f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""August"":0,""December"":0,""September"":0,""April"":0,""February"":0,""March"":0,""June"":1,""November"":0,""January"":0,""October"":0,""July"":1}",NA,2847,6/12/20 16:50,39639
+0fc0e632f3a205ac11dbdb04a2200d6c,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""March"":1,""December"":0,""September"":0,""August"":1,""May"":1,""April"":1,""February"":0,""November"":0,""January"":0,""October"":0,""June"":0}",NA,8133,6/12/20 16:50,39640
+74d2409e3b4bd5b80ed30d0220f0e97f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""September"":0,""March"":1,""October"":0,""January"":1,""November"":0,""May"":1,""December"":1,""June"":0,""July"":0,""August"":1,""April"":1}",NA,5331,6/12/20 16:51,39642
+40ad2ac90b245cbbf0854d42d3735f91,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""April"":0,""August"":0,""December"":0,""February"":0,""January"":0,""July"":0,""October"":0,""March"":0,""September"":0,""November"":0,""June"":1}",NA,3982,6/12/20 16:51,39644
+9355ad816fd425234993e84fba545490,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"jULY
+July",NA,16000,6/12/20 16:51,39645
+c1f4f90645836e6b6626abee3c70dde4,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""May"":0,""June"":1,""August"":0,""September"":1,""December"":1,""November"":0,""March"":0,""April"":0,""October"":0,""January"":0,""February"":0}",NA,6568,6/12/20 16:52,39646
+d8563c341e61ae5b2749a0b01cce6c76,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+September",NA,16000,6/12/20 16:52,39651
+d8563c341e61ae5b2749a0b01cce6c76,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":1,""June"":0,""November"":0,""October"":0,""January"":0,""December"":0,""April"":0,""July"":0,""May"":0,""September"":1,""February"":0,""March"":0}",NA,7576,6/12/20 16:53,39656
+9355ad816fd425234993e84fba545490,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""January"":1,""July"":1,""May"":0,""August"":0,""February"":0,""March"":0,""April"":0,""November"":0,""December"":0,""September"":0,""June"":0}",NA,5766,6/12/20 16:53,39657
+eae588ce51f2dcbcc9f83b31040adbe9,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 16:54,39659
+1069e0351056f583edff1e29de195950,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,june,NA,16000,6/12/20 16:54,39661
+848563d825cceac43a63958bc0216ac8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"october
+october",NA,16000,6/12/20 16:54,39662
+eae588ce51f2dcbcc9f83b31040adbe9,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""October"":0,""December"":0,""February"":0,""November"":0,""July"":0,""September"":1,""March"":0,""August"":0,""May"":0,""June"":1,""January"":0}",NA,10614,6/12/20 16:55,39664
+1069e0351056f583edff1e29de195950,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":1,""January"":1,""October"":0,""July"":1,""March"":1,""June"":0,""September"":1,""April"":1,""November"":0,""December"":1,""February"":1,""May"":1}",NA,8439,6/12/20 16:56,39666
+848563d825cceac43a63958bc0216ac8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""October"":1,""April"":0,""January"":0,""December"":1,""September"":1,""July"":0,""March"":1,""June"":1,""November"":1,""May"":0,""August"":0}",NA,6707,6/12/20 16:56,39667
+d4002eeecccfa74ac4d9ab2c4838ae29,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"november]
+november
+november",NA,16000,6/12/20 16:57,39671
+76bec21efb7013634f5adf883b4fcbc5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 16:57,39672
+7d4a4b679091a290b5cd687976b3bf23,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 16:57,39673
+079002dcb5fc23eabbc6357fe048a4c6,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 16:58,39675
+069d6d1cdb83d3ff7831ff8f94f9949a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+September
+",NA,16000,6/12/20 16:58,39676
+7d4a4b679091a290b5cd687976b3bf23,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""August"":1,""March"":0,""December"":0,""November"":0,""January"":0,""October"":0,""February"":0,""July"":0,""May"":0,""April"":0,""September"":0}",NA,4172,6/12/20 16:58,39679
+20c47ff119cd249df4d8b51dd8b97a70,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"October
+",NA,16000,6/12/20 16:58,39680
+069d6d1cdb83d3ff7831ff8f94f9949a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""March"":0,""December"":0,""June"":1,""November"":0,""July"":1,""April"":1,""May"":0,""February"":0,""January"":0,""September"":1,""October"":0}",NA,6559,6/12/20 16:59,39682
+d4002eeecccfa74ac4d9ab2c4838ae29,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""November"":1,""December"":0,""September"":1,""March"":1,""April"":0,""June"":0,""January"":1,""February"":0,""October"":1,""July"":0,""May"":1}",NA,57318,6/12/20 16:59,39683
+079002dcb5fc23eabbc6357fe048a4c6,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":1,""March"":1,""February"":1,""August"":1,""October"":0,""September"":0,""November"":1,""June"":1,""July"":1,""May"":0,""January"":1,""April"":0}",NA,14326,6/12/20 16:59,39685
+4cae5121404aa2052c6cb5047763e814,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 16:59,39687
+20c47ff119cd249df4d8b51dd8b97a70,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""February"":0,""March"":0,""May"":0,""September"":0,""January"":0,""August"":0,""December"":0,""July"":0,""October"":1,""June"":0,""April"":0}",NA,9064,6/12/20 17:00,39691
+76bec21efb7013634f5adf883b4fcbc5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""December"":0,""April"":0,""March"":0,""September"":0,""October"":0,""June"":1,""July"":0,""February"":0,""January"":1,""August"":0,""May"":1}",NA,13817,6/12/20 17:01,39695
+4cae5121404aa2052c6cb5047763e814,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":1,""January"":0,""July"":0,""April"":1,""March"":1,""May"":0,""November"":0,""February"":1,""December"":0,""October"":0,""June"":0,""September"":0}",NA,37456,6/12/20 17:01,39696
+3f18416ac07e86f01ba99951e35700d7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+January",NA,16000,6/12/20 17:03,39698
+79deb6db4533f9000c6e1caef4868b42,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 17:03,39699
+d12f33653485212d5194c00e5779ef59,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"Marcch
+",NA,16000,6/12/20 17:03,39700
+e10f57f1f38d3e1c7122d3ffa78325d7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,MARCH,NA,16000,6/12/20 17:04,39701
+0a5b4172ea8c78d9dab89595d2601c4d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 17:04,39702
+d12f33653485212d5194c00e5779ef59,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""January"":0,""August"":1,""June"":0,""February"":0,""April"":0,""May"":1,""March"":1,""December"":0,""October"":0,""July"":0,""November"":1}",NA,7612,6/12/20 17:04,39703
+79deb6db4533f9000c6e1caef4868b42,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""November"":0,""June"":1,""April"":0,""January"":1,""September"":0,""October"":1,""May"":1,""August"":1,""July"":0,""March"":1,""December"":0}",NA,2148,6/12/20 17:04,39704
+3f18416ac07e86f01ba99951e35700d7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""March"":0,""May"":0,""December"":0,""August"":0,""January"":1,""February"":1,""November"":1,""June"":0,""September"":0,""April"":0,""July"":0}",NA,43660,6/12/20 17:05,39705
+f51fe8ea19f12054525a20999ee9589d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 17:05,39706
+f7a9b62112bfb9f32c8bbc791f09d2e1,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 17:05,39707
+0a5b4172ea8c78d9dab89595d2601c4d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""November"":0,""April"":0,""December"":0,""September"":0,""February"":1,""August"":0,""June"":0,""January"":0,""March"":0,""October"":0,""May"":0}",NA,5931,6/12/20 17:05,39708
+e10f57f1f38d3e1c7122d3ffa78325d7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""April"":1,""October"":0,""January"":1,""March"":1,""July"":0,""September"":0,""November"":0,""August"":0,""June"":1,""February"":0,""May"":1}",NA,14040,6/12/20 17:06,39711
+b982c8ffb85033105bc08099c603fbad,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 17:06,39712
+6cc4622557e552a3478e5044bef545c5,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 17:06,39713
+f7a9b62112bfb9f32c8bbc791f09d2e1,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""April"":1,""May"":1,""October"":0,""December"":0,""January"":1,""November"":0,""July"":0,""March"":1,""February"":1,""August"":0,""June"":0}",NA,4663,6/12/20 17:06,39714
+6cc4622557e552a3478e5044bef545c5,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""September"":1,""October"":0,""May"":1,""June"":0,""November"":1,""March"":0,""August"":1,""February"":0,""April"":0,""July"":0,""December"":0}",NA,4588,6/12/20 17:08,39716
+87c87e4e256741615fa71e5adc9f6d73,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"September
+S",NA,16000,6/12/20 17:08,39718
+f51fe8ea19f12054525a20999ee9589d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""June"":0,""September"":0,""August"":0,""January"":0,""December"":0,""November"":0,""July"":0,""October"":1,""May"":0,""March"":0,""April"":0}",NA,94998,6/12/20 17:09,39719
+b982c8ffb85033105bc08099c603fbad,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""September"":0,""March"":1,""February"":0,""April"":1,""July"":1,""October"":0,""May"":1,""August"":0,""June"":1,""December"":1,""January"":1}",NA,10265,6/12/20 17:09,39720
+b0711ddc670362ee5145155e2d7ea3ce,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,February,NA,16000,6/12/20 17:11,39722
+87c87e4e256741615fa71e5adc9f6d73,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""December"":1,""September"":1,""August"":1,""November"":1,""May"":1,""March"":1,""June"":0,""February"":0,""July"":0,""April"":1,""October"":1}",NA,76694,6/12/20 17:11,39723
+b0711ddc670362ee5145155e2d7ea3ce,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""January"":1,""February"":1,""August"":0,""September"":1,""April"":0,""June"":0,""May"":0,""December"":1,""October"":0,""November"":1,""March"":1}",NA,4350,6/12/20 17:12,39725
+32e1b715b99ebb67717911a78d8ab619,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 17:12,39726
+34852646c2e961a0c44cd43feaba3c07,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,Febuaury,NA,16000,6/12/20 17:13,39728
+32e1b715b99ebb67717911a78d8ab619,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""October"":1,""September"":0,""January"":1,""February"":1,""November"":1,""May"":0,""December"":0,""August"":0,""March"":0,""July"":0,""April"":0}",NA,5053,6/12/20 17:13,39730
+34852646c2e961a0c44cd43feaba3c07,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":1,""April"":0,""February"":1,""May"":0,""October"":1,""June"":1,""November"":0,""August"":1,""January"":1,""December"":0,""March"":0,""September"":0}",NA,3008,6/12/20 17:14,39731
+6ab71643ac2cc2e333fb90260ffa86ba,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 17:15,39738
+e4a76e6ccd1245b909b6f8360c891fca,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 17:15,39739
+a8b0782de7d80bea36b29014aec65c28,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,,NA,16000,6/12/20 17:16,39742
+6ab71643ac2cc2e333fb90260ffa86ba,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""November"":0,""June"":0,""March"":0,""July"":1,""December"":0,""October"":0,""August"":0,""January"":0,""September"":1,""February"":0,""April"":0}",NA,3189,6/12/20 17:16,39744
+a8b0782de7d80bea36b29014aec65c28,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""March"":1,""November"":0,""January"":1,""April"":1,""December"":0,""August"":1,""September"":1,""July"":0,""October"":1,""May"":1,""February"":0}",NA,6339,6/12/20 17:17,39750
+e4a76e6ccd1245b909b6f8360c891fca,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""August"":0,""September"":0,""January"":0,""May"":1,""April"":0,""June"":1,""November"":0,""October"":1,""December"":0,""March"":0,""February"":0}",NA,38898,6/12/20 17:17,39751
+9697e06468b2c6820a25893549a3c96f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 17:19,39760
+5c1e6a2d98118f030e7ebb15d28320a5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 17:20,39762
+9697e06468b2c6820a25893549a3c96f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""May"":1,""April"":1,""March"":0,""July"":0,""June"":0,""September"":0,""August"":1,""October"":0,""November"":0,""December"":0,""January"":1}",NA,12024,6/12/20 17:21,39767
+5c1e6a2d98118f030e7ebb15d28320a5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":1,""January"":0,""October"":0,""August"":1,""June"":0,""November"":1,""May"":0,""March"":0,""April"":0,""December"":1,""July"":1,""September"":1}",NA,10520,6/12/20 17:21,39769
+b53e6b0ae135c52f24ec40bad5aa0d42,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"june
+
+
+",NA,16000,6/12/20 17:22,39774
+462f2a99130ec17ad812da4642c4da0e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 17:22,39775
+cff07ff1e78ccd68308366454f9ceec8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 17:22,39777
+6f4b6870991d82258e63b798c6c3a417,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 17:22,39779
+2aa7ab37bd2bf467a4cc3f45040bac36,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+January",NA,16000,6/12/20 17:23,39784
+b53e6b0ae135c52f24ec40bad5aa0d42,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""April"":0,""August"":0,""December"":1,""March"":1,""January"":0,""September"":1,""November"":1,""October"":0,""May"":0,""February"":0,""July"":0}",NA,12818,6/12/20 17:23,39785
+6f4b6870991d82258e63b798c6c3a417,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""October"":0,""January"":1,""March"":0,""November"":0,""July"":0,""August"":0,""April"":1,""December"":0,""February"":1,""September"":0,""May"":0}",NA,1849,6/12/20 17:23,39786
+462f2a99130ec17ad812da4642c4da0e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""November"":0,""May"":0,""August"":0,""September"":0,""March"":1,""February"":0,""April"":1,""January"":1,""December"":0,""October"":0,""July"":0}",NA,11778,6/12/20 17:24,39792
+8763097becafbc29feb06c514e340211,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 17:24,39793
+cff07ff1e78ccd68308366454f9ceec8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""June"":0,""December"":0,""April"":1,""March"":0,""May"":1,""January"":0,""July"":0,""February"":1,""October"":0,""August"":1,""November"":1}",NA,5378,6/12/20 17:24,39794
+2aa7ab37bd2bf467a4cc3f45040bac36,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""April"":0,""March"":1,""September"":1,""May"":0,""February"":1,""July"":0,""June"":0,""December"":1,""November"":1,""January"":1,""August"":0}",NA,6137,6/12/20 17:24,39795
+8763097becafbc29feb06c514e340211,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""December"":1,""May"":0,""March"":1,""September"":1,""January"":1,""November"":0,""October"":1,""July"":0,""June"":1,""February"":1,""April"":1}",NA,1870,6/12/20 17:25,39798
+9ac1174d96644d2d37d1c1243a0c431d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 17:27,39802
+99d37b188d439ebfdf6f573fcd66f847,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 17:27,39804
+11ec49e9ddc9238603ec3e5dabcf5835,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"October
+June
+June",NA,16000,6/12/20 17:27,39805
+9ac1174d96644d2d37d1c1243a0c431d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""April"":0,""September"":1,""October"":1,""March"":1,""February"":0,""June"":0,""January"":0,""July"":0,""May"":0,""August"":0,""December"":0}",NA,2426,6/12/20 17:28,39806
+2f2766574443380f220abe348d6b1e8d,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+january
+january",NA,16000,6/12/20 17:28,39807
+99d37b188d439ebfdf6f573fcd66f847,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""June"":1,""January"":0,""August"":1,""May"":1,""December"":1,""February"":0,""April"":1,""July"":0,""October"":0,""September"":1,""March"":0}",NA,3775,6/12/20 17:28,39808
+11ec49e9ddc9238603ec3e5dabcf5835,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":1,""December"":1,""September"":0,""May"":1,""January"":0,""March"":1,""October"":1,""July"":1,""November"":0,""August"":0,""February"":0,""April"":1}",NA,4274,6/12/20 17:28,39811
+196d38e1690c5dd23d1afda0e39c33e1,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 17:29,39812
+28b394bd9c04bc39a9b0a51c7e467770,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 17:29,39813
+1366737f1a205df75236c9c3d3f77bd5,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,november,NA,16000,6/12/20 17:29,39814
+16a18c828ddbb63a96a2debadd34c3c9,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 17:29,39815
+2f2766574443380f220abe348d6b1e8d,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""February"":0,""August"":1,""January"":1,""June"":0,""September"":1,""March"":0,""April"":0,""October"":0,""December"":1,""May"":0,""July"":1}",NA,4122,6/12/20 17:29,39816
+196d38e1690c5dd23d1afda0e39c33e1,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""June"":0,""December"":0,""May"":1,""October"":0,""September"":0,""January"":1,""August"":1,""April"":1,""March"":0,""July"":1,""February"":0}",NA,4811,6/12/20 17:30,39820
+16a18c828ddbb63a96a2debadd34c3c9,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""December"":0,""September"":0,""January"":1,""August"":1,""July"":0,""November"":0,""February"":0,""March"":1,""October"":1,""June"":0,""April"":0}",NA,6827,6/12/20 17:30,39822
+28b394bd9c04bc39a9b0a51c7e467770,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""July"":1,""May"":0,""April"":0,""October"":0,""December"":0,""February"":0,""January"":0,""June"":1,""September"":1,""November"":0,""August"":0}",NA,23230,6/12/20 17:30,39823
+d5c1808a52a64b618df51733780f15ae,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 17:31,39828
+1366737f1a205df75236c9c3d3f77bd5,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""August"":0,""September"":0,""November"":1,""July"":0,""June"":0,""March"":1,""December"":0,""February"":1,""January"":0,""October"":0,""May"":0}",NA,10502,6/12/20 17:32,39830
+d5c1808a52a64b618df51733780f15ae,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""March"":0,""June"":0,""May"":0,""January"":1,""November"":1,""September"":1,""August"":0,""October"":1,""December"":1,""July"":0,""February"":0}",NA,2955,6/12/20 17:32,39833
+04307bea68a133c549ac95b791a8e94d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 17:35,39837
+7cd94353a0b71c4eff5bb0d6f61fdbaa,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,april,NA,16000,6/12/20 17:35,39838
+17d23a852d2f1185676f338239a9b5b4,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,MARCH,NA,16000,6/12/20 17:36,39840
+04307bea68a133c549ac95b791a8e94d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""July"":0,""April"":0,""September"":0,""June"":0,""March"":1,""February"":0,""January"":0,""December"":0,""August"":0,""May"":1,""November"":0}",NA,7977,6/12/20 17:36,39841
+1af6565eabff67058f2c358457348018,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+",NA,16000,6/12/20 17:36,39842
+7cd94353a0b71c4eff5bb0d6f61fdbaa,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""September"":0,""June"":0,""October"":0,""December"":1,""November"":0,""August"":0,""February"":0,""April"":1,""March"":0,""May"":0,""January"":0}",NA,4140,6/12/20 17:36,39844
+cb5a5f09467f848eeb07f07d07c67af8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+January",NA,16000,6/12/20 17:36,39845
+dbd01bb1a180e8d388b9305081f488ce,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,7,NA,16000,6/12/20 17:37,39846
+1af6565eabff67058f2c358457348018,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""July"":1,""December"":0,""September"":0,""March"":0,""February"":0,""October"":0,""January"":0,""August"":0,""June"":1,""April"":0,""May"":0}",NA,13013,6/12/20 17:38,39847
+cb5a5f09467f848eeb07f07d07c67af8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""August"":0,""April"":1,""June"":0,""July"":0,""November"":0,""October"":1,""May"":1,""December"":0,""January"":1,""February"":0,""March"":1}",NA,5730,6/12/20 17:38,39848
+17d23a852d2f1185676f338239a9b5b4,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""December"":1,""July"":1,""October"":0,""August"":1,""March"":1,""February"":0,""June"":1,""September"":1,""May"":0,""January"":1,""November"":0}",NA,17164,6/12/20 17:38,39849
+dbd01bb1a180e8d388b9305081f488ce,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":1,""June"":1,""October"":0,""March"":1,""September"":1,""April"":1,""July"":1,""February"":1,""December"":1,""August"":1,""May"":1,""November"":1}",NA,4654,6/12/20 17:40,39851
+d61df838b08879c2e9525dd9f8ec3631,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"DECEMBER 
+D",NA,16000,6/12/20 17:41,39853
+c20eb049a9bf9feb7bc90c362a4fef47,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 17:41,39855
+c20eb049a9bf9feb7bc90c362a4fef47,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""August"":0,""April"":1,""December"":0,""February"":1,""March"":1,""January"":0,""November"":0,""May"":1,""July"":0,""October"":0,""June"":1,""September"":0}",NA,4029,6/12/20 17:42,39857
+d61df838b08879c2e9525dd9f8ec3631,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""May"":1,""August"":0,""January"":1,""November"":1,""September"":0,""July"":0,""June"":0,""October"":0,""March"":1,""December"":1,""February"":0}",NA,5520,6/12/20 17:43,39858
+7fdba2b09090d7885b411295b5c331d0,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 17:43,39859
+c23ea770aafe50f58eecf9847e76f858,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,august,NA,16000,6/12/20 17:43,39860
+ad70e816355631a0d2b5a0cb0c63c81d,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,September,NA,16000,6/12/20 17:44,39862
+7fdba2b09090d7885b411295b5c331d0,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""July"":0,""January"":1,""April"":0,""August"":0,""October"":1,""September"":1,""March"":0,""May"":0,""February"":0,""June"":1,""December"":1,""November"":0}",NA,8223,6/12/20 17:44,39863
+c23ea770aafe50f58eecf9847e76f858,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""June"":0,""January"":0,""October"":1,""August"":1,""February"":1,""July"":0,""May"":0,""December"":0,""November"":1,""March"":0,""April"":1}",NA,6187,6/12/20 17:44,39864
+ad70e816355631a0d2b5a0cb0c63c81d,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""November"":1,""August"":0,""June"":0,""October"":1,""April"":0,""January"":0,""March"":0,""December"":0,""May"":0,""July"":0,""September"":1}",NA,5235,6/12/20 17:45,39865
+e10feb9cf3e5509ef3fca17938779f27,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,October,NA,16000,6/12/20 17:47,39869
+1ffd35af8e9f7cf19e8870f13204057e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 17:49,39874
+1ffd35af8e9f7cf19e8870f13204057e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""January"":0,""April"":0,""June"":1,""September"":0,""May"":0,""July"":1,""December"":1,""November"":0,""October"":1,""August"":0,""February"":0,""March"":0}",NA,3034,6/12/20 17:51,39877
+216815f620c296256e52632f3aece692,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,october,NA,16000,6/12/20 17:52,39879
+c3c36def9126b440973747f6eb7dcf79,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 17:53,39881
+95a9ee243b51677af0e2ed0c2de67652,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,June,NA,16000,6/12/20 17:53,39882
+37e46f1ea7af83da751d7ad3834eea66,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"May
+May",NA,16000,6/12/20 17:53,39883
+216815f620c296256e52632f3aece692,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""December"":1,""June"":0,""November"":1,""January"":0,""August"":0,""September"":1,""October"":1,""April"":0,""February"":0,""July"":0,""May"":0}",NA,13158,6/12/20 17:54,39884
+c3c36def9126b440973747f6eb7dcf79,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""December"":0,""May"":0,""June"":0,""April"":1,""November"":0,""January"":0,""August"":0,""October"":0,""July"":1,""March"":0,""February"":0}",NA,4328,6/12/20 17:54,39885
+37e46f1ea7af83da751d7ad3834eea66,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":1,""July"":0,""February"":1,""October"":0,""May"":1,""March"":0,""August"":1,""December"":1,""November"":1,""June"":1,""April"":1,""January"":1}",NA,3989,6/12/20 17:54,39886
+32566d758002e4d4c18ccccf5f72212e,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 17:55,39887
+95a9ee243b51677af0e2ed0c2de67652,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""July"":1,""August"":1,""April"":1,""March"":0,""November"":0,""May"":1,""September"":1,""June"":1,""February"":1,""January"":0,""December"":0}",NA,40945,6/12/20 17:55,39888
+32566d758002e4d4c18ccccf5f72212e,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""August"":0,""January"":1,""September"":0,""March"":0,""April"":1,""July"":1,""February"":0,""December"":0,""November"":0,""May"":0,""October"":0}",NA,37414,6/12/20 17:57,39891
+75f322696c20d53f2c0675f807476a2c,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 17:59,39894
+75f322696c20d53f2c0675f807476a2c,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""August"":0,""December"":1,""January"":1,""March"":0,""September"":1,""February"":0,""April"":0,""November"":1,""July"":0,""May"":0,""October"":1}",NA,32061,6/12/20 18:01,39897
+49c0a351d5345443c6aca27c00c8184f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 18:03,39899
+f97e6fc7da0e653b464541b4b10022a7,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 18:03,39900
+f97e6fc7da0e653b464541b4b10022a7,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""March"":1,""July"":1,""June"":0,""October"":0,""February"":0,""January"":0,""August"":0,""April"":1,""September"":0,""December"":0,""May"":0}",NA,11924,6/12/20 18:05,39901
+49c0a351d5345443c6aca27c00c8184f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""August"":1,""December"":0,""July"":0,""November"":0,""March"":0,""October"":0,""September"":0,""June"":0,""January"":0,""February"":0,""April"":0}",NA,40725,6/12/20 18:05,39902
+7e10008e7b3e9c242bc08a59a4dfb2bf,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 18:05,39903
+7e10008e7b3e9c242bc08a59a4dfb2bf,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":0,""July"":0,""February"":0,""June"":0,""May"":0,""August"":0,""April"":0,""September"":0,""November"":0,""December"":0,""March"":0,""January"":1}",NA,1653,6/12/20 18:06,39905
+1a49370bb58171216eda716c74cd2c50,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"JUly
+",NA,16000,6/12/20 18:09,39910
+2d10d6691795beb503daf6b01f2f98ef,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"April
+April",NA,16000,6/12/20 18:10,39911
+2d10d6691795beb503daf6b01f2f98ef,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""February"":0,""July"":0,""April"":1,""October"":0,""May"":0,""January"":0,""August"":0,""June"":0,""March"":0,""December"":0,""November"":0}",NA,27668,6/12/20 18:11,39912
+1a49370bb58171216eda716c74cd2c50,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""June"":0,""March"":0,""December"":1,""January"":0,""November"":0,""August"":1,""July"":1,""September"":0,""February"":1,""October"":1,""May"":0}",NA,125671,6/12/20 18:14,39915
+e67e3bcb08c682044bdf5f99872e1407,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"october
+october
+October",NA,16000,6/12/20 18:14,39917
+efcb43ca176338aeba79d33d4e5dc749,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"may
+may",NA,16000,6/12/20 18:15,39918
+83ad93a34112ad58f44f78f7fdc2e73f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"september
+september
+septembe",NA,16000,6/12/20 18:16,39921
+e67e3bcb08c682044bdf5f99872e1407,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""July"":0,""September"":0,""November"":0,""May"":0,""August"":0,""October"":1,""March"":0,""December"":1,""February"":0,""April"":0,""January"":1}",NA,20199,6/12/20 18:16,39922
+efcb43ca176338aeba79d33d4e5dc749,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""December"":0,""July"":0,""August"":0,""April"":0,""October"":1,""May"":1,""January"":1,""November"":0,""February"":1,""September"":0,""March"":0}",NA,2246,6/12/20 18:16,39923
+f0df9613c48986db2d2fceba9d5360d2,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"july
+june
+october
+may
+",NA,16000,6/12/20 18:16,39924
+83ad93a34112ad58f44f78f7fdc2e73f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""May"":0,""April"":0,""June"":0,""December"":1,""October"":1,""August"":1,""March"":0,""February"":1,""September"":1,""July"":0,""January"":1}",NA,19531,6/12/20 18:17,39925
+4247b6be7f2fdb5da1f1bec7f23e9f40,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"January
+",NA,16000,6/12/20 18:17,39926
+f0df9613c48986db2d2fceba9d5360d2,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""November"":0,""January"":0,""December"":0,""April"":0,""August"":1,""July"":1,""March"":1,""October"":1,""February"":0,""May"":0,""June"":1}",NA,31435,6/12/20 18:18,39927
+4195e2ee5f1734b980c1d48dcf329699,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"august
+august",NA,16000,6/12/20 18:19,39928
+4247b6be7f2fdb5da1f1bec7f23e9f40,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""December"":0,""July"":1,""August"":1,""April"":0,""March"":1,""October"":0,""November"":0,""May"":1,""February"":1,""January"":1,""June"":0}",NA,4212,6/12/20 18:19,39929
+4195e2ee5f1734b980c1d48dcf329699,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""July"":0,""February"":0,""March"":1,""June"":0,""October"":0,""September"":1,""April"":0,""December"":0,""May"":0,""January"":0,""August"":1}",NA,12400,6/12/20 18:20,39931
+51091d5fecf2966cbad0af31942f7512,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"July
+July",NA,16000,6/12/20 18:20,39932
+51091d5fecf2966cbad0af31942f7512,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""December"":0,""October"":0,""February"":0,""July"":1,""May"":1,""August"":0,""June"":1,""January"":1,""September"":0,""April"":0,""November"":0}",NA,5241,6/12/20 18:21,39933
+e448be34c4d63a254fd302bfa459627e,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"february
+febryary",NA,16000,6/12/20 18:21,39934
+e448be34c4d63a254fd302bfa459627e,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""May"":0,""March"":0,""January"":0,""June"":1,""December"":0,""September"":0,""August"":0,""April"":0,""October"":0,""February"":1,""July"":1}",NA,6038,6/12/20 18:23,39936
+fcf5def9ea74e640fa151ffa45a595fa,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 18:24,39938
+435f0069fa89f317fc0e55599833f616,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 18:25,39940
+fcf5def9ea74e640fa151ffa45a595fa,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""May"":0,""December"":0,""February"":0,""March"":1,""April"":1,""November"":1,""August"":0,""January"":0,""June"":1,""July"":1,""October"":1}",NA,3487,6/12/20 18:26,39941
+435f0069fa89f317fc0e55599833f616,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":0,""June"":0,""February"":0,""July"":0,""December"":0,""May"":0,""September"":0,""November"":0,""August"":1,""April"":0,""January"":0,""October"":0}",NA,96833,6/12/20 18:28,39942
+3105c2ead798299d314544b0a2952bd2,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,february,NA,16000,6/12/20 18:36,39950
+33e836ac00a7fe14b3855b8dc871cd8c,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"May
+May",NA,16000,6/12/20 18:36,39951
+3105c2ead798299d314544b0a2952bd2,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""March"":0,""December"":0,""April"":0,""June"":0,""July"":0,""February"":1,""January"":0,""September"":1,""October"":1,""August"":1,""November"":0}",NA,1383,6/12/20 18:37,39952
+33e836ac00a7fe14b3855b8dc871cd8c,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":1,""July"":0,""April"":0,""February"":1,""October"":0,""January"":0,""December"":1,""August"":0,""September"":0,""June"":0,""March"":1,""November"":0}",NA,54272,6/12/20 18:39,39954
+8214cf307f0d15dafd9f93f05ed66f11,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,,NA,16000,6/12/20 18:46,39959
+35501a97b710771c90381186d41ba3ae,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,Novenmber,NA,16000,6/12/20 18:48,39960
+8214cf307f0d15dafd9f93f05ed66f11,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""October"":1,""July"":1,""August"":0,""December"":1,""November"":1,""March"":0,""April"":0,""May"":0,""January"":1,""February"":1,""June"":0}",NA,78458,6/12/20 18:50,39962
+a28ed2d7a970bfeacf9c3bfc8c8510ee,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March",NA,16000,6/12/20 18:51,39964
+a28ed2d7a970bfeacf9c3bfc8c8510ee,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""May"":1,""February"":0,""October"":1,""January"":1,""April"":0,""December"":1,""July"":0,""March"":0,""June"":0,""November"":0,""August"":0}",NA,21086,6/12/20 18:52,39966
+35501a97b710771c90381186d41ba3ae,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""June"":1,""January"":1,""September"":0,""October"":0,""March"":0,""August"":1,""February"":1,""May"":0,""July"":1,""December"":1,""April"":1}",NA,139096,6/12/20 18:55,39967
+f9d8cda53c11789ee0ab0d837208c10f,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,August,NA,16000,6/12/20 19:08,39972
+f9d8cda53c11789ee0ab0d837208c10f,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""July"":0,""November"":0,""September"":0,""March"":0,""October"":0,""February"":1,""April"":0,""December"":1,""January"":1,""August"":1,""May"":0}",NA,24099,6/12/20 19:10,39973
+5e0e6bed7b82e4ecb063fc0a989beba4,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,march,NA,16000,6/12/20 19:14,39975
+5e0e6bed7b82e4ecb063fc0a989beba4,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""March"":1,""December"":0,""August"":1,""October"":0,""May"":0,""July"":1,""February"":1,""June"":0,""November"":1,""September"":1,""January"":0}",NA,6172,6/12/20 19:15,39977
+a79bc83a748cbf4dfb68299eae5c0be4,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 19:15,39978
+d035a1970e8607c82b6566349aae07e8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"February
+",NA,16000,6/12/20 19:17,39981
+a79bc83a748cbf4dfb68299eae5c0be4,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""August"":1,""January"":1,""March"":0,""December"":1,""June"":0,""April"":1,""October"":0,""May"":0,""September"":0,""July"":0,""February"":0}",NA,8397,6/12/20 19:17,39982
+b3d4ff11bd444b31010a4ed89ace6108,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/12/20 19:17,39983
+b3d4ff11bd444b31010a4ed89ace6108,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""May"":1,""December"":1,""April"":0,""January"":1,""July"":0,""June"":1,""October"":0,""August"":0,""February"":0,""September"":0,""March"":0}",NA,1751,6/12/20 19:18,39984
+d035a1970e8607c82b6566349aae07e8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""June"":0,""May"":0,""April"":0,""October"":0,""December"":0,""March"":0,""September"":0,""November"":0,""August"":0,""January"":0,""July"":1,""February"":1}",NA,4870,6/12/20 19:18,39985
+6b9d0ca953f2934b7865642a3565243f,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,january,NA,16000,6/12/20 19:28,39990
+39c16c554122852d74a0b505053b14dd,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,November,NA,16000,6/12/20 19:28,39991
+6b9d0ca953f2934b7865642a3565243f,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":1,""September"":0,""March"":0,""July"":0,""May"":0,""February"":0,""June"":1,""December"":0,""April"":0,""August"":0,""January"":0,""October"":0}",NA,3603,6/12/20 19:29,39992
+39c16c554122852d74a0b505053b14dd,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""February"":0,""September"":0,""March"":0,""November"":0,""October"":0,""December"":1,""April"":0,""January"":0,""June"":0,""May"":0,""August"":0,""July"":0}",NA,9561,6/12/20 19:31,39993
+5ce193f055d9d8f333556c520c69186a,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,April,NA,16000,6/12/20 19:38,39998
+5ce193f055d9d8f333556c520c69186a,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""September"":0,""May"":0,""August"":1,""April"":1,""July"":0,""October"":0,""January"":0,""December"":0,""November"":0,""February"":0,""June"":0,""March"":1}",NA,7252,6/12/20 19:39,39999
+0b80d9a29c4ce6d8fb67c43e10901513,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,July,NA,16000,6/12/20 19:56,40004
+0b80d9a29c4ce6d8fb67c43e10901513,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""March"":0,""January"":0,""December"":0,""August"":0,""February"":0,""June"":1,""September"":0,""October"":1,""July"":1,""April"":0,""November"":0}",NA,9952,6/12/20 19:57,40006
+4138b6fb4462b8af78f7740f9f4fd264,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,January,NA,16000,6/12/20 19:59,40007
+698dd63b715be73291d278b85dd442b8,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,March,NA,16000,6/12/20 19:59,40009
+4138b6fb4462b8af78f7740f9f4fd264,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""November"":0,""October"":0,""July"":0,""February"":0,""August"":0,""April"":0,""September"":0,""December"":0,""May"":0,""June"":0,""January"":1,""March"":0}",NA,13143,6/12/20 20:00,40010
+698dd63b715be73291d278b85dd442b8,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""March"":1,""June"":1,""April"":1,""November"":1,""January"":1,""September"":0,""May"":1,""July"":0,""December"":1,""February"":1,""August"":0,""October"":0}",NA,4924,6/12/20 20:01,40011
+bf0f25bf116cba2b573453a8c238035e,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,"March
+March",NA,16000,6/12/20 20:02,40012
+bf0f25bf116cba2b573453a8c238035e,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""April"":0,""June"":0,""December"":0,""January"":0,""September"":0,""May"":0,""March"":1,""October"":1,""February"":0,""July"":0,""August"":0,""November"":0}",NA,7272,6/12/20 20:03,40015
+1ee8fbffa3b97f76013b5e8cda5eced6,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,May,NA,16000,6/12/20 20:05,40019
+1ee8fbffa3b97f76013b5e8cda5eced6,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""December"":0,""May"":1,""February"":0,""January"":1,""August"":1,""April"":1,""July"":1,""September"":0,""November"":1,""October"":0,""March"":1,""June"":0}",NA,6440,6/12/20 20:06,40023
+25e42b1f7f687e29f4460048ad4214b7,1,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,october,NA,16000,6/12/20 20:08,40024
+25e42b1f7f687e29f4460048ad4214b7,1,choice-set,2,[],2,-1,-1,-1,NA,0,"{""May"":0,""February"":0,""June"":0,""July"":0,""October"":1,""March"":0,""August"":0,""January"":0,""December"":1,""November"":1,""April"":0,""September"":1}",NA,6325,6/12/20 20:10,40025
+f16c5de0a709978819b2b953ea622780,0,Third letter late,0,"[14,2,18,18,25,14,12,7,16,20,22,3]",0,NULL,NULL,NULL,NA,0,september,NA,16000,6/12/20 20:10,40026
+f16c5de0a709978819b2b953ea622780,0,choice-set,2,[],2,-1,-1,-1,NA,0,"{""October"":1,""January"":0,""April"":1,""August"":0,""September"":1,""November"":0,""March"":0,""February"":1,""June"":0,""May"":0,""December"":0,""July"":0}",NA,12586,6/12/20 20:12,40027

@@ -1,5 +1,21 @@
-require(dplyr)
-require(ggplot2)
+## Generating options and choosing between them rely on distinct forms of value representation
+## Adam Morris, Jonathan Phillips, Karen Huang, Fiery Cushman
+## Graphs simulation results
+# Note: This code must be run with R version 3 (it's been specifically tested with R 3.6.3).
+# It will break with R version >=4.
+
+# setup -------------------------------------------------------------------
+
+# load packages with groundhog (http://groundhogr.com/)
+# if you get this error:
+# "groundhog says: 11 of the 21 packages needed by 'dplyr_0.8.4' are currently loaded, but not with the version that is needed."
+# then run "rm(list=ls())", restart your R session, and try again.
+#  if you still get the error, then do all the following steps in order:
+# switch to R version 4, restart your R session, run "library(groundhog); groundhog.library('dplyr', '2020-06-01')", restart your R session, run "library(groundhog); groundhog.library('dplyr', '2020-03-01')", switch back to R version 3, restart your R session, and try running this script again.
+# (I think this is a bug in groundhogr, and I have no idea why this fixes it, but that's what worked for me.)
+library(groundhog)
+pkgs = c('dplyr', 'ggplot2')
+groundhog.library(pkgs, '2020-03-01')
 
 theme_update(strip.background = element_blank(),
              panel.grid.major = element_blank(),
@@ -22,17 +38,24 @@ theme_update(strip.background = element_blank(),
 # Only works in RStudio -- otherwise you have to set the path manually
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
+
+# make graph --------------------------------------------------------------
+
+
 # which parameters do you want?
-n = 20
-a = 10
+n = 20 # number of options (20, 100, 1000, or 10000)
+a = 10 # action cost (2, 5, 10, 25, 50, or 100)
 
 path = paste0(n,'_',a)
 df = read.csv(paste0('data/', path, '.csv'), header=F)
 colnames(df) = c('Output','Correlation','CS.Size', 'Random')
-df = df %>% mutate(Correlation = factor(Correlation), Random = factor(Random), CS.Size = factor(CS.Size))#, labels = c('Random sampling', '0.25', '0.50', '0.75', 'Perfect')))
+df = df %>% mutate(Correlation = factor(Correlation), Random = factor(Random), CS.Size = factor(CS.Size))
 
-#sizes = c(1:5, 7, 9, 12, 15, 20, 40, 80, max(as.numeric(as.character(df$CS.Size))))
-sizes = c(1:5, 7, 9, 12, 15, 20)
+if (n == 20) {
+  sizes = c(1:5, 7, 9, 12, 15, 20)
+} else {
+  sizes = c(1:5, 7, 9, 12, 15, 20, 40, 80, max(as.numeric(as.character(df$CS.Size))))
+}
 df.filt = df %>% filter(CS.Size %in% sizes)
 
 ggplot(mapping = aes(x = CS.Size, y = Output, color = Correlation, group = Correlation)) +
